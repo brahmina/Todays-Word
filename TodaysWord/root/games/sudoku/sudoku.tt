@@ -1,0 +1,73 @@
+[% INCLUDE header.tt
+   title = 'Today\'s Word - Playing Sudoku' %]
+
+[% IF error_msg %]
+<p class="error">[% error_msg %]</p>
+[% END %]
+
+<script type="text/javascript" language="JavaScript">
+var timer;
+var pauseMultibox;
+window.addEvent('domready', function() {
+    initSudoku();
+		
+    timer = new GameTimer({
+        startCrono: '[% timer_start %]',
+        div: 'game_timer'
+    });
+    timer.start();
+
+    pauseMultibox = new multiBox('pause', {
+        overlay: new overlay(),
+        showControls: false,
+        onOpen:function(){
+            pauseGame();
+	    },
+	    onClose:function(){
+            resumeGame();
+	    }
+    });
+});
+</script>
+
+<form method="post" action="/games/sudoku/done/[% game_play.id %]" id="sudoku">
+<div id="sudoku_left">
+    <h2>[% sudoku.title %]</h2>
+    <b>[% user_message %]</b>
+
+    <div id="game_timer" class="timer"></div>
+    <div id="sudoku_pause_button">
+        <div class="button small_button" id="submit_sudoku">
+            <a href="/games/sudoku/pause/[% game_play.id %]" rel="ajax:true" class="pause" id="game_pause">
+            <img src="/static/images/icons/pause.png" alt="Pause" />
+            <span>Pause</span>
+            </a>
+        </div>
+    </div>
+    <div id="sudoku_done_button">
+        <div class="button small_button" id="submit_sudoku">
+            <a onclick="submitForm(document.sudoku)" id="submit_sudoku_a">
+            <img src="/static/images/icons/stop.png" alt="Done" />
+            <span>Done</span>
+            </a>
+        </div>
+    </div>
+</div>
+<div id="board" class="sudoku_board">
+[% FOREACH cell IN cells %]
+    [% IF cell.hint %]
+        <div class="sudoku_cell sudoku_cell_hint[% IF cell.topbar AND cell.x % 3 == 0 %] sudoku_cell_topbar sudoku_cell_sidebar[% ELSIF cell.topbar %] sudoku_cell_topbar[% ELSIF cell.x % 3 == 0 %] sudoku_cell_sidebar[% END %]">[% cell.solution %]</div>
+    [% ELSE %]
+        <div class="sudoku_cell[% IF cell.topbar AND cell.x % 3 == 0 %] sudoku_cell_topbar sudoku_cell_sidebar[% ELSIF cell.topbar %] sudoku_cell_topbar[% ELSIF cell.x % 3 == 0 %] sudoku_cell_sidebar[% END %]">
+            <input type="text" name="x[% cell.x %]y[% cell.y %]" id="x[% cell.x %]y[% cell.y %]" class="number" maxlength="1" value="[% IF cell.hint %][% cell.solution %][% END %]" autocomplete="off" /></div>
+    [% END %]
+    
+[% END %]
+</div>
+<div id="sudoku_right">
+
+</div>
+<script type="text/javascript" src="/static/js/multibox.js"></script>
+<link type="text/css" rel="stylesheet" media="screen" href="/static/css/multibox.css" />
+
+[% INCLUDE footer.tt %]

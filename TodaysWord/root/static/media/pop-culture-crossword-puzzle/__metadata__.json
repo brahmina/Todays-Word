@@ -1,0 +1,20 @@
+{
+    "control_scheme": {
+        "fire": "na", 
+        "jump": "na", 
+        "movement": "arrow"
+    }, 
+    "description": "A classic crossword puzzle featuring pop culture questions.", 
+    "developer": "watfordoutlet", 
+    "developer_url": "https://www.mochiads.com/community/profile/watfordoutlet", 
+    "height": 480, 
+    "instructions": "Use your mouse to select any square to begin typing your answer. You may also left click the questions to the right to highlight the corresponding squares.", 
+    "key_mappings": "", 
+    "name": "Pop Culture Crossword Puzzle", 
+    "rating": "Everyone", 
+    "resolution": "640x480", 
+    "slug": "pop-culture-crossword-puzzle", 
+    "swf_url": "http://games.mochiads.com/c/g/pop-culture-crossword-puzzle/popculturecrossword.swf", 
+    "thumbnail_url": "http://cdn.mochiads.com/c/g/pop-culture-crossword-puzzle/_thumb_100x100.jpg", 
+    "width": 640
+}

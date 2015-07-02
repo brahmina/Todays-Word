@@ -1,0 +1,32 @@
+{
+    "categories": [
+        "Puzzles", 
+        "Other"
+    ], 
+    "control_scheme": {
+        "fire": "na", 
+        "jump": "na", 
+        "movement": "na"
+    }, 
+    "description": "A typing puzzle game, themed up just for Christmas.", 
+    "developer": "blu3bird", 
+    "developer_url": "https://www.mochiads.com/community/profile/blu3bird", 
+    "height": 400, 
+    "instructions": "", 
+    "key_mappings": "", 
+    "name": "Keyboard Warrior, Christmas Puzzle Edition", 
+    "rating": "Everyone", 
+    "resolution": "550x400", 
+    "slug": "keyboard-warrior-christmas-puzzle-edition_v1", 
+    "swf_file_size": 736896, 
+    "swf_url": "http://games.mochiads.com/c/g/keyboard-warrior-christmas-puzzle-edition_v1/keyboardWarrior_v11_Secure.swf", 
+    "tags": [
+        "christmas", 
+        "xmas", 
+        "typing game", 
+        "typing", 
+        "keyboard"
+    ], 
+    "thumbnail_url": "http://cdn.mochiads.com/c/g/keyboard-warrior-christmas-puzzle-edition_v1/_thumb_100x100.jpg", 
+    "width": 550
+}

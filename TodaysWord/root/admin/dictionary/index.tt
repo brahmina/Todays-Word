@@ -1,0 +1,32 @@
+[% INCLUDE admin/header.tt
+   title = 'Dictionary management - Today\'s Word Admin' %]
+
+<h1>Dictionary management</h1>
+<br />
+<script type="text/javascript" language="JavaScript">
+window.addEvent('domready', function() {
+    $('block_dictionary_word').addEvent('click', function(event){
+        event.stop();
+        blockWord(this.href);
+    });
+});
+</script>
+<div id="block_dictionary_word_form" class="FormContainer" style="width: 340px;">
+    <h2>Block a Dictionary Word</h2>
+    <br />
+    <div id="block_word_div">
+        <form action="/admin/dictionary/block_word" id="block_word">
+        
+            <input type="text" name="words" id="words" />
+        
+            <div class="button" id="block_dictionary_word_div">
+               <a href="/admin/dictionary/block_word" id="block_dictionary_word">
+               <img src="/static/images/icons/delete.png" alt="Block" />
+               <span>Block word</span>
+               </a>            
+            </div>
+        </form>
+    </div>
+</div>
+
+[% INCLUDE admin/footer.tt %]

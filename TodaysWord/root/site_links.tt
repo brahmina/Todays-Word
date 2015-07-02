@@ -1,0 +1,29 @@
+[% IF c.user_exists %]
+    [% IF user_is_admin %]
+    <ul class="sitestripenav" id="adminnav">
+        <li><a href="/admin/games/all">games</a> |
+        <li><a href="/admin/playnow">playnow</a> |
+        <li><a href="/admin/users/all">users</a> |
+        <li><a href="/admin/cash/all">cash</a>
+    </ul>
+    [% END %]
+[% END %]
+<ul class="sitestripenav">
+    [% IF c.user_exists %]
+        <li><a href="/">home</a> |
+        [% IF user_is_competitor %]
+            <li><a href="/scoreboard">scoreboard</a> |
+        [% END %]
+        <li><a href="/account">account</a> |
+        <li><a href="/about">about</a> |
+        <li><a href="/auth/logout">logout</a>
+    [% ELSE %]
+        <li><a href="/">home</a> |
+        <li><a href="/about">about</a> |
+        <li><a href="/auth/login">login</a> |
+        <li><a href="/auth/signup">sign up</a>
+    [% END %]
+</ul>
+
+
+

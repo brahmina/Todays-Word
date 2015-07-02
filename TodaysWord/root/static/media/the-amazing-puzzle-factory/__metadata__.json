@@ -1,0 +1,83 @@
+{
+    "achievements_enabled": false, 
+    "alternate_url": "", 
+    "author": "ideaspad", 
+    "author_link": "https://www.mochimedia.com/community/profile/ideaspad", 
+    "categories": [
+        "Puzzles"
+    ], 
+    "category": "Puzzles", 
+    "coins_enabled": null, 
+    "coins_revshare_enabled": null, 
+    "control_scheme": {
+        "fire": "na", 
+        "jump": "na", 
+        "movement": "mouse"
+    }, 
+    "controls": [
+        [
+            "fire", 
+            "na"
+        ], 
+        [
+            "jump", 
+            "na"
+        ], 
+        [
+            "movement", 
+            "mouse"
+        ]
+    ], 
+    "created": "2011-08-08T05:23:42-08:00", 
+    "description": "The Amazing Puzzle Factory is the one stop place to fulfil all your Wordsearch, Sudoku, Crossword and Kriss Kross needs.", 
+    "developer": "ideaspad", 
+    "developer_url": "https://www.mochimedia.com/community/profile/ideaspad", 
+    "feed_approval_created": null, 
+    "game_tag": "db576981dfbddef7", 
+    "game_url": "http://www.mochimedia.com/games/the-amazing-puzzle-factory", 
+    "height": "660", 
+    "instructions": "Primarily played using the mouse, but Crossword requires both mouse and keyboard (for word input).", 
+    "key_mappings": "", 
+    "languages": [], 
+    "leaderboard_enabled": false, 
+    "metascore": 0.0, 
+    "name": "The Amazing Puzzle Factory", 
+    "rating": "Everyone", 
+    "recommendation": 0, 
+    "recommended": false, 
+    "resolution": "760x660", 
+    "screen1_thumb": "http://games.mochiads.com/c/g/the-amazing-puzzle-factory/screen1_thumb.jpg", 
+    "screen1_url": "http://games.mochiads.com/c/g/the-amazing-puzzle-factory/screen1.jpg", 
+    "screen2_thumb": "http://games.mochiads.com/c/g/the-amazing-puzzle-factory/screen2_thumb.jpg", 
+    "screen2_url": "http://games.mochiads.com/c/g/the-amazing-puzzle-factory/screen2.jpg", 
+    "screen3_thumb": "http://games.mochiads.com/c/g/the-amazing-puzzle-factory/screen3_thumb.jpg", 
+    "screen3_url": "http://games.mochiads.com/c/g/the-amazing-puzzle-factory/screen3.jpg", 
+    "screen4_thumb": "http://games.mochiads.com/c/g/the-amazing-puzzle-factory/screen4_thumb.jpg", 
+    "screen4_url": "http://games.mochiads.com/c/g/the-amazing-puzzle-factory/screen4.jpg", 
+    "slug": "the-amazing-puzzle-factory", 
+    "swf_file_size": 1987977, 
+    "swf_url": "http://games.mochiads.com/c/g/the-amazing-puzzle-factory/TAPFDemo.swf", 
+    "tags": [
+        "wordsearch", 
+        "crossword", 
+        "krisskross", 
+        "kriss", 
+        "kross", 
+        "fitword", 
+        "sudoku", 
+        "puzzle", 
+        "puzzles", 
+        "traditional", 
+        "factory", 
+        "amazing", 
+        "word", 
+        "search"
+    ], 
+    "thumbnail_large_url": "http://games.mochiads.com/c/g/the-amazing-puzzle-factory/_thumb_200x200.jpg", 
+    "thumbnail_url": "http://games.mochiads.com/c/g/the-amazing-puzzle-factory/_thumb_100x100.jpg", 
+    "updated": "2011-08-08T05:59:24-08:00", 
+    "uuid": "16272e7a-1027-3862-94e9-815ae21dc7db", 
+    "video_url": null, 
+    "width": "760", 
+    "zip_url": "http://games.mochiads.com/c/g/the-amazing-puzzle-factory.zip"
+}

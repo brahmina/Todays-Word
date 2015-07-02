@@ -1,0 +1,24 @@
+<div id="[% div_id %]">
+    <h2>Word games by Category</h2>
+    <p>Today's Word has many word games to play online right now! We have organized all of our word games into different categories for your
+    convenience. Check out the games by category below, or you can see all of the <a href="/playnow">word games to play now</a> listed in one place.</p>
+    <br />
+    <ul class="pointy_list" id="category_listing_pointy_list">
+        [% FOR category IN categories %]
+            [% INCLUDE playnow/category_listing_entry.tt category=category %]
+        [% END %]
+    </ul>
+    <div id="playnow_category_listing_end_ad">
+        <script type="text/javascript"><!--
+            google_ad_client = "ca-pub-9025319549732824";
+            /* TW Playnow Category Listings end */
+            google_ad_slot = "1356279558";
+            google_ad_width = 200;
+            google_ad_height = 200;
+            //-->
+            </script>
+        <script type="text/javascript" src="http://pagead2.googlesyndication.com/pagead/show_ads.js"></script>
+    </div>
+    <div class="clear"></div>
+</div>
+

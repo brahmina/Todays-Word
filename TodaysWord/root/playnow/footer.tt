@@ -1,0 +1,23 @@
+
+            </center>
+            <div class="push"></div>
+         </div>
+         [% INCLUDE tabs/feedback.tt %]
+         <div class="footer">
+            <center>
+                <div id="footer_wrapper">
+                    <a class="small_logo" href="/playnow">Today's Word</a>
+                    <ul class="sitestripenav">
+                        <li><a href="/playnow">play now</a> |
+                        <li><a href="/about">about</a> |
+                        <li><a href="/contact">contact</a> 
+                    </ul>
+                </div>
+            </center>
+        </div>
+    </div>
+    [% INCLUDE analytics.tt %]
+    </body>
+</html>
+
+    

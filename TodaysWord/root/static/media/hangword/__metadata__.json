@@ -1,0 +1,71 @@
+{
+    "alternate_url": "http://www.keepsmilinggames.com/playgame-678-HangWord.html", 
+    "author": "Vanhal", 
+    "author_link": "https://www.mochimedia.com/community/profile/Vanhal", 
+    "categories": [
+        "Puzzles"
+    ], 
+    "category": "Puzzles", 
+    "coins_enabled": null, 
+    "coins_revshare_enabled": null, 
+    "control_scheme": {
+        "fire": "na", 
+        "jump": "na", 
+        "movement": "na"
+    }, 
+    "controls": [
+        [
+            "fire", 
+            "na"
+        ], 
+        [
+            "jump", 
+            "na"
+        ], 
+        [
+            "movement", 
+            "na"
+        ]
+    ], 
+    "created": "2009-07-12T02:56:09-08:00", 
+    "description": "The Classic game of hangman. You have 10 guesses to try and get the hidden word. Each correct guess wins you points, get the whole word right and you get an extra guess. Once your hung its game over.", 
+    "developer": "Vanhal", 
+    "developer_url": "https://www.mochimedia.com/community/profile/Vanhal", 
+    "feed_approval_created": "2009-07-12T13:12:18-08:00", 
+    "game_tag": "96c4ee1c56386843", 
+    "game_url": "http://www.mochimedia.com/games/hangword", 
+    "height": "400", 
+    "instructions": "Type the letters you want to guess into the keyboard.", 
+    "key_mappings": "", 
+    "leaderboard_enabled": true, 
+    "name": "HangWord", 
+    "rating": "Everyone", 
+    "recommendation": 2, 
+    "recommended": false, 
+    "resolution": "600x400", 
+    "screen1_thumb": null, 
+    "screen1_url": null, 
+    "screen2_thumb": null, 
+    "screen2_url": null, 
+    "screen3_thumb": null, 
+    "screen3_url": null, 
+    "screen4_thumb": null, 
+    "screen4_url": null, 
+    "slug": "hangword", 
+    "swf_file_size": 1030588, 
+    "swf_url": "http://games.mochiads.com/c/g/hangword/HangWord.swf", 
+    "tags": [
+        "dictionary.com", 
+        "hangman", 
+        "words", 
+        "hangwords", 
+        "classic"
+    ], 
+    "thumbnail_large_url": null, 
+    "thumbnail_url": "http://thumbs.mochiads.com/c/g/hangword/_thumb_100x100.png", 
+    "updated": "2009-08-26T12:10:19-08:00", 
+    "uuid": "66ae2943-7e4f-3ba9-b66a-c6431e8c4491", 
+    "video_url": null, 
+    "width": "600", 
+    "zip_url": "http://cdn.mochiads.com/c/g/hangword.zip"
+}

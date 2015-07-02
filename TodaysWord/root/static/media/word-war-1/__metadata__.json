@@ -1,0 +1,72 @@
+{
+    "alternate_url": null, 
+    "author": "zariba", 
+    "author_link": "https://www.mochimedia.com/community/profile/zariba", 
+    "categories": [
+        "Board Game", 
+        "Education", 
+        "Other"
+    ], 
+    "category": "Education", 
+    "coins_enabled": null, 
+    "coins_revshare_enabled": null, 
+    "control_scheme": "{\"fire\": \"na\", \"jump\": \"na\", \"movement\": \"mouse\"}", 
+    "controls": [
+        [
+            "fire", 
+            "na"
+        ], 
+        [
+            "jump", 
+            "na"
+        ], 
+        [
+            "movement", 
+            "mouse"
+        ]
+    ], 
+    "created": "2011-03-28T23:46:40-08:00", 
+    "description": "ame in which two to four players score points by forming words from individual lettered tiles on a game board marked with a 15-by-15 grid. The words are formed across and down in crossword fashion and must appear in a standard dictionary", 
+    "developer": "zariba", 
+    "developer_url": "https://www.mochimedia.com/community/profile/zariba", 
+    "feed_approval_created": null, 
+    "game_tag": "a9a736afaced5ca6", 
+    "game_url": "http://www.mochimedia.com/games/word-war-1", 
+    "height": 632, 
+    "instructions": "The board is marked with \"premium\" squares, which multiply the number of points awarded: red \"triple-word\" (3x) squares, orange \"double-word\" squares, dark blue \"triple-letter\" squares, and light blue \"double-letter\" (2x) squares. The center square (H8) is marked with a star, and counts as a double-word square.\r\nThe game contains 98 tiles, which are marked with a letter and a point value ranging from 1 to 10. The number of points of each lettered tile is based on the letter's frequency in standard English writing; commonly used letters such as E or O are worth one point, while less common letters score higher, with Q and Z each worth 10 points\r\nWhen there is no more bones in the \"stock\" the player has to press \"Pass\" so the opponent can make his move. The game ends when one player wins by playing their last bone, or when the game is blocked because neither player can play. The winner's score is the total remaining pip count of the loser's hand. The winner of a blocked game is the player who has a lower pip count, and the score of the game is the difference of the pip counts.", 
+    "key_mappings": "", 
+    "languages": [
+        "en"
+    ], 
+    "leaderboard_enabled": false, 
+    "metascore": 0.0, 
+    "name": "Word War I", 
+    "rating": "Everyone", 
+    "recommendation": 0, 
+    "recommended": false, 
+    "resolution": "820x632", 
+    "screen1_thumb": null, 
+    "screen1_url": null, 
+    "screen2_thumb": null, 
+    "screen2_url": null, 
+    "screen3_thumb": null, 
+    "screen3_url": null, 
+    "screen4_thumb": null, 
+    "screen4_url": null, 
+    "slug": "word-war-1", 
+    "swf_file_size": 24928, 
+    "swf_url": "http://games.mochiads.com/c/g/word-war-1/LoaderWordWar.swf", 
+    "tags": [
+        "word", 
+        "scrabble", 
+        "multiplayer game", 
+        "en"
+    ], 
+    "thumbnail_large_url": null, 
+    "thumbnail_url": "http://games.mochiads.com/c/g/word-war-1/_thumb_100x100.jpg", 
+    "updated": "2011-03-29T00:45:02-08:00", 
+    "uuid": "f7a94010-8c1b-3872-8f2e-5ece59309f52", 
+    "video_url": "http://www.youtube.com/watch?v=zTtuZyNPTtw", 
+    "width": 820, 
+    "zip_url": "http://games.mochiads.com/c/g/word-war-1.zip"
+}

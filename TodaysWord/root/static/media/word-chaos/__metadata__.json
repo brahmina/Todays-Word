@@ -1,0 +1,99 @@
+{
+    "alternate_url": "http://games.mochiads.com/c/g/word-chaos/word_chaos.swf", 
+    "author": "akdgames", 
+    "author_link": "https://www.mochimedia.com/community/profile/akdgames", 
+    "categories": [
+        "Other", 
+        "Puzzles"
+    ], 
+    "category": "Puzzles", 
+    "coins_enabled": null, 
+    "coins_revshare_enabled": null, 
+    "control_scheme": "{\"SPACE\": \"Shuffle letters\", \"fire\": \"na\", \"UP\": \"Reselect last entered word\", \"jump\": \"na\", \"A-Z\": \"Select letter\", \"BACKSPACE\": \"Remove last selected letter\", \"ENTER\": \"Enter word\", \"DELETE\": \"Remove all selected letters\", \"movement\": \"na\"}", 
+    "controls": [
+        [
+            "A-Z", 
+            "Select letter"
+        ], 
+        [
+            "BACKSPACE", 
+            "Remove last selected letter"
+        ], 
+        [
+            "DELETE", 
+            "Remove all selected letters"
+        ], 
+        [
+            "ENTER", 
+            "Enter word"
+        ], 
+        [
+            "SPACE", 
+            "Shuffle letters"
+        ], 
+        [
+            "UP", 
+            "Reselect last entered word"
+        ], 
+        [
+            "fire", 
+            "na"
+        ], 
+        [
+            "jump", 
+            "na"
+        ], 
+        [
+            "movement", 
+            "na"
+        ]
+    ], 
+    "created": "2010-11-02T18:18:09-08:00", 
+    "description": "Put your word skills to the test in this challenging word game.", 
+    "developer": "akdgames", 
+    "developer_url": "https://www.mochimedia.com/community/profile/akdgames", 
+    "feed_approval_created": "2010-11-02T22:39:54-08:00", 
+    "game_tag": "7961c783649a240f", 
+    "game_url": "http://www.mochimedia.com/games/word-chaos", 
+    "height": 400, 
+    "instructions": "Form as many words as can you from the given set of letters. To enter a word, just click on the letters and press the enter button. Find the green-marked word within the given time to go to the next round.", 
+    "key_mappings": "", 
+    "languages": [], 
+    "leaderboard_enabled": true, 
+    "metascore": 64.39, 
+    "name": "Word Chaos", 
+    "rating": "Everyone", 
+    "recommendation": 1, 
+    "recommended": false, 
+    "resolution": "640x400", 
+    "screen1_thumb": "http://games.mochiads.com/c/g/word-chaos/screen1_thumb.jpg", 
+    "screen1_url": "http://games.mochiads.com/c/g/word-chaos/screen1.jpg", 
+    "screen2_thumb": null, 
+    "screen2_url": null, 
+    "screen3_thumb": null, 
+    "screen3_url": null, 
+    "screen4_thumb": null, 
+    "screen4_url": null, 
+    "slug": "word-chaos", 
+    "swf_file_size": 889281, 
+    "swf_url": "http://games.mochiads.com/c/g/word-chaos/word_chaos.swf", 
+    "tags": [
+        "word game", 
+        "word games", 
+        "word puzzle", 
+        "word puzzles", 
+        "puzzle", 
+        "puzzles", 
+        "word", 
+        "words", 
+        "anagram", 
+        "anagrams"
+    ], 
+    "thumbnail_large_url": "http://games.mochiads.com/c/g/word-chaos/_thumb_200x200.png", 
+    "thumbnail_url": "http://games.mochiads.com/c/g/word-chaos/_thumb_100x100.png", 
+    "updated": "2011-02-08T17:06:42-08:00", 
+    "uuid": "43293190-6f1c-3bfa-8408-a99e25af7d2b", 
+    "video_url": null, 
+    "width": 640, 
+    "zip_url": "http://games.mochiads.com/c/g/word-chaos.zip"
+}

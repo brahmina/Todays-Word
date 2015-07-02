@@ -1,0 +1,27 @@
+[% INCLUDE tabs/tab_header.tt tab_name='cross_multiply_divide' url='' tab='x & &divide;' %]
+            <h3>Cross multiply divide</h3>
+            <script language="JavaScript" type="text/javascript">
+                window.addEvent('domready', function() { 
+                    for (var i = 0; i < inputs.length; i++) {
+                        $(inputs[i]).addEvent('blur', function(event){ 
+                            event.stop(); 
+                            cross_multiply_divide(); 
+                        }); 
+                    }
+                    $('clear_cross_multiply_divide_inputs').addEvent('click', function(event){ 
+                        event.stop(); 
+                        clear_cross_multiply_divide_inputs(); 
+                    }); 
+                });
+
+
+            </script>
+            <form method="post" id="cross_multiply_divide_form" onsubmit="return false;">
+                <input type="text" name="aa" id="aa" class="cross_multiply_divide_input" />
+                <input type="text" name="bb" id="bb" class="cross_multiply_divide_input" />
+                <input type="text" name="cc" id="cc" class="cross_multiply_divide_input" />
+                <input type="text" name="dd" id="dd" class="cross_multiply_divide_input" />
+                <div class="clear"></div>
+                <a id="clear_cross_multiply_divide_inputs">Clear</a>
+            </form>
+[% INCLUDE tabs/tab_footer.tt %]

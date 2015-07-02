@@ -1,0 +1,19 @@
+<center>
+<h1>Crossword Paused !!!</h1>
+<br /><br /><br />
+<div class="button" id="submit_crossword">
+    <a href="/games/crossword/resume/[% game_play.id %]" rel="ajax:true" id="game_resume">
+        <img src="/static/images/icons/play.png" alt="Resume" />
+        <span>Resume</span>
+    </a>
+</div>
+
+<script type="text/javascript" language="JavaScript">
+window.addEvent('domready', function() {
+    $('game_resume').addEvent('click', function(event){
+        event.stop();
+        closeGamePause();
+    });
+});
+</script>
+</center>

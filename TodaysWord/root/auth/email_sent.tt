@@ -1,0 +1,9 @@
+[% INCLUDE header.tt
+   title = 'Password reset' %]
+
+<p>Check your email!</p>
+
+[% error_message %]
+
+[% INCLUDE footer.tt %]
+

@@ -1,0 +1,35 @@
+[% INCLUDE admin/header.tt
+   title = 'TW Admin - Article: ' _ article.title %] %]
+
+   <h1>Article: [% article.title %]</h1>
+
+   <div id="article_admin_edit_left">
+       [% INCLUDE admin/keywords/associate.tt table='article' %]
+
+       <div id="admin_associate_categories_container">
+            [% INCLUDE admin/categories/associate.tt table='article' %]  
+       </div>
+
+       <div class="button" id="admin_article_edit_delete">
+           <a href="/admin/articles/delete/[% article.id %]">
+           <img src="/static/images/icons/delete.png" alt="Delete" />
+           <span>Delete</span>
+           </a>            
+       </div>
+   </div>
+   
+   <div id="article_admin_edit_right">
+       <div id="EditArticle" class="FormContainer">
+           <center>
+            <h1>Edit article</h1>
+            <div id="article_div">
+                <p class="error">[% error_msg %]</p>
+                [% form.render %]
+            </div>
+            </center>
+        </div>
+   </div>
+<div class="clear"></div>
+<br />
+<br />
+[% INCLUDE admin/footer.tt %]

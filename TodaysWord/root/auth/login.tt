@@ -1,0 +1,7 @@
+[% INCLUDE header.tt
+   title = 'Login to Today\'s Word' %]
+
+[% INCLUDE auth/login_form.tt %]
+
+[% INCLUDE footer.tt %]
+

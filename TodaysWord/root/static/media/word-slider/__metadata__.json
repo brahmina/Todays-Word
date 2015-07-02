@@ -1,0 +1,89 @@
+{
+    "alternate_url": "http://www.wordslider.com", 
+    "author": "maupin", 
+    "author_link": "https://www.mochimedia.com/community/profile/maupin", 
+    "categories": [
+        "Puzzles", 
+        "Strategy"
+    ], 
+    "category": "Puzzles", 
+    "coins_enabled": null, 
+    "coins_revshare_enabled": null, 
+    "control_scheme": "{\"Space\": \"Reverse word\", \"fire\": \"na\", \"jump\": \"na\", \"s\": \"Toggle sound\", \"Enter\": \"Submit word\", \"movement\": \"na\"}", 
+    "controls": [
+        [
+            "Enter", 
+            "Submit word"
+        ], 
+        [
+            "Space", 
+            "Reverse word"
+        ], 
+        [
+            "fire", 
+            "na"
+        ], 
+        [
+            "jump", 
+            "na"
+        ], 
+        [
+            "movement", 
+            "na"
+        ], 
+        [
+            "s", 
+            "Toggle sound"
+        ]
+    ], 
+    "created": "2010-01-31T07:34:45-08:00", 
+    "description": "Word Slider is a word search puzzle that lets you slide letters around the board.  The goal is to make the largest words you can out of the letters available.  The game ends when you run out of letters.", 
+    "developer": "maupin", 
+    "developer_url": "https://www.mochimedia.com/community/profile/maupin", 
+    "feed_approval_created": "2010-02-05T14:17:37-08:00", 
+    "game_tag": "b58ef97c14b8d5f2", 
+    "game_url": "http://www.mochimedia.com/games/word-slider", 
+    "height": 480, 
+    "instructions": "Use the mouse to drag across letters in the puzzle, selecting a word (horizontally, vertically, or diagonally).  The submit button enters the word, removing its letters from the board.  If the word is in the dictionary, you'll earn points.  If not, you'll lose points!\r\n\r\nThe longer the word, the more points it's worth!\r\n\r\nProper names (\"George\") and acronyms (\"NASA\") are not recognized.  \r\n\r\nAs space permits, slide letters around the paths on the board, using your word knowledge and strategy to make the largest words out of the letters available.", 
+    "key_mappings": "", 
+    "leaderboard_enabled": false, 
+    "metascore": 56.340000000000003, 
+    "name": "Word Slider", 
+    "rating": "Everyone", 
+    "recommendation": 2, 
+    "recommended": false, 
+    "resolution": "640x480", 
+    "screen1_thumb": "http://thumbs.mochiads.com/c/g/word-slider/screen1_thumb.jpg", 
+    "screen1_url": "http://thumbs.mochiads.com/c/g/word-slider/screen1.jpg", 
+    "screen2_thumb": null, 
+    "screen2_url": null, 
+    "screen3_thumb": null, 
+    "screen3_url": null, 
+    "screen4_thumb": null, 
+    "screen4_url": null, 
+    "slug": "word-slider", 
+    "swf_file_size": 1874987, 
+    "swf_url": "http://games.mochiads.com/c/g/word-slider/Game.swf", 
+    "tags": [
+        "word", 
+        "scrabble", 
+        "wordsearch", 
+        "puzzle", 
+        "wordfind", 
+        "dictionary", 
+        "word slider", 
+        "slide", 
+        "strategy", 
+        "letters", 
+        "words", 
+        "word find", 
+        "word search"
+    ], 
+    "thumbnail_large_url": "http://thumbs.mochiads.com/c/g/word-slider/_thumb_200x200.png", 
+    "thumbnail_url": "http://thumbs.mochiads.com/c/g/word-slider/_thumb_100x100.jpg", 
+    "updated": "2010-03-17T09:02:05-08:00", 
+    "uuid": "d14b6374-126b-3058-b8e6-24ad9a5f4dc9", 
+    "video_url": null, 
+    "width": 640, 
+    "zip_url": "http://cdn.mochiads.com/c/g/word-slider.zip"
+}

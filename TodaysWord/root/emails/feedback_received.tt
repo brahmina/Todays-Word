@@ -1,0 +1,4 @@
+Feedback received from Today's Word:
+[% IF feedback.email %]Email: [% feedback.email %]
+[% END %]
+[% feedback.message %]

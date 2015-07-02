@@ -1,0 +1,78 @@
+{
+    "achievements_enabled": false, 
+    "alternate_url": "", 
+    "author": "Ivanovich78", 
+    "author_link": "https://www.mochimedia.com/community/profile/Ivanovich78", 
+    "categories": [
+        "Board Game", 
+        "Education", 
+        "Puzzles"
+    ], 
+    "category": "Puzzles", 
+    "coins_enabled": null, 
+    "coins_revshare_enabled": null, 
+    "control_scheme": "{\"fire\": \"na\", \"jump\": \"na\", \"movement\": \"na\"}", 
+    "controls": [
+        [
+            "fire", 
+            "na"
+        ], 
+        [
+            "jump", 
+            "na"
+        ], 
+        [
+            "movement", 
+            "na"
+        ]
+    ], 
+    "created": "2011-08-10T08:44:19-08:00", 
+    "description": "Make as many words as possible with the given set of letters.", 
+    "developer": "Ivanovich78", 
+    "developer_url": "https://www.mochimedia.com/community/profile/Ivanovich78", 
+    "feed_approval_created": null, 
+    "game_tag": "58a1f115bcb66e88", 
+    "game_url": "http://www.mochimedia.com/games/words-game", 
+    "height": 500, 
+    "instructions": "A-Z: Write.\r\nENTER: Submit word.\r\nSPACE: Shuffle letters.\r\nBACKSPACE: Delete last letter.", 
+    "key_mappings": "", 
+    "languages": [
+        "en"
+    ], 
+    "leaderboard_enabled": true, 
+    "metascore": 0.0, 
+    "name": "Words Game", 
+    "rating": "Everyone", 
+    "recommendation": 0, 
+    "recommended": false, 
+    "resolution": "750x500", 
+    "screen1_thumb": "http://games.mochiads.com/c/g/words-game/screen1_thumb.png", 
+    "screen1_url": "http://games.mochiads.com/c/g/words-game/screen1.png", 
+    "screen2_thumb": null, 
+    "screen2_url": null, 
+    "screen3_thumb": null, 
+    "screen3_url": null, 
+    "screen4_thumb": null, 
+    "screen4_url": null, 
+    "slug": "words-game", 
+    "swf_file_size": 114155, 
+    "swf_url": "http://games.mochiads.com/c/g/words-game/WordsGame.swf", 
+    "tags": [
+        "Words", 
+        "game", 
+        "word", 
+        "anagram", 
+        "anagrams", 
+        "letter", 
+        "disorder", 
+        "disaster", 
+        "en"
+    ], 
+    "thumbnail_large_url": "http://games.mochiads.com/c/g/words-game/_thumb_200x200.png", 
+    "thumbnail_url": "http://games.mochiads.com/c/g/words-game/_thumb_100x100.png", 
+    "updated": "2011-08-11T17:43:55-08:00", 
+    "uuid": "b24efcd6-beef-3443-bccf-c535f309e7f5", 
+    "video_url": null, 
+    "width": 750, 
+    "zip_url": "http://games.mochiads.com/c/g/words-game.zip"
+}

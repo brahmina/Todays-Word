@@ -1,0 +1,67 @@
+{
+    "alternate_url": "http://games.altarsoft.com/-Education/11586/Type-Fast.html", 
+    "author": "Altarsoft", 
+    "author_link": "https://www.mochimedia.com/community/profile/Altarsoft", 
+    "categories": [
+        "Education"
+    ], 
+    "category": "Education", 
+    "coins_enabled": null, 
+    "coins_revshare_enabled": null, 
+    "control_scheme": "{\"fire\": \"na\", \"jump\": \"na\", \"movement\": \"na\"}", 
+    "controls": [
+        [
+            "fire", 
+            "na"
+        ], 
+        [
+            "jump", 
+            "na"
+        ], 
+        [
+            "movement", 
+            "na"
+        ]
+    ], 
+    "created": "2010-09-02T01:36:26-08:00", 
+    "description": "Set of 3 games, which can help you to train fast typing.\r\n\r\n1. Drop Down - words drop from top.\r\n2. Fast Run - try to type word before man crosses the field.\r\n3. Get Fly - words fly upward moving from side to side.", 
+    "developer": "Altarsoft", 
+    "developer_url": "https://www.mochimedia.com/community/profile/Altarsoft", 
+    "feed_approval_created": "2010-09-02T21:48:17-08:00", 
+    "game_tag": "16890475d0f3fedd", 
+    "game_url": "http://www.mochimedia.com/games/type-fast_v1", 
+    "height": 480, 
+    "instructions": "When you type word correctly - you get 10 scores.\r\nUse BackSpace to delete wrong letter.\r\nGame speed increases after each word.\r\n\r\nGame will be over when: \r\n\r\n- words reach top or bottom.\r\n- man cross the field 10 times.", 
+    "key_mappings": "", 
+    "leaderboard_enabled": true, 
+    "metascore": 50.039999999999999, 
+    "name": "Type Fast", 
+    "rating": "Everyone", 
+    "recommendation": 1, 
+    "recommended": false, 
+    "resolution": "640x480", 
+    "screen1_thumb": "http://thumbs.mochiads.com/c/g/type-fast_v1/screen1_thumb.jpg", 
+    "screen1_url": "http://thumbs.mochiads.com/c/g/type-fast_v1/screen1.jpg", 
+    "screen2_thumb": null, 
+    "screen2_url": null, 
+    "screen3_thumb": null, 
+    "screen3_url": null, 
+    "screen4_thumb": null, 
+    "screen4_url": null, 
+    "slug": "type-fast_v1", 
+    "swf_file_size": 940361, 
+    "swf_url": "http://games.mochiads.com/c/g/type-fast_v1/TypeFast.swf", 
+    "tags": [
+        "type", 
+        "typing", 
+        "learn typing", 
+        "type fast"
+    ], 
+    "thumbnail_large_url": "http://thumbs.mochiads.com/c/g/type-fast_v1/_thumb_200x200.jpg", 
+    "thumbnail_url": "http://thumbs.mochiads.com/c/g/type-fast_v1/_thumb_100x100.jpg", 
+    "updated": "2010-11-05T18:17:27-08:00", 
+    "uuid": "260d6050-3430-3d22-af08-ba4e1bbcae83", 
+    "video_url": "http://www.youtube.com/watch?v=FwsTTYg9ED8", 
+    "width": 640, 
+    "zip_url": "http://games.mochiads.com/c/g/type-fast_v1.zip"
+}

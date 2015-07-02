@@ -1,0 +1,67 @@
+{
+    "alternate_url": null, 
+    "author": "adamjonesproductions", 
+    "author_link": "https://www.mochimedia.com/community/profile/adamjonesproductions", 
+    "categories": [
+        "Puzzles"
+    ], 
+    "category": "Puzzles", 
+    "coins_enabled": null, 
+    "coins_revshare_enabled": null, 
+    "control_scheme": "{\"fire\": \"na\", \"jump\": \"na\", \"movement\": \"na\"}", 
+    "controls": [
+        [
+            "fire", 
+            "na"
+        ], 
+        [
+            "jump", 
+            "na"
+        ], 
+        [
+            "movement", 
+            "na"
+        ]
+    ], 
+    "created": "2009-01-13T17:18:42-08:00", 
+    "description": "Word drop is a randomly generated word find game with a slight twist. All letters that you use to form words disappear from the play field, dropping all letters above them down. Letters will consolidate to the left if a row is depleted. Score more points by forming larger words as well as clearing rows, columns, or even the entire board.", 
+    "developer": "adamjonesproductions", 
+    "developer_url": "https://www.mochimedia.com/community/profile/adamjonesproductions", 
+    "feed_approval_created": "2009-01-22T13:38:21-08:00", 
+    "game_tag": "388da25f205c5a0a", 
+    "game_url": "http://www.mochimedia.com/games/word-drop_v1", 
+    "height": 400, 
+    "instructions": "Click a letter to begin a word, then click on any of the eight touching letter tiles to continue the word. Once you have a word (minimum of three letters), click the last letter again to finish a word. Bonus points are awarded for clearing rows, columns, or the entire board. If you are stuck without being able to make a word, the shuffle button will replace all your tiles with different letters. You are allowed three shuffles per game. Once you're done, press the submit button to finalize your score.", 
+    "key_mappings": "", 
+    "leaderboard_enabled": true, 
+    "name": "Word Drop", 
+    "rating": "Everyone", 
+    "recommendation": 3, 
+    "recommended": false, 
+    "resolution": "550x400", 
+    "screen1_thumb": null, 
+    "screen1_url": null, 
+    "screen2_thumb": null, 
+    "screen2_url": null, 
+    "screen3_thumb": null, 
+    "screen3_url": null, 
+    "screen4_thumb": null, 
+    "screen4_url": null, 
+    "slug": "word-drop_v1", 
+    "swf_file_size": 1315203, 
+    "swf_url": "http://games.mochiads.com/c/g/word-drop_v1/WordDrop.swf", 
+    "tags": [
+        "word", 
+        "find", 
+        "word find", 
+        "drop", 
+        "vocabulary"
+    ], 
+    "thumbnail_large_url": null, 
+    "thumbnail_url": "http://cdn.mochiads.com/c/g/word-drop_v1/_thumb_100x100.png", 
+    "updated": "2009-10-08T13:26:56-08:00", 
+    "uuid": "53b612d8-3880-3085-9659-2828e0872963", 
+    "video_url": null, 
+    "width": 550, 
+    "zip_url": "http://cdn.mochiads.com/c/g/word-drop_v1.zip"
+}

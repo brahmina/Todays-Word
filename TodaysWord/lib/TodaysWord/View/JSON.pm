@@ -1,0 +1,3 @@
+package TodaysWord::View::JSON;
+use base qw( Catalyst::View::JSON );
+1;

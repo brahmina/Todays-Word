@@ -1,0 +1,20 @@
+{
+    "control_scheme": {
+        "fire": "na", 
+        "jump": "na", 
+        "movement": "na"
+    }, 
+    "description": "Play this cool online games. Merry Christmas & Good Luck!", 
+    "developer": "rascle", 
+    "developer_url": "https://www.mochiads.com/community/profile/rascle", 
+    "height": 400, 
+    "instructions": "In this game you have to work out the Christmas anagrams and write the answer into the box provided. If you get the answer wrong you loose a present and if you get it right  you win a present! Dont forget the first letter of the word is always in capitals! Good Luck!", 
+    "key_mappings": "", 
+    "name": "Christmas Code Breaker", 
+    "rating": "Everyone", 
+    "resolution": "550x400", 
+    "slug": "christmas-code-breaker", 
+    "swf_url": "http://games.mochiads.com/c/g/christmas-code-breaker/christmascodebreaker.swf", 
+    "thumbnail_url": "http://cdn.mochiads.com/c/g/christmas-code-breaker/_thumb_100x100.jpg", 
+    "width": 550
+}

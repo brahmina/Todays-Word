@@ -1,0 +1,21 @@
+<a href="/admin/games/crossword/use_clue/[% clue.id %]/[% dict_clue.id %]" id="use_clue_[% clue.id %]_[% dict_clue.id %]" class="admin_quick_button use_clue" title="us_clue">&#10003;</a>
+
+
+[% IF isAjax %]
+<script type="text/javascript" language="JavaScript">
+window.addEvent('domready', function() {
+    alert("doing it");
+    $('use_clue_[% clue.id %]_[% dict_clue.id %]').addEvent('click', function(event){
+        event.stop();
+
+        adminUseCrosswordClue(this.id);
+    });
+});
+</script>
+[% END %]
+
+
+
+
+
+

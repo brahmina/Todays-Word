@@ -1,0 +1,10 @@
+[% INCLUDE admin/header.tt
+   title = 'Word Games Today Admin' %]
+
+<h1>Word Games Today</h1>
+
+<p>A paging list? of the articles written on word-games-today.com, each with a link to the post, and a detailed page, 
+where you can see and modify the keyword relations.</p>
+
+
+[% INCLUDE admin/footer.tt %]

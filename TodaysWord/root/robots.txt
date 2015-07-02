@@ -1,0 +1,6 @@
+# robots.txt for http://www.todays-word.com
+
+User-agent: *
+Disallow: /admin
+Disallow: /auth
+Disallow: /games

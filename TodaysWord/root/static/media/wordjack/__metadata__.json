@@ -1,0 +1,70 @@
+{
+    "author": "Aqeel", 
+    "author_link": "https://www.mochimedia.com/community/profile/Aqeel", 
+    "categories": [
+        "Board Game", 
+        "Other", 
+        "Puzzles"
+    ], 
+    "coins_enabled": false, 
+    "coins_revshare_enabled": false, 
+    "control_scheme": {
+        "fire": "left_mouse", 
+        "jump": "na", 
+        "movement": "na"
+    }, 
+    "controls": [
+        [
+            "fire", 
+            "left_mouse"
+        ], 
+        [
+            "jump", 
+            "na"
+        ], 
+        [
+            "movement", 
+            "na"
+        ]
+    ], 
+    "created": "2009-08-10T00:27:45-08:00", 
+    "description": "The objective of this game is to make all possible 3 to 10 letter words from  200 letter cards thrown on the table. Cards are thrown at regular intervals. You will be given 60 seconds to fisnish when all the cards have been thrown.\r\n\r\n250 points will be awarded for each RED letter card used in a valid word.\r\n\r\n10 extra cards will be added to the deck for each BLUE card used in a valid word, and the timer will be reset if already started.", 
+    "developer": "Aqeel", 
+    "developer_url": "https://www.mochimedia.com/community/profile/Aqeel", 
+    "feed_approval_created": "2009-08-17T18:32:44-08:00", 
+    "game_tag": "9000d2a7274d1936", 
+    "game_url": "http://www.mochimedia.com/games/wordjack", 
+    "height": 450, 
+    "instructions": "Click on a letter card to move it to the next available empty slot at the bottom of the screen. You can also type the letter (A-Z) using your keyboard.\r\n\r\nClick ENTER to enter your 3-10 letter word. \r\n\r\nClick BACKSPACE button to remove the last entered letter card. \r\n\r\nClick CLEAR button to remove all letter cards from the empty slots. \r\n(KEYBOARD SHORTCUT: DELETE)", 
+    "key_mappings": "", 
+    "leaderboard_enabled": true, 
+    "name": "Wordjack", 
+    "rating": "Everyone", 
+    "recommendation": 3, 
+    "recommended": false, 
+    "resolution": "600x450", 
+    "screen1_thumb": "http://thumbs.mochiads.com/c/g/wordjack/screen1_thumb.jpg", 
+    "screen1_url": "http://thumbs.mochiads.com/c/g/wordjack/screen1.jpg", 
+    "slug": "wordjack", 
+    "swf_file_size": 373855, 
+    "swf_url": "http://games.mochiads.com/c/g/wordjack/wordjack.swf", 
+    "tags": [
+        "dictionary.com", 
+        "words", 
+        "word", 
+        "letters", 
+        "cards", 
+        "table", 
+        "dictionary", 
+        "vocabulary", 
+        "puzzle", 
+        "brain", 
+        "thinking"
+    ], 
+    "thumbnail_large_url": "http://thumbs.mochiads.com/c/g/wordjack/_thumb_200x200.jpg", 
+    "thumbnail_url": "http://thumbs.mochiads.com/c/g/wordjack/_thumb_100x100.jpg", 
+    "updated": "2009-08-17T18:32:44-08:00", 
+    "uuid": "a33c8ddc-2029-3bbd-a609-6a8769b1137e", 
+    "width": 600, 
+    "zip_url": "http://cdn.mochiads.com/c/g/wordjack.zip"
+}

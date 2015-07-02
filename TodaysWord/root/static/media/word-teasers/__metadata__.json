@@ -1,0 +1,78 @@
+{
+    "achievements_enabled": false, 
+    "alternate_url": "", 
+    "author": "codeantsolutions", 
+    "author_link": "https://www.mochimedia.com/community/profile/codeantsolutions", 
+    "categories": [
+        "Education", 
+        "Puzzles"
+    ], 
+    "category": "Puzzles", 
+    "coins_enabled": null, 
+    "coins_revshare_enabled": null, 
+    "control_scheme": "{\"fire\": \"na\", \"jump\": \"na\", \"movement\": \"na\"}", 
+    "controls": [
+        [
+            "fire", 
+            "na"
+        ], 
+        [
+            "jump", 
+            "na"
+        ], 
+        [
+            "movement", 
+            "na"
+        ]
+    ], 
+    "created": "2011-09-03T00:44:32-08:00", 
+    "description": "Word Finder is a fun and challenging game. This game focuses on user to stretch their mind by trying and finding out the word by hints within the game. The cryptic clues will help users find out the hidden letters and then the users should be able to figure out the word.The users can type the word at any time above hint box to see if they are right!\n\nThis game is twin pronged and test user's vocabulary as well as mental ability.This game instills the vigour,sense of urgency and self satisfaction.", 
+    "developer": "codeantsolutions", 
+    "developer_url": "https://www.mochimedia.com/community/profile/codeantsolutions", 
+    "feed_approval_created": "2011-09-04T10:53:13-08:00", 
+    "game_tag": "16b396285050a4fb", 
+    "game_url": "http://www.mochimedia.com/games/word-teasers", 
+    "height": 500, 
+    "instructions": "Word Finder is a simple test of memory/reasoning and English Vocabulary\n\nThe goal: Find the word either by cryptic clues(which help to find next hidden character of the word) or by guessing the word from its meaning shown on top.\n\n*Cryptic clues represent the distance of next hidden character from currently displayed characters showing on right side under Instructions.\n\nSounds easy, right?", 
+    "key_mappings": "", 
+    "languages": [
+        "en"
+    ], 
+    "leaderboard_enabled": false, 
+    "metascore": 27.63, 
+    "name": "Word Finder", 
+    "rating": "Everyone", 
+    "recommendation": 1, 
+    "recommended": false, 
+    "resolution": "640x500", 
+    "screen1_thumb": null, 
+    "screen1_url": null, 
+    "screen2_thumb": null, 
+    "screen2_url": null, 
+    "screen3_thumb": null, 
+    "screen3_url": null, 
+    "screen4_thumb": null, 
+    "screen4_url": null, 
+    "slug": "word-teasers", 
+    "swf_file_size": 647658, 
+    "swf_url": "http://games.mochiads.com/c/g/word-teasers/wordfinder.swf", 
+    "tags": [
+        "Word Finder", 
+        "Mental Ability Testing", 
+        "vocabulary testing", 
+        "Word Game", 
+        "Knowledge Test", 
+        "Mind Test", 
+        "Brain Test", 
+        "Brain Teaser", 
+        "Mind Teaser", 
+        "en"
+    ], 
+    "thumbnail_large_url": null, 
+    "thumbnail_url": "http://games.mochiads.com/c/g/word-teasers/_thumb_100x100.png", 
+    "updated": "2011-09-07T16:36:18-08:00", 
+    "uuid": "5291f175-f87b-3f48-bf80-3927c0b0fe2f", 
+    "video_url": null, 
+    "width": 640, 
+    "zip_url": "http://games.mochiads.com/c/g/word-teasers.zip"
+}

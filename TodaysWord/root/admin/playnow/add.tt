@@ -1,0 +1,16 @@
+
+[% INCLUDE admin/header.tt
+   title = 'Today\'s Word Admin - Play Now Add Game' %]
+
+<center>
+<div id="AddPlayNow" class="FormContainer">
+    <h1>Add Play Now Game</h1>
+    [% IF error_message %]<p class="error">[% error_message %]</p>[% END %]
+    <div id="playnow_div">
+        <p class="error">[% error_msg %]</p>
+        [% form.render %]
+    </div>
+</div>
+</center>
+
+[% INCLUDE admin/footer.tt %]

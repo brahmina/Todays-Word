@@ -1,0 +1,17 @@
+[% INCLUDE header.tt
+   title = 'Today\'s Word Sign Up!' %]
+
+<center>
+<div id="SignupForm" class="FormContainer">
+    <h1>Sign Up for Today's Word</h1>
+    [% IF error_message %]<p class="error">[% error_message %]</p>[% END %]
+    <div id="signup_div">
+        <p class="error">[% error_msg %]</p>
+        [% form.render %]
+    </div>
+</div>
+</center>
+
+[% INCLUDE footer.tt %]
+
+

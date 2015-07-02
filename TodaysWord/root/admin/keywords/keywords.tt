@@ -1,0 +1,5 @@
+<!-- Not used -->
+[% FOREACH keyword IN keywords %] ['[% keyword.keyword %]', '[% keyword.demand %]', '[% keyword.supply %]', '[% keyword.profitability %]', '[% keyword.cpc %]'][% IF keyword.last == 1 %][% ELSE %],[% END %]
+[%  END %]
+
+

@@ -1,0 +1,105 @@
+[% INCLUDE playnow/header.tt
+   title = 'Word Games to Play Online at Today\'s Word' %]
+
+<div id="index_top">
+
+    <div id="welcome_owl">
+        <img src="/static/images/todays_word_is_owl.png" alt="Today's Word is:" width="350px" />
+    </div>
+    
+    <div id="todays_word_div">
+        <h1>[% todaysword.word %]</h1>
+        <br />
+        [% MACRO floor(n)
+            GET n
+            FILTER format("%d"); %]
+
+        [% IF todaysword.definitions %]
+        	<ol id="todaysword_definitions">
+                [% IF todaysword.wiki_definitions %]
+                    [% FOR definition IN todaysword.wiki_definitions %]
+            			<li>[% definition %]</li>
+            		[% END %]
+                [% END %]
+                [% FOR definition IN todaysword.definitions %]
+        			<li>[% definition %]</li>
+        		[% END %]
+        	</ol>
+        [% END %]
+
+        [% IF todaysword.synonyms %]
+            <b>Synonyms:</b><br />
+            <div id="todaysword_synonyms_div">
+                [% IF todaysword.synonyms.size > 4 %]
+                    [% item_per_column = floor(todaysword.synonyms.size / 3) %]
+                    [% count = 0 %]
+            	    <ul id="todaysword_synonyms">
+                    [% FOR synonym IN todaysword.synonyms %]
+                        <li>[% synonym %]</li>
+                        [% count = count + 1 %]
+                        [% IF count == item_per_column %]
+                            </ul>
+                            <ul id="todaysword_synonyms">
+                            [% count = 0 %]
+                        [% END %]
+                    [% END %]
+                [% ELSE %]
+                    <ul id="todaysword_synonyms">
+                    [% FOR synonym IN todaysword.synonyms %]
+                        <li>[% synonym %]</li>
+                    [% END %]
+                    </ul>
+                [% END %]
+            	</ul>
+            </div>
+        [% END %]
+        <div class="clear"></div>
+        
+        <div id="dict_link"><a href="http://dictionary.reference.com/browse/[% todaysword.word %]">More via Dictionary.com</a></div>
+        <div id="wikidict_link"><a href="http://en.wiktionary.org/wiki/[% todaysword.word %]">More via Wiktionary</a></div>
+        
+    </div>
+    <div class="clear"></div>    
+</div>
+<div class="clear"></div>
+
+[% INCLUDE widgets/newsletter_signup.tt div_id="home_page_newsletter" %]
+
+<div id="home_page_about_box">
+<h2>About Today's Word</h2>
+
+<p>Today's Word is more than a place to learn more about one word a day. Today's Word is also the best place to find <a href="/playnow">word games to play online</a>! There is a wide selection of free online word games to choose from.</p>
+
+<p>Playing word games have many benefits beyond the endless hours of entertainment. By playing word games you can increase your vocabulary, become a better communicator, exerrcise your problem solving skills, and create new pathways between neurons in yoour brain, by identifing and learning new patterns. Enjoy healthy competition and revel in the enjoyment of a fun challenge!</p>
+
+<p>Whether you are looking to increase the power of your mental faculties by playing <a href="/playnow/category/brain_games/3">brain games</a> or you want to 
+
+find <a href="/playnow/category/brain_games/3">brain teaser puzzles</a> to sharpen your mind, you will be satisfied here.
+
+Play an <a href="/playnow/category/anagrams/2">anagram word game</a> to try your hand at rearranging and swapping letters to find new words.
+
+Or try your hand at <a href="/playnow/category/crossword_puzzles/16">fill in crossword puzzles</a> to partake in America's favourtie passtime.
+
+If decoding and deciphering secrets gets you going, play some <a href="/playnow/category/cryptograms/4">cryptograms</a> games.
+
+Learn some new words, and improve your English communication skills by playing the <a href="/playnow/category/vocabulary_games/17">vocabulary games</a>.
+
+Or if you like the satisfaction of finding all the words in a wordsearch, check out our <a href="/playnow/category/word_searches/5">free word search games</a> and <a href="/playnow/category/word_find_games/15">word find games</a>
+
+Whatever sort of word game you are looking to play online, you will find them here, on Today's Word!</p>
+
+<p>There are some rather grandiose plans for the future of Today's Word, with more games, competition and prizes! Sign up for the Today's Word Bulletin, a very infrequent newsletter, to keep up on what's going on here at the site. What do you want from Today's Word? We'd love to hear your comments and suggestions so they can be factored into the future of this site! <a href="/contact">Contact us</a> to let us to let us know your thoughts!</p>
+
+</div>
+<div class="clear"></div>
+<div id="home_page_featured_games">
+    <h2>Featured games</h2>
+    [% INCLUDE playnow/button_listing.tt div_class='playnow_button_container_index' games=highest_rated_playnow_games %]
+    <div class="clear"></div>
+</div>
+
+[% INCLUDE playnow/category_listing.tt div_id='home_page_playnow_categories' %]
+
+[% INCLUDE playnow/footer.tt %]
+
+

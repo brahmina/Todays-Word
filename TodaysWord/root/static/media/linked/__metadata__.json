@@ -1,0 +1,20 @@
+{
+    "control_scheme": {
+        "fire": "na", 
+        "jump": "na", 
+        "movement": "na"
+    }, 
+    "description": "Help Dakota the Explorer work on vocabulary skills. Create words by clicking on letters and adjacent linked letters. Double-click on the last letter to submit the word. Break jeweled tiles for bonus points.", 
+    "developer": "millman", 
+    "developer_url": "https://www.mochiads.com/community/profile/millman", 
+    "height": 600, 
+    "instructions": "Use Mouse to move around and click once to select letters. Select other letters that are linked to form words, and double-click on the last letter or hit [enter] to submit the word to score points.", 
+    "key_mappings": "", 
+    "name": "Linked", 
+    "rating": "Everyone", 
+    "resolution": "800x600", 
+    "slug": "linked", 
+    "swf_url": "http://games.mochiads.com/c/g/linked/linked.swf", 
+    "thumbnail_url": "http://cdn.mochiads.com/c/g/linked/_thumb_100x100.png", 
+    "width": 800
+}

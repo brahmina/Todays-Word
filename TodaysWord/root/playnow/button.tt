@@ -1,0 +1,12 @@
+    <a href="/playnow/play/[% game.seo_name %]/[% game.id %]" class="playnow_game_button" title="[% game.name %]">
+        <div id="[% game.game %]_medium" class="playnow_button">
+            [% IF game.rating %]
+                [% rating = game.rating div 1 %]
+                <p class="playnow_button_star_rating">
+                    <img src="/static/images/star_rating_[% rating %].png" alt=""  />
+                </p>
+            [% END %]
+            <center><p class="playnow_button_over_header">[% game.name %]</p></center>
+            <p class="playnow_button_over_blurb">[% game.blurb %]</p>      
+        </div>
+    </a>

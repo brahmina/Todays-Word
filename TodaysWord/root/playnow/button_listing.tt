@@ -1,0 +1,14 @@
+<script type="text/javascript" language="JavaScript">
+window.addEvent('domready', function() { 
+    initPlaynowButtons();
+});
+</script>
+<div class="[% div_class %]" id="playnow_button_container">
+    [% FOR game IN games %]
+    [% IF game.releasable %]
+        [% INCLUDE playnow/button.tt game=game %]
+    [% END %]
+    [% END %]
+    
+    <div class="clear"></div>
+</div>

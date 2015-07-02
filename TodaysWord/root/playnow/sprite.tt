@@ -1,0 +1,10 @@
+[% INCLUDE playnow/header.tt
+   title = 'Today\'s Word - Word games to play online' %]
+
+<br /><br /><br />
+<img src="/static/images/playnow/sprite_small.png" />
+<br /><br /><br />
+<img src="/static/images/playnow/sprite.png" />
+<br /><br /><br />
+
+[% INCLUDE playnow/footer.tt %]

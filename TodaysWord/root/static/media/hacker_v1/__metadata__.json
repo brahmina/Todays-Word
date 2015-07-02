@@ -1,0 +1,75 @@
+{
+    "alternate_url": "", 
+    "author": "eidern", 
+    "author_link": "https://www.mochimedia.com/community/profile/eidern", 
+    "categories": [
+        "Other", 
+        "Puzzles"
+    ], 
+    "category": "Puzzles", 
+    "coins_enabled": null, 
+    "coins_revshare_enabled": null, 
+    "control_scheme": "{\"fire\": \"left_mouse\", \"jump\": \"na\", \"Arrow Keys\": \"choose Password (Player2)\", \"Space\": \"valid Password (Player 2)\", \"movement\": \"mouse\"}", 
+    "controls": [
+        [
+            "Arrow Keys", 
+            "choose Password (Player2)"
+        ], 
+        [
+            "Space", 
+            "valid Password (Player 2)"
+        ], 
+        [
+            "fire", 
+            "left_mouse"
+        ], 
+        [
+            "jump", 
+            "na"
+        ], 
+        [
+            "movement", 
+            "mouse"
+        ]
+    ], 
+    "created": "2010-09-10T23:38:08-08:00", 
+    "description": "Find the passwords as fast as possible in Time Attack mode, or challenge your friend in Versus mode and throw him some malus if you're clever !", 
+    "developer": "eidern", 
+    "developer_url": "https://www.mochimedia.com/community/profile/eidern", 
+    "feed_approval_created": "2010-10-08T02:18:21-08:00", 
+    "game_tag": "1852cdf42ac8db8e", 
+    "game_url": "http://www.mochimedia.com/games/hacker_v1", 
+    "height": 400, 
+    "instructions": "Click on a password, and if it's not the good one follow the tips showing how many good/misplaced letters have you found to quickly choose the good one.\r\n\r\nIn versus play, the other player use Keyboard, (arrows/SPACE)\r\nif you waste too many tries your opponent will get some bonuses to help him found quickly, and if you're good he'll get malus", 
+    "key_mappings": "", 
+    "leaderboard_enabled": true, 
+    "metascore": 0.0, 
+    "name": "HACKER", 
+    "rating": "Everyone", 
+    "recommendation": 2, 
+    "recommended": false, 
+    "resolution": "650x400", 
+    "screen1_thumb": "http://games.mochiads.com/c/g/hacker_v1/screen1_thumb.png", 
+    "screen1_url": "http://games.mochiads.com/c/g/hacker_v1/screen1.png", 
+    "screen2_thumb": null, 
+    "screen2_url": null, 
+    "screen3_thumb": null, 
+    "screen3_url": null, 
+    "screen4_thumb": null, 
+    "screen4_url": null, 
+    "slug": "hacker_v1", 
+    "swf_file_size": 1563017, 
+    "swf_url": "http://games.mochiads.com/c/g/hacker_v1/Hacker.swf", 
+    "tags": [
+        "hangman", 
+        "password", 
+        "crack"
+    ], 
+    "thumbnail_large_url": "http://games.mochiads.com/c/g/hacker_v1/_thumb_200x200.png", 
+    "thumbnail_url": "http://games.mochiads.com/c/g/hacker_v1/_thumb_100x100.png", 
+    "updated": "2010-10-08T02:59:01-08:00", 
+    "uuid": "ab907443-151f-38fb-aa9c-9ae114c1a026", 
+    "video_url": null, 
+    "width": 650, 
+    "zip_url": "http://games.mochiads.com/c/g/hacker_v1.zip"
+}

@@ -1,0 +1,69 @@
+{
+    "alternate_url": "http://www.dedge.com/hangman/", 
+    "author": "tomdedge", 
+    "author_link": "https://www.mochimedia.com/community/profile/tomdedge", 
+    "categories": [
+        "Puzzles"
+    ], 
+    "category": "Puzzles", 
+    "coins_enabled": null, 
+    "coins_revshare_enabled": null, 
+    "control_scheme": "{\"fire\": \"na\", \"jump\": \"na\", \"movement\": \"na\"}", 
+    "controls": [
+        [
+            "fire", 
+            "na"
+        ], 
+        [
+            "jump", 
+            "na"
+        ], 
+        [
+            "movement", 
+            "na"
+        ]
+    ], 
+    "created": "2010-07-21T07:29:37-08:00", 
+    "description": "A classic hangman game with a Halloween theme.", 
+    "developer": "tomdedge", 
+    "developer_url": "https://www.mochimedia.com/community/profile/tomdedge", 
+    "feed_approval_created": "2010-07-22T22:58:05-08:00", 
+    "game_tag": "f31e0dbed8a41d9b", 
+    "game_url": "http://www.mochimedia.com/games/halloween-hangman", 
+    "height": 400, 
+    "instructions": "Try to figure out the hidden word by guessing all of the letters in it. Incorrect guesses will bring the skeleton closer to his doom so don't get too many wrong or you'll lose the game.", 
+    "key_mappings": "", 
+    "leaderboard_enabled": true, 
+    "metascore": 63.93, 
+    "name": "Halloween Hangman", 
+    "rating": "Everyone", 
+    "recommendation": 2, 
+    "recommended": false, 
+    "resolution": "720x400", 
+    "screen1_thumb": null, 
+    "screen1_url": null, 
+    "screen2_thumb": null, 
+    "screen2_url": null, 
+    "screen3_thumb": null, 
+    "screen3_url": null, 
+    "screen4_thumb": null, 
+    "screen4_url": null, 
+    "slug": "halloween-hangman", 
+    "swf_file_size": 352047, 
+    "swf_url": "http://games.mochiads.com/c/g/halloween-hangman/halloweenhangman.swf", 
+    "tags": [
+        "hangman", 
+        "halloween", 
+        "game", 
+        "puzzle", 
+        "word", 
+        "skeleton"
+    ], 
+    "thumbnail_large_url": "http://thumbs.mochiads.com/c/g/halloween-hangman/_thumb_200x200.jpg", 
+    "thumbnail_url": "http://thumbs.mochiads.com/c/g/halloween-hangman/_thumb_100x100.jpg", 
+    "updated": "2010-10-27T09:27:36-08:00", 
+    "uuid": "3aef2150-8255-317d-a707-8f0c0cc1c300", 
+    "video_url": null, 
+    "width": 720, 
+    "zip_url": "http://games.mochiads.com/c/g/halloween-hangman.zip"
+}

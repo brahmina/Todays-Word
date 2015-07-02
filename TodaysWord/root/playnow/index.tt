@@ -1,0 +1,71 @@
+[% INCLUDE playnow/header.tt
+   title = 'Word Games to Play Online at Today\'s Word' %]
+
+<h1>Play Free Word Games Online</h1>
+
+<div id="playnow_listing_top">
+    <div id="playnow_listing_top_ad" >
+        <script type="text/javascript"><!--
+            google_ad_client = "ca-pub-9025319549732824";
+            /* TW half banner 1 */
+            google_ad_slot = "7414643853";
+            google_ad_width = 468;
+            google_ad_height = 60;
+            //-->
+        </script>
+        <script type="text/javascript" src="http://pagead2.googlesyndication.com/pagead/show_ads.js"></script>
+    </div>
+    <p>Play free online word games at Today's Word! There are currently <b>[% games_count %] online word games</b> to choose from. 
+    Below is a listing of all the word games currently available. Play word games online to challenge yourself, or just for  
+    the enjoyment of the game. Choose one of the games from this listing, or browse by <a href="/playnow/categories/">category</a>.</p>
+</div>
+
+<div class="sidebar" id="playnow_listing_sidebar">
+    <h2>What's Today's Word</h2>
+    <p>If you want word games to play online, look no further! Or, at least, hang around a while before checking out the other options!
+    No matter what type of free word games you are looking for, 
+    you are likely to find them here at Today's Word.</p>
+
+    <div id="playnow_listing_sidebar_ad" >
+        <script type="text/javascript"><!--
+        google_ad_client = "ca-pub-9025319549732824";
+        /* TW - 250 Box 1 */
+        google_ad_slot = "7987810508";
+        google_ad_width = 250;
+        google_ad_height = 250;
+        //-->
+        </script>
+        <script type="text/javascript" src="http://pagead2.googlesyndication.com/pagead/show_ads.js"></script>
+    </div>
+
+    <p>There are a wide variety of word games to choose from here at Today's Woday, of different type. Challenge your cognitive powers with 
+    <a href="/playnow/category/brain_games/3">brain teaser puzzles</a>, or learn new words with 
+    <a href="/playnow/category/vocabulary_games/17/">vocabulary games</a>. Unlock the mysteries hiding behind the 
+    <a href="/playnow/category/anagrams/2">anagrams</a> and <a href="/playnow/category/word_scramble_games/18">word scramble games</a>. 
+    Have some fun playing <a href="/playnow/category/hangman_games/1">hangman</a>, 
+    <a href="/playnow/category/word_searches/5">word searches</a> and <a href="/playnow/category/crossword_puzzles/16">crossword puzzles 
+    </a>. Which ever word games you decide to play, have fun, and enjoy the challenge!</p>
+    <br />
+    [% INCLUDE widgets/newsletter_signup.tt div_id='playnow_sidebar_newsletter' %]
+
+    <div id="playnow_listing_sidebar_lower_ad" >
+        <a href="http://intentional-lottery-numbers.com" title="Intentional lottery numbers generator"><img src="/static/images/ads/intentional_lottery_numbers_generator.png" alt="Intentional lottery numbers generator" /></a>
+    </div>
+</div>
+
+<div id="playnow_button_listing">
+    [% INCLUDE playnow/full_button_listing.tt %]
+</div>
+<div id="playnow_listing_bottom_ad">
+    <script type="text/javascript"><!--
+    google_ad_client = "ca-pub-9025319549732824";
+    /* TW playnow bottom */
+    google_ad_slot = "4402222486";
+    google_ad_width = 728;
+    google_ad_height = 15;
+    //-->
+    </script>
+    <script type="text/javascript" src="http://pagead2.googlesyndication.com/pagead/show_ads.js"></script>
+</div>
+
+[% INCLUDE playnow/footer.tt %]

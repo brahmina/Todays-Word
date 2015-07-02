@@ -1,0 +1,74 @@
+{
+    "alternate_url": null, 
+    "author": "Zapador", 
+    "author_link": "https://www.mochimedia.com/community/profile/Zapador", 
+    "categories": [
+        "Puzzles"
+    ], 
+    "category": "Puzzles", 
+    "coins_enabled": null, 
+    "coins_revshare_enabled": null, 
+    "control_scheme": "{\"fire\": \"left_mouse\", \"jump\": \"enter\", \"TAB\": \"Skip\", \"movement\": \"arrow\"}", 
+    "controls": [
+        [
+            "TAB", 
+            "Skip"
+        ], 
+        [
+            "fire", 
+            "left_mouse"
+        ], 
+        [
+            "jump", 
+            "enter"
+        ], 
+        [
+            "movement", 
+            "arrow"
+        ]
+    ], 
+    "created": "2008-07-28T13:07:59-08:00", 
+    "description": "NewsPuzzles: Like a daily crossword (but simpler) and based on today\u2019s NEWS!  . . . . . . . What a concept! Plus a daily crickler crossword and vocabulary puzzle. . . . . .\r\n\r\nCricklers are a new type of word puzzle.  We set out to totally re-invent the crossword puzzle for the computer age.  Traditional crossword puzzles are incredibly successful but they have several serious drawbacks: (1) They are difficult to construct, (2) Most words are short and often silly -- chosen only because they fit, (3) Matching clues to numbers is a distraction, and (4) A given puzzle is usually either too easy or too hard. . . . . .\r\n\r\nCricklers solve all of these problems while retaining the essence and feel of a traditional crossword puzzle.  Cricklers adapt: they become easier or harder depending on the skill of the solver.  Words are chosen by the designer -- the computer takes care of fitting them together.  Clues and answers sit side by side. . . . . . \r\n\r\nCricklers use upper and lower case correctly and can handle numbers, symbols, and accented letters. You can see which letters are vowels, and you get a reassuring sound when you complete a clue correctly.", 
+    "developer": "Zapador", 
+    "developer_url": "https://www.mochimedia.com/community/profile/Zapador", 
+    "feed_approval_created": "2008-08-05T12:19:36-08:00", 
+    "game_tag": "12606b54ddbbe6e9", 
+    "game_url": "http://www.mochimedia.com/games/newspuzzles", 
+    "height": 600, 
+    "instructions": "Just START TYPING in the Intro Puzzle and you will learn how cricklers work.", 
+    "key_mappings": "", 
+    "leaderboard_enabled": false, 
+    "metascore": 74.469999999999999, 
+    "name": "NewsPuzzles", 
+    "rating": "Everyone", 
+    "recommendation": 3, 
+    "recommended": false, 
+    "resolution": "800x600", 
+    "screen1_thumb": null, 
+    "screen1_url": null, 
+    "screen2_thumb": null, 
+    "screen2_url": null, 
+    "screen3_thumb": null, 
+    "screen3_url": null, 
+    "screen4_thumb": null, 
+    "screen4_url": null, 
+    "slug": "newspuzzles", 
+    "swf_file_size": 0, 
+    "swf_url": "http://games.mochiads.com/c/g/newspuzzles/NewsPuzzle.swf", 
+    "tags": [
+        "news", 
+        "puzzle", 
+        "crickler", 
+        "daily", 
+        "crossword", 
+        "vocabulary", 
+        "SAT"
+    ], 
+    "thumbnail_large_url": null, 
+    "thumbnail_url": "http://cdn.mochiads.com/c/g/newspuzzles/_thumb_100x100.jpg", 
+    "updated": "2010-07-21T14:04:51-08:00", 
+    "uuid": "e38ebce2-2ec6-3caa-b59d-0e536ed4bea0", 
+    "video_url": null, 
+    "width": 800, 
+    "zip_url": "http://games.mochiads.com/c/g/newspuzzles.zip"
+}

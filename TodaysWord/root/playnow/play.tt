@@ -1,0 +1,72 @@
+[% INCLUDE playnow/header.tt
+   title = 'Play ' _ game.name _ ' at Today\'s Word' %]
+
+    <div id="playnow_play_top_ad_container">
+        <script type="text/javascript"><!--
+            google_ad_client = "ca-pub-9025319549732824";
+            /* TW Playnow Play top */
+            google_ad_slot = "4668522247";
+            google_ad_width = 468;
+            google_ad_height = 60;
+            //-->
+        </script>
+        <script type="text/javascript" src="http://pagead2.googlesyndication.com/pagead/show_ads.js"></script>
+    </div>
+   
+    <h1 class="playnow_h1">Play [% game.name %]</h1>
+<br />
+    <div class="clear"></div>
+    <div id="playnow_main">
+        
+        <div id="playnow_game_container">
+            [% game.code %] <br />
+            [% IF game.source %]<a href="[% game.source %]" class="playnow_via_link">Via</a>[% END %]
+            <div id="rating_div_[% game.id %]" class="playnow_ratings_div">
+                [% INCLUDE playnow/star_rating.tt size='medium' what='playnow' id=game.id %]
+            </div>
+        </div>
+        <div id="playnow_play_sidebar">
+            <div id="playnow_play_sidebar_image">
+                <div id="[% game.game %]_medium" class="playnow_game_faux_button"></div>
+                <div id="playnow_socialbuttons">
+                    [% social_buttons %]
+                </div>
+            </div>
+            [% game.description %]
+        </div>
+        <div class="clear_left"></div>
+        <ul class="pointy_list">
+        [% FOR category IN categories %]
+            <li>Play more <a href="/playnow/category/[% category.seo_name %]/[% category.id %]">[% category.name %]</a>!</li>
+        [% END %]
+        </ul> 
+        <div class="clear"></div>
+    </div>
+    
+    <div id="playnow_play_horizontal_bottom_ad">
+        <script type="text/javascript"><!--
+            google_ad_client = "ca-pub-9025319549732824";
+            /* TW Playnow Play middle */
+            google_ad_slot = "0947159439";
+            google_ad_width = 728;
+            google_ad_height = 90;
+            //-->
+        </script>
+        <script type="text/javascript" src="http://pagead2.googlesyndication.com/pagead/show_ads.js"></script>
+    </div>
+
+    <div id="playnow_play_bottom">
+        <h2>More Word Games to Play Online</h2>
+        [% INCLUDE widgets/newsletter_signup.tt div_id='newsletter_playnow_playing' %]
+        <p class="playnow_play_bottom_p">
+        Enjoy playing [% game.name %]? We have many more word games to play online here at Today's Word! Choose 
+        from this selection of popular games, which may be similar to this game, or head over to the main listing 
+        of <a href="/playnow">online word games</a> available. Alternatively, you can browse our word games organized by 
+        <a href="/playnow/categories">category</a>, for your convenience. If playing word games online is what you want, 
+        then Today's Word is the place for you!
+        </p>
+
+        [% INCLUDE playnow/button_listing.tt div_class='playnow_button_container_play' games=related_games %]
+    </div>
+    <div class="clear"></div>
+[% INCLUDE playnow/footer.tt %]

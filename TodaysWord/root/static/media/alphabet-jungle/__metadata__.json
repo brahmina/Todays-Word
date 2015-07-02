@@ -1,0 +1,28 @@
+{
+    "categories": [
+        "Puzzles", 
+        "Other"
+    ], 
+    "description": "Spell your way out of the boiling pot in this fun word game.", 
+    "developer": "EarthWind", 
+    "developer_url": "https://www.mochiads.com/community/profile/EarthWind", 
+    "height": 432, 
+    "instructions": "", 
+    "key_mappings": "", 
+    "name": "Alphabet Jungle", 
+    "rating": "Everyone", 
+    "resolution": "576x432", 
+    "slug": "alphabet-jungle", 
+    "swf_file_size": 0, 
+    "swf_url": "http://games.mochiads.com/c/g/alphabet-jungle/alphabetjungle.swf", 
+    "tags": [
+        "spelling", 
+        "alphabet", 
+        "educational", 
+        "word", 
+        "jungle", 
+        "spell"
+    ], 
+    "thumbnail_url": "http://cdn.mochiads.com/c/g/alphabet-jungle/_thumb_100x100.jpg", 
+    "width": 576
+}

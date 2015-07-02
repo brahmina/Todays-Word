@@ -1,0 +1,20 @@
+    <!-- This div only shows when user logged in is an admin (only remains for Today's word domain) -->
+    <div id="admin_header_sites" class="admin_header">    
+        <ul>
+            <li><a href="http://todays-word.com" target="_new">Today's Word</a></li>
+            <li><a href="http://printable-crossword-puzzles.org" target="_new">Printable Crosswords</a></li>
+            <li><a href="http://word-games-today.com" target="_new" id="last">Word Games Today</a></li>
+        </ul>
+    </div>
+    <div id="admin_header_tools" class="admin_header">    
+            <ul>
+                <li><a href="/admin">Admin</a></li> 
+                <li><a href="/admin/playnow">Playnow</a></li>
+                <li><a href="/admin/keywords">Keywords</a></li> 
+                <li><a href="/admin/categories">Categories</a></li> 
+                <li><a href="/admin/articles">Articles</a></li> 
+                <li><a href="/admin/adverts">Adverts</a></li> 
+                <li><a href="/admin/dictionary">Dictionary</a></li> 
+                <li><a href="/auth/logout" id="last">Log out</a></li> 
+            </ul>
+    </div>

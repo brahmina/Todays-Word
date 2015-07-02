@@ -1,0 +1,73 @@
+{
+    "alternate_url": null, 
+    "author": "Kazama_Bee", 
+    "author_link": "https://www.mochimedia.com/community/profile/Kazama_Bee", 
+    "categories": [
+        "Board Game", 
+        "Other", 
+        "Puzzles"
+    ], 
+    "category": "Board Game", 
+    "coins_enabled": null, 
+    "coins_revshare_enabled": null, 
+    "control_scheme": "{\"fire\": \"na\", \"jump\": \"na\", \"movement\": \"mouse\"}", 
+    "controls": [
+        [
+            "fire", 
+            "na"
+        ], 
+        [
+            "jump", 
+            "na"
+        ], 
+        [
+            "movement", 
+            "mouse"
+        ]
+    ], 
+    "created": "2009-02-10T07:53:32-08:00", 
+    "description": "Addictive word based game similar to boggle or word yacht. Try and spell as many words as possible in each catagory to beat the top score.. are you a word whizz?", 
+    "developer": "Kazama_Bee", 
+    "developer_url": "https://www.mochimedia.com/community/profile/Kazama_Bee", 
+    "feed_approval_created": "2009-02-14T09:19:34-08:00", 
+    "game_tag": "831eb3595cb7266f", 
+    "game_url": "http://www.mochimedia.com/games/whizz-wordz", 
+    "height": 384, 
+    "instructions": "Instructions in game", 
+    "key_mappings": "", 
+    "languages": [], 
+    "leaderboard_enabled": true, 
+    "metascore": 73.58, 
+    "name": "whizz wordz", 
+    "rating": "Everyone", 
+    "recommendation": 3, 
+    "recommended": false, 
+    "resolution": "576x384", 
+    "screen1_thumb": null, 
+    "screen1_url": null, 
+    "screen2_thumb": null, 
+    "screen2_url": null, 
+    "screen3_thumb": null, 
+    "screen3_url": null, 
+    "screen4_thumb": null, 
+    "screen4_url": null, 
+    "slug": "whizz-wordz", 
+    "swf_file_size": 317222, 
+    "swf_url": "http://games.mochiads.com/c/g/whizz-wordz/whizzwordz.swf", 
+    "tags": [
+        "word", 
+        "words", 
+        "scrabble", 
+        "boggle", 
+        "crossword", 
+        "puzzle", 
+        "addictive"
+    ], 
+    "thumbnail_large_url": null, 
+    "thumbnail_url": "http://cdn.mochiads.com/c/g/whizz-wordz/_thumb_100x100.jpg", 
+    "updated": "2011-01-28T15:18:58-08:00", 
+    "uuid": "f5f44c1a-f2e8-3d2a-a402-4d57bd42b44b", 
+    "video_url": null, 
+    "width": 576, 
+    "zip_url": "http://games.mochiads.com/c/g/whizz-wordz.zip"
+}

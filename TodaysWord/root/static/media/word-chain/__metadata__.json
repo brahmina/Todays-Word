@@ -1,0 +1,84 @@
+{
+    "author": "tafty", 
+    "author_link": "https://www.mochiads.com/community/profile/tafty", 
+    "categories": [
+        "Other", 
+        "Puzzles"
+    ], 
+    "control_scheme": {
+        "A-Z": "Change letter", 
+        "Backspace": "Previous word", 
+        "Left/Right Arrow": "Select letter in word", 
+        "Up/Down Arrow": "Cycle through word list", 
+        "fire": "na", 
+        "jump": "na", 
+        "movement": "mouse"
+    }, 
+    "controls": [
+        [
+            "A-Z", 
+            "Change letter"
+        ], 
+        [
+            "Backspace", 
+            "Previous word"
+        ], 
+        [
+            "Left/Right Arrow", 
+            "Select letter in word"
+        ], 
+        [
+            "Up/Down Arrow", 
+            "Cycle through word list"
+        ], 
+        [
+            "fire", 
+            "na"
+        ], 
+        [
+            "jump", 
+            "na"
+        ], 
+        [
+            "movement", 
+            "mouse"
+        ]
+    ], 
+    "created": "2008-04-29T05:17:36-08:00", 
+    "description": "Change a letter to make a new word...make a change again to make a chain!\r\n\r\nWord Chain is a simple and compulsive word game.", 
+    "developer": "tafty", 
+    "developer_url": "https://www.mochiads.com/community/profile/tafty", 
+    "feed_approval_created": "2008-06-24T13:53:32-08:00", 
+    "game_tag": "eef756457f704859", 
+    "game_url": "http://www.mochiads.com/games/word-chain", 
+    "height": "400", 
+    "instructions": "Make new words by changing a letter in the current word.\r\n\r\nUsing the mouse or keyboard, select the letter in the word you want to change, then click a letter on the pad to make a new word.\r\n\r\nTurn on all the lights to increase the score multiplier.\r\n\r\nEach word scores the total of the letters plus time bonus multiplied by the multiplier.\r\n\r\nRemove the last word with the back button if you get stuck.\r\n\r\nThe game is over if the time runs out.\r\n\r\nLater levels are made more tricky by less time bonus and disabled keys.\r\n\r\nUK or US dictionary can be selected by clicking \"Options\".", 
+    "key_mappings": "", 
+    "leaderboard_enabled": false, 
+    "name": "Word Chain", 
+    "rating": "Everyone", 
+    "recommendation": 0, 
+    "recommended": false, 
+    "resolution": "600x400", 
+    "slug": "word-chain", 
+    "swf_file_size": 0, 
+    "swf_url": "http://games.mochiads.com/c/g/word-chain/WordChain.swf", 
+    "tags": [
+        "word", 
+        "game", 
+        "puzzle", 
+        "boggle", 
+        "scrabble", 
+        "words", 
+        "letter", 
+        "crossword", 
+        "anagram", 
+        "search", 
+        "solve"
+    ], 
+    "thumbnail_url": "http://cdn.mochiads.com/c/g/word-chain/_thumb_100x100.jpg", 
+    "updated": "2008-10-20T13:47:53-08:00", 
+    "uuid": "6f733692-4fbe-3b05-bd0e-762818044e8f", 
+    "width": "600", 
+    "zip_url": "http://cdn.mochiads.com/c/g/word-chain.zip"
+}

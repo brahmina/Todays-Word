@@ -1,0 +1,65 @@
+{
+    "alternate_url": "http://www.mochimedia.com/games/wizard-word-search", 
+    "author": "doobster", 
+    "author_link": "https://www.mochimedia.com/community/profile/doobster", 
+    "categories": [
+        "Education", 
+        "Puzzles"
+    ], 
+    "category": "Education", 
+    "coins_enabled": null, 
+    "coins_revshare_enabled": null, 
+    "control_scheme": "{\"fire\": \"na\", \"jump\": \"na\", \"movement\": \"na\"}", 
+    "controls": [
+        [
+            "fire", 
+            "na"
+        ], 
+        [
+            "jump", 
+            "na"
+        ], 
+        [
+            "movement", 
+            "na"
+        ]
+    ], 
+    "created": "2010-02-11T13:24:04-08:00", 
+    "description": "Fun word search related to everything in the wizarding world.", 
+    "developer": "doobster", 
+    "developer_url": "https://www.mochimedia.com/community/profile/doobster", 
+    "feed_approval_created": "2010-05-26T23:37:13-08:00", 
+    "game_tag": "31da67ac531e6831", 
+    "game_url": "http://www.mochimedia.com/games/wizard-word-search", 
+    "height": 600, 
+    "instructions": "", 
+    "key_mappings": "", 
+    "leaderboard_enabled": true, 
+    "metascore": 31.629999999999999, 
+    "name": "Wizard Word Search", 
+    "rating": "Everyone", 
+    "recommendation": 2, 
+    "recommended": false, 
+    "resolution": "800x600", 
+    "screen1_thumb": null, 
+    "screen1_url": null, 
+    "screen2_thumb": null, 
+    "screen2_url": null, 
+    "screen3_thumb": null, 
+    "screen3_url": null, 
+    "screen4_thumb": null, 
+    "screen4_url": null, 
+    "slug": "wizard-word-search", 
+    "swf_file_size": 603855, 
+    "swf_url": "http://games.mochiads.com/c/g/wizard-word-search/WizardWordSearch.swf", 
+    "tags": [
+        "word search"
+    ], 
+    "thumbnail_large_url": null, 
+    "thumbnail_url": "http://thumbs.mochiads.com/c/g/wizard-word-search/_thumb_100x100.jpg", 
+    "updated": "2010-12-08T14:46:08-08:00", 
+    "uuid": "ee79a23d-9225-3ecb-8a94-ea99cf821055", 
+    "video_url": null, 
+    "width": 800, 
+    "zip_url": "http://games.mochiads.com/c/g/wizard-word-search.zip"
+}

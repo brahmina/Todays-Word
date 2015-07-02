@@ -1,0 +1,32 @@
+[% INCLUDE header.tt
+   title = 'Today\'s Word Games' %]
+
+<h1>Games</h1>
+<div class="games_div">
+    <a href="/games/crossword"><h3>Crosswords</h3>
+    <img src="/static/images/crosswords.png" alt="Crosswords" /></a>
+</div>
+<div class="games_div">
+    <a href="/games/sudoku"><h3>Sudoku</h3>
+    <img src="/static/images/sudokus.png" alt="Sudoku" /></a>
+</div>
+<div class="games_div">
+    <a href="/games/caption"><h3>Fill in the Caption</h3>
+    <img src="" alt="Fill in the Caption" /></a>
+</div>
+<div class="games_div">
+    <a href="/games/acro"><h3>Crazy Acros</h3>
+    <img src="" alt="Crazy Acros" /></a>
+</div>
+<div class="games_div">
+    <a href="/games/acro"><h3>Today's Word</h3>
+    <img src="" alt="Todays Word" /></a>
+</div>
+[% FOREACH game IN games %]
+    <a href="/games/[% game.table_name %]">[% game.name %]</a><br />
+[% END %]
+
+[% INCLUDE footer.tt %]
+
+
+

@@ -1,0 +1,14 @@
+            <li><a href="/playnow/category/[% category.seo_name %]/[% category.id %]">[% category.name %]</a>
+             <p>[% IF category.meta_description %]
+                    [% category.meta_description %]
+                [% ELSE %]
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin sapien lacus, egestas lobortis porta non, tempor a nisl. (20 words-ish)</p>
+                [% END %]
+                <div class="category_featured_games">
+                [% FOR game IN category.featured_games %]
+                    <a href="/playnow/play/[% game.seo_name %]/[% game.id %]" title="[% game.name %]"><div class="playnow_small_thumb" id="[% game.game %]_small"></div></a>
+                [% END %]
+                </div>
+                <div class="clear"></div>
+             <p><img src="/static/images/arrow.png" alt="" class="small_arraw_img" /><a href="/playnow/category/[% category.seo_name %]/[% category.id %]"> Go to [% category.name %]</a></p>
+             </li>

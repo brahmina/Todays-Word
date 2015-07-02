@@ -1,0 +1,66 @@
+{
+    "alternate_url": "", 
+    "author": "gizmoko", 
+    "author_link": "https://www.mochimedia.com/community/profile/gizmoko", 
+    "categories": [
+        "Puzzles"
+    ], 
+    "category": "Puzzles", 
+    "coins_enabled": null, 
+    "coins_revshare_enabled": null, 
+    "control_scheme": "{\"fire\": \"na\", \"jump\": \"na\", \"movement\": \"mouse\"}", 
+    "controls": [
+        [
+            "fire", 
+            "na"
+        ], 
+        [
+            "jump", 
+            "na"
+        ], 
+        [
+            "movement", 
+            "mouse"
+        ]
+    ], 
+    "created": "2009-08-28T09:12:39-08:00", 
+    "description": "What do you get when you put letters in bubbles? You get Wubble!\r\nHow many words can you unscramble? Challenge your friends! Burst their bubble with the highest score in the game called Wubble!", 
+    "developer": "gizmoko", 
+    "developer_url": "https://www.mochimedia.com/community/profile/gizmoko", 
+    "feed_approval_created": "2009-08-30T13:03:33-08:00", 
+    "game_tag": "988723380d55139f", 
+    "game_url": "http://www.mochimedia.com/games/wubble", 
+    "height": 400, 
+    "instructions": "Choose the correct order of letters by clicking on the bubbles to form a word. The word hint is below the bubbles. You get 3 tries, Good Luck!", 
+    "key_mappings": "", 
+    "leaderboard_enabled": true, 
+    "name": "Wubble", 
+    "rating": "Everyone", 
+    "recommendation": 3, 
+    "recommended": false, 
+    "resolution": "500x400", 
+    "screen1_thumb": "http://thumbs.mochiads.com/c/g/wubble/screen1_thumb.png", 
+    "screen1_url": "http://thumbs.mochiads.com/c/g/wubble/screen1.png", 
+    "screen2_thumb": "http://thumbs.mochiads.com/c/g/wubble/screen2_thumb.png", 
+    "screen2_url": "http://thumbs.mochiads.com/c/g/wubble/screen2.png", 
+    "screen3_thumb": "http://thumbs.mochiads.com/c/g/wubble/screen3_thumb.png", 
+    "screen3_url": "http://thumbs.mochiads.com/c/g/wubble/screen3.png", 
+    "screen4_thumb": "http://thumbs.mochiads.com/c/g/wubble/screen4_thumb.png", 
+    "screen4_url": "http://thumbs.mochiads.com/c/g/wubble/screen4.png", 
+    "slug": "wubble", 
+    "swf_file_size": 453547, 
+    "swf_url": "http://games.mochiads.com/c/g/wubble/Wubble.swf", 
+    "tags": [
+        "anagram", 
+        "word", 
+        "scramble", 
+        "word game"
+    ], 
+    "thumbnail_large_url": "http://thumbs.mochiads.com/c/g/wubble/_thumb_200x200.png", 
+    "thumbnail_url": "http://thumbs.mochiads.com/c/g/wubble/_thumb_100x100.png", 
+    "updated": "2009-08-31T12:29:11-08:00", 
+    "uuid": "ecb2d32d-4013-324b-bd3e-128492464b73", 
+    "video_url": null, 
+    "width": 500, 
+    "zip_url": "http://cdn.mochiads.com/c/g/wubble.zip"
+}

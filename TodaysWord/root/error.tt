@@ -1,0 +1,15 @@
+[% INCLUDE playnow/header.tt
+   title = http_status _ ' - ' _ http_explanation %]
+
+<div id="error_owl">
+    <img src="/static/images/error_owl.png" alt="An error occured" id="error_owl" />
+    <div id="error_owl_http_status" class="owl_bubble"><p>[% http_explanation %]</p></div>
+</div>
+<div id="error_explanation">
+    <h1>[% http_status %] - [% http_explanation %]</h1>
+    <p>[% user_message %]</p>
+</div>
+<div class="clear"></div>
+
+[% INCLUDE playnow/footer.tt %]
+

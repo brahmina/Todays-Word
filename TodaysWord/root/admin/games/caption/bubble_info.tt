@@ -1,0 +1,97 @@
+<div class="caption_bubble_info">
+    <b>Bubble [% bubble.count %]:</b><br /><br />
+    <div class="caption_bubble_info_div"><label>Width:</label><input type="text" id="bubble_info_input_width_[% bubble.count %]" class="bubble_info_input" name="bubble$
+    <div class="caption_bubble_info_div"><label>Height:</label><input type="text" id="bubble_info_input_height_[% bubble.count %]" class="bubble_info_input" name="bubb$
+    <div class="caption_bubble_info_div"><label>Top:</label><input type="text" id="bubble_info_input_top_[% bubble.count %]" class="bubble_info_input" name="bubble_top$
+    <div class="caption_bubble_info_div"><label>Left:</label><input type="text" id="bubble_info_input_left_[% bubble.count %]" class="bubble_info_input" name="bubble_l$
+    <div class="caption_bubble_info_div"><label>Font size:</label><input type="text" id="bubble_info_input_fontsize_[% bubble.count %]" class="bubble_info_input" name=$
+    <div class="caption_bubble_info_div"><label>Background:</label><input type="text" id="bubble_info_input_background_[% bubble.count %]" class="bubble_info_input" na$
+    <div class="caption_bubble_info_div"><label>Border:</label><input type="text" id="bubble_info_input_border_[% bubble.count %]" class="bubble_info_input" name="bubb$
+    <div class="caption_bubble_info_div"><label>Font:</label><input type="text" id="bubble_info_input_font_[% bubble.count %]" class="bubble_info_input" name="bubble_f$
+    <div class="caption_bubble_info_div"><label>Custom CSS:</label><input type="text" id="bubble_info_input_customcss_[% bubble.count %]" class="bubble_info_input" nam$
+</div>
+<div class="clear"></div>
+<script type="text/javascript" language="JavaScript">
+window.addEvent('domready', function() {
+    $('bubble_info_input_width_[% bubble.count %]').addEvent('keyup', function(event){
+        event.stop();
+        var keypressed = event.key.toLowerCase();
+        changeBubbleArrowKeys(keypressed, this.id);
+        return true;
+    });
+    $('bubble_info_input_height_[% bubble.count %]').addEvent('keyup', function(event){
+        event.stop();
+        var keypressed = event.key.toLowerCase();
+        changeBubbleArrowKeys(keypressed, this.id);
+        return true;
+    });
+    $('bubble_info_input_top_[% bubble.count %]').addEvent('keyup', function(event){
+        event.stop();
+        var keypressed = event.key.toLowerCase();
+        changeBubbleArrowKeys(keypressed, this.id);
+        return true;
+    });
+    $('bubble_info_input_left_[% bubble.count %]').addEvent('keyup', function(event){
+        event.stop();
+        var keypressed = event.key.toLowerCase();
+        changeBubbleArrowKeys(keypressed, this.id);
+        return true;
+    });
+    $('bubble_info_input_fontsize_[% bubble.count %]').addEvent('keyup', function(event){
+        event.stop();
+        var keypressed = event.key.toLowerCase();
+        changeBubbleArrowKeys(keypressed, this.id);
+        return true;
+    });
+
+    $('bubble_info_input_width_[% bubble.count %]').addEvent('blur', function(event){
+        event.stop();
+        changeBubbleValue(this.id);
+        return true;
+    });
+    $('bubble_info_input_height_[% bubble.count %]').addEvent('blur', function(event){
+        event.stop();
+        changeBubbleValue(this.id);
+        return true;
+    });
+    $('bubble_info_input_top_[% bubble.count %]').addEvent('blur', function(event){
+        event.stop();
+        changeBubbleValue(this.id);
+        return true;
+    });
+    $('bubble_info_input_left_[% bubble.count %]').addEvent('blur', function(event){
+        event.stop();
+        changeBubbleValue(this.id);
+        return true;
+    });
+    $('bubble_info_input_fontsize_[% bubble.count %]').addEvent('blur', function(event){
+        event.stop();
+        changeBubbleValue(this.id);
+        return true;
+    });
+    $('bubble_info_input_background_[% bubble.count %]').addEvent('blur', function(event){
+        event.stop();
+        changeBubbleValue(this.id);
+        return true;
+    });
+    $('bubble_info_input_border_[% bubble.count %]').addEvent('blur', function(event){
+        event.stop();
+        changeBubbleValue(this.id);
+        return true;
+    });
+    $('bubble_info_input_font_[% bubble.count %]').addEvent('blur', function(event){
+        event.stop();
+        changeBubbleValue(this.id);
+        return true;
+    });
+    $('bubble_info_input_customcss_[% bubble.count %]').addEvent('blur', function(event){
+        event.stop();
+        changeBubbleValue(this.id);
+        return true;
+    });
+});
+
+</script>
+
+
+

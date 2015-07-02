@@ -1,0 +1,33 @@
+    [% INCLUDE playnow/button_listing.tt div_class='playnow_button_container_main_listing' %]
+    <div style="clear:left;"></div>
+    <script type="text/javascript" language="JavaScript">
+        if(0){
+            window.addEvent('domready', function() {
+                var playnow_page_buttons = $$('#playnow_listing_pagenation a');
+                for (var i = 0; i < playnow_page_buttons.length; i++) {
+                    playnow_page_buttons[i].addEvent('click', function(event){
+                        event.stop();
+        
+                        getPlaynowPage(i);
+        
+                    });
+                }
+            });
+        }
+        </script>
+    
+    <div id="playnow_listing_pagenation" class="playnow_listing_pagenation">
+        [% IF current_page != 1 %]
+            <a href="/playnow/[% current_page - 1 %]" id="playnow_page_button_[% i %]" class="playnow_page_button"><< Previous</a>
+        [% END %]
+        [% FOREACH i IN  [1..pages_count] %]
+            [% IF i == current_page %]
+            <span class="current">[% i %]</span>
+            [% ELSE %]
+            <a href="/playnow/[% i %]" id="playnow_page_button_[% i %]" class="playnow_page_button">[% i %]</a>
+            [% END %]
+        [% END %]
+        [% IF current_page != pages_count %]
+            <a href="/playnow/[% current_page + 1 %]" id="playnow_page_button_[% i %]" class="playnow_page_button">Next >></a>
+        [% END %]
+    </div>

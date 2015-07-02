@@ -1,0 +1,77 @@
+{
+    "alternate_url": null, 
+    "author": "feraswheel", 
+    "author_link": "https://www.mochimedia.com/community/profile/feraswheel", 
+    "categories": [
+        "Education", 
+        "Other"
+    ], 
+    "category": "Education", 
+    "coins_enabled": null, 
+    "coins_revshare_enabled": null, 
+    "control_scheme": "{\"fire\": \"na\", \"jump\": \"na\", \"movement\": \"na\"}", 
+    "controls": [
+        [
+            "fire", 
+            "na"
+        ], 
+        [
+            "jump", 
+            "na"
+        ], 
+        [
+            "movement", 
+            "na"
+        ]
+    ], 
+    "created": "2011-03-21T01:38:52-08:00", 
+    "description": "How fast can you type? Type the words before they hit the floor. For each word you get wrong, a part of the snow man will disappear. Try and keep him alive!", 
+    "developer": "feraswheel", 
+    "developer_url": "https://www.mochimedia.com/community/profile/feraswheel", 
+    "feed_approval_created": "2011-03-21T18:10:18-08:00", 
+    "game_tag": "ddb746a13597205d", 
+    "game_url": "http://www.mochimedia.com/games/snow-typer", 
+    "height": 400, 
+    "instructions": "Press enter once you finished typing the word. Or set Automatic Correction \"on\" and forget about the enter key.", 
+    "key_mappings": "", 
+    "languages": [
+        "en"
+    ], 
+    "leaderboard_enabled": false, 
+    "metascore": 31.63, 
+    "name": "Snow Typer", 
+    "rating": "Everyone", 
+    "recommendation": 2, 
+    "recommended": false, 
+    "resolution": "550x400", 
+    "screen1_thumb": null, 
+    "screen1_url": null, 
+    "screen2_thumb": null, 
+    "screen2_url": null, 
+    "screen3_thumb": null, 
+    "screen3_url": null, 
+    "screen4_thumb": null, 
+    "screen4_url": null, 
+    "slug": "snow-typer", 
+    "swf_file_size": 338852, 
+    "swf_url": "http://games.mochiads.com/c/g/snow-typer/snowTyper.swf", 
+    "tags": [
+        "typing", 
+        "snow", 
+        "snowtyper", 
+        "learning", 
+        "learn", 
+        "education", 
+        "snowman", 
+        "fast", 
+        "wasd", 
+        "en"
+    ], 
+    "thumbnail_large_url": null, 
+    "thumbnail_url": "http://games.mochiads.com/c/g/snow-typer/_thumb_100x100.jpg", 
+    "updated": "2011-03-23T19:02:35-08:00", 
+    "uuid": "0f6ea360-e7e7-33f6-9b0e-8dc6af32abef", 
+    "video_url": null, 
+    "width": 550, 
+    "zip_url": "http://games.mochiads.com/c/g/snow-typer.zip"
+}

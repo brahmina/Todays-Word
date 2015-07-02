@@ -1,0 +1,83 @@
+{
+    "author": "Melon", 
+    "author_link": "https://www.mochimedia.com/community/profile/Melon", 
+    "categories": [
+        "Board Game", 
+        "Other", 
+        "Puzzles"
+    ], 
+    "control_scheme": {
+        ";": "Skip word", 
+        "A-Z": "Enter letters", 
+        "Space": "Scramble word", 
+        "fire": "na", 
+        "jump": "na", 
+        "movement": "na"
+    }, 
+    "controls": [
+        [
+            ";", 
+            "Skip word"
+        ], 
+        [
+            "A-Z", 
+            "Enter letters"
+        ], 
+        [
+            "Space", 
+            "Scramble word"
+        ], 
+        [
+            "fire", 
+            "na"
+        ], 
+        [
+            "jump", 
+            "na"
+        ], 
+        [
+            "movement", 
+            "na"
+        ]
+    ], 
+    "created": "2009-06-22T18:08:55-08:00", 
+    "description": "Unscramble as many words in 2 minutes as you can.", 
+    "developer": "Melon", 
+    "developer_url": "https://www.mochimedia.com/community/profile/Melon", 
+    "feed_approval_created": "2009-06-29T05:46:47-08:00", 
+    "game_tag": "54e1c4f9d0494bdc", 
+    "game_url": "http://www.mochimedia.com/games/savvygram", 
+    "height": 480, 
+    "instructions": "Use the keyboard to enter the unscrambled words. Space will reshuffle the letters around and semi-colon (;) skips a word costing you 5 seconds.", 
+    "key_mappings": "", 
+    "leaderboard_enabled": true, 
+    "name": "Savvygram", 
+    "rating": "Everyone", 
+    "recommendation": 4, 
+    "recommended": true, 
+    "resolution": "640x480", 
+    "slug": "savvygram", 
+    "swf_file_size": 895911, 
+    "swf_url": "http://games.mochiads.com/c/g/savvygram/Savvygram.swf", 
+    "tags": [
+        "dictionary.com", 
+        "dictionary", 
+        "anagram", 
+        "word game", 
+        "puzzle", 
+        "words", 
+        "quiz", 
+        "scrabble", 
+        "kids", 
+        "adults", 
+        "english", 
+        "educational", 
+        "text", 
+        "learning"
+    ], 
+    "thumbnail_url": "http://thumbs.mochiads.com/c/g/savvygram/_thumb_100x100.png", 
+    "updated": "2009-08-09T21:55:11-08:00", 
+    "uuid": "4c59274d-e300-3b2f-b50b-0ea2ea3d410a", 
+    "width": 640, 
+    "zip_url": "http://cdn.mochiads.com/c/g/savvygram.zip"
+}

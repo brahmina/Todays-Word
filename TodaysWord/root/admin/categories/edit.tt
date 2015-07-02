@@ -1,0 +1,77 @@
+[% INCLUDE admin/header.tt
+   title = 'TW Admin - Category: ' _ category.name %]
+
+   <h1>Category: [% category.name %]</h1>
+
+   <script type="text/javascript" language="JavaScript">
+    window.addEvent('domready', function() {
+        $('toggle_releasable_button').addEvent('click', function(event){
+            event.stop();
+            toggleReleasable('categories', [% category.id %]);
+        });
+    });
+    </script>
+
+   <div id="category_admin_edit_left">
+
+       <div class="button" id="admin_category_edit_delete">
+           <a href="/admin/categories/delete/[% category.id %]">
+           <img src="/static/images/icons/delete.png" alt="Delete" />
+           <span>Delete</span>
+           </a>            
+       </div>
+
+       <div class="categories_[% IF NOT category.releasable %]not_[% END %]releasable" id="toggle_releasable_button">
+            <b>[% IF NOT category.releasable %]Not releasable[% ELSE %]Releasable[% END %] </b> 
+       </div>
+
+       <div class="clear"></div>
+
+       <div class="button" id="admin_category_edit_view">
+           <a href="/playnow/category/[% category.seo_name %]/[% category.id %]" target="_new">
+           <img src="/static/images/icons/see.png" alt="View" />
+           <span>View</span>
+           </a>            
+       </div>
+
+       [% INCLUDE admin/keywords/associate.tt table='category' %]
+
+       <div id="admin_associate_categories_container">
+           [% INCLUDE admin/categories/associate.tt table='category' %]   
+       </div>
+       
+    
+   </div>
+   
+   <div id="category_admin_edit_right">
+       <div id="EditCategory" class="FormContainer">
+           <center>
+            <h1>Edit category</h1>
+            <div id="category_div">
+                <p class="error">[% error_msg %]</p>
+                [% form.render %]
+            </div>
+            </center>
+        </div>
+        <div id="category_admin_associated_items" class="FormContainer">
+            <h1>Associated Items</h1>
+            [% FOR item_type IN categorized_items.keys %]
+                <div class="admin_category_item_listing">
+                    <h2>[% item_type %]</h2>
+                    [% items = categorized_items.$item_type %]
+                    <ul>
+                    [% FOR item IN items %]
+                        <li><a href="/admin/[% item_type %]/edit/[% item.id %]">[% IF item.name %][% item.name %][% ELSE %][% item.title %][% END %]</a></li>
+                    [% END %]
+                    </ul>
+                </div>
+            [% END %]
+            <div class="clear"></div>
+        </div>
+   </div>
+<div class="clear"></div>
+
+
+
+
+[% INCLUDE admin/footer.tt %]

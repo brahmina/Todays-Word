@@ -1,0 +1,54 @@
+<!-- Associate Keywords -->
+        <script type="text/javascript" src="/static/js/mootextboxlist.js"></script>
+        <link type="text/css" rel="stylesheet" media="screen" href="/static/css/mootextboxlist.css" />
+        <script language="JavaScript" type="text/javascript">
+
+        var keywords = [% associated_keywords_js %]; // For the html table
+
+        window.addEvent('domready', function() {
+            initAdminKeywordTable('keyword_table_container', 1);
+
+            var initing = 1;
+            var textboxlist = new TextboxList('keywords_to_associate', {unique: true, plugins: {autocomplete: {}}});
+            var autocomplete = textboxlist.plugins['autocomplete'];
+            autocomplete.setValues([
+                    [% keyword_list_js %]
+            ]);
+            
+            textboxlist.addEvent('bitBoxAdd', function(the_bit){
+                if(initing != 1){
+                    var keyword_id = the_bit.value[0];
+                    new Request({
+                        url: '/admin/keywords/associate',    
+                    }).send('i=[% item.id %]&t=[% table %]&k='+keyword_id);
+                }                
+            });
+            
+            textboxlist.addEvent('bitBoxRemove', function(the_bit){
+                new Request({
+                    url: '/admin/keywords/dessociate',    
+                }).send('i=[% item.id %]&t=[% table %]&k='+the_bit.value[0]);
+            });
+
+            [% FOR kwd IN associated_keywords %]textboxlist.add( '[% kwd.keyword %]', [% kwd.id %], '[% kwd.keyword %]' );
+                [% associated_keywords_present = 1 %]
+            [% END %]
+            initing = 0;
+        });
+        </script>
+
+        
+
+        <div id="admin_associate_keywords" class="FormContainer">     
+            [% IF associated_keywords_present %]
+            <h1>Associated Keywords</h1>
+            <h3 id="keyword_count"></h3>
+            <div id="keyword_table_container"></div>
+            [% END %]
+
+            <h1>Associate Keywords</h1>
+            <input type="text" id="keywords_to_associate" />
+            <div id="associated_keywords">
+            
+            </div>
+        </div>

@@ -1,0 +1,85 @@
+{
+    "alternate_url": "http://www.sfu.ca/~sdi1/Wordworks/", 
+    "author": "Cyborg771", 
+    "author_link": "https://www.mochimedia.com/community/profile/Cyborg771", 
+    "categories": [
+        "Board Game", 
+        "Education", 
+        "Other", 
+        "Puzzles"
+    ], 
+    "category": "Education", 
+    "coins_enabled": null, 
+    "coins_revshare_enabled": null, 
+    "control_scheme": "{\"fire\": \"na\", \"jump\": \"na\", \"Select/Deselect Tile\": \"Left Mouse Click\", \"Submit Word\": \"Space\", \"movement\": \"na\"}", 
+    "controls": [
+        [
+            "Select/Deselect Tile", 
+            "Left Mouse Click"
+        ], 
+        [
+            "Submit Word", 
+            "Space"
+        ], 
+        [
+            "fire", 
+            "na"
+        ], 
+        [
+            "jump", 
+            "na"
+        ], 
+        [
+            "movement", 
+            "na"
+        ]
+    ], 
+    "created": "2010-05-20T02:25:23-08:00", 
+    "description": "A fast paced and challenging word finding game.", 
+    "developer": "Cyborg771", 
+    "developer_url": "https://www.mochimedia.com/community/profile/Cyborg771", 
+    "feed_approval_created": "2010-05-26T23:50:21-08:00", 
+    "game_tag": "0fac939f934c9d68", 
+    "game_url": "http://www.mochimedia.com/games/word-game_v2", 
+    "height": 480, 
+    "instructions": "", 
+    "key_mappings": "", 
+    "leaderboard_enabled": true, 
+    "metascore": 56.280000000000001, 
+    "name": "Wordworks", 
+    "rating": "Everyone", 
+    "recommendation": 2, 
+    "recommended": false, 
+    "resolution": "640x480", 
+    "screen1_thumb": "http://thumbs.mochiads.com/c/g/word-game_v2/screen1_thumb.png", 
+    "screen1_url": "http://thumbs.mochiads.com/c/g/word-game_v2/screen1.png", 
+    "screen2_thumb": null, 
+    "screen2_url": null, 
+    "screen3_thumb": null, 
+    "screen3_url": null, 
+    "screen4_thumb": null, 
+    "screen4_url": null, 
+    "slug": "word-game_v2", 
+    "swf_file_size": 2209803, 
+    "swf_url": "http://games.mochiads.com/c/g/word-game_v2/Wordworks.swf", 
+    "tags": [
+        "words", 
+        "word", 
+        "letters", 
+        "letter", 
+        "boggle", 
+        "scrabble", 
+        "spelling", 
+        "education", 
+        "spell", 
+        "tile", 
+        "tiles"
+    ], 
+    "thumbnail_large_url": null, 
+    "thumbnail_url": "http://thumbs.mochiads.com/c/g/word-game_v2/_thumb_100x100.png", 
+    "updated": "2010-09-20T21:00:41-08:00", 
+    "uuid": "01fecc01-0f1f-3b0e-97ea-f53411a5a8d3", 
+    "video_url": null, 
+    "width": 640, 
+    "zip_url": "http://games.mochiads.com/c/g/word-game_v2.zip"
+}

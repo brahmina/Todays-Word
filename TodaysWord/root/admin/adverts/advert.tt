@@ -1,0 +1,39 @@
+[% INCLUDE admin/header.tt
+   title = 'TW Admin - Advert' %]
+<style>
+#advert_div{
+    float: right;
+}
+</style>
+
+<div id="advert_div">
+    <h1>Advert</h1>
+    <div id="admin_advert_preview">
+        [% advert.code %]
+    </div>
+    <div id="add_game_div">
+        <p class="error"></p>
+        <form name="advert" method="post" action="/admin/adverts/edit/[% advert.id %]">
+            <fieldset class="main_fieldset">
+            <div><label class="label" for="source">Source: </label><input type="text" name="source" id="source" maxlength="50" value="[% advert.source %]" /></div>
+            <div><label class="label" for="code">Code: </label><textarea name="code" id="code" rows="5" cols="10">[% advert.code %]</textarea></div>
+            <div><label class="label" for="width">Width: </label><input type="text" name="width" id="width" maxlength="4" value="[% advert.width %]" /></div>
+            <div><label class="label" for="height">Height: </label><input type="text" name="height" id="height" maxlength="4" value="[% advert.height %]" /></div>
+            <div><label class="label" for="status">Status: </label>
+            <select name="status" id="status">
+                <option value="1" id="status.0" [% IF advert.status == 0 %]selected[% END %]>running</option>
+                <option value="2" id="status.1" [% IF advert.status == 1 %]selected[% END %]>off</option>
+                <option value="0" id="status.2" [% IF advert.status == 2 %]selected[% END %]>deleted</option>
+            </select></div>
+            <div class="button" id="submit_advert">
+            <a onclick="submitForm(document.advert)" id="submit_advert_a">
+                <img src="/static/images/icons/add.png" alt="Add " />
+                <span>Add advert</span>
+            </a>
+        </div></fieldset></form>
+    </div>
+</div>
+
+[% INCLUDE admin/footer.tt %]
+
+

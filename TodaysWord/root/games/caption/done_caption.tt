@@ -1,0 +1,72 @@
+[% INCLUDE header.tt
+   title = 'Today\'s Word - Done Caption' %]
+
+[% IF error_msg %]
+<p class="error">[% error_msg %]</p>
+[% END %]
+
+<script type="text/javascript" language="JavaScript">
+var timer;
+window.addEvent('domready', function() {
+    timer = new GameTimer({
+        startCrono: '00:05:00',
+        div: 'game_timer',
+        direction: 'backward',
+        onZero: function(){ turnOffEditable([% time_played %])}
+    });
+    timer.start();
+});
+
+function turnOffEditable(time_played){
+
+    $('editable').innerHTML = "";
+    $('game_timer').innerHTML = time_played;
+
+}
+</script>
+<style>
+#caption_image{
+    background: url("/[% caption.file_location %]") no-repeat 0 0;
+    width:[% caption.file_width %]px;
+    height:[% caption.file_height %]px;
+}
+[% IF bubble_count %]
+    [% FOREACH bubble IN bubbles %]    
+#bubble_[% bubble.count %]{
+    [% bubble.class %]
+}
+    [% END %]
+[% END %]
+</style>
+
+<form method="post" action="/games/caption/edit/[% game_play.id %]">
+<div id="caption_right">
+    <h2>Caption</h1>
+    <b>[% caption.title %]</b> (<a href="[% caption.source %]">Source</a>)<br />
+    <b>[% user_message %]</b>
+
+    <div id="game_timer" class="timer"><noscript>No JS -> No timer</noscript></div>
+
+    <div id="editable">
+        <p>You may edit your entry for the next 5 minutes.</p>
+        <div id="caption_edit_button">
+            <input type="submit" name="CaptionDone" value="Edit" class="button" />
+        </div>
+    </div>    
+</div>
+
+<div id="caption_div">
+    
+    <div id="caption_image">
+    [% IF bubble_count %]
+        [% FOREACH bubble IN bubbles %]    
+        <textarea class="caption_bubble_textarea" name="bubble_[% bubble.count %]" id="bubble_[% bubble.count %]">[% bubble.entry %]</textarea>
+        [% END %]
+    [% END %]    
+    </div>
+</div>
+
+</form>
+
+
+[% INCLUDE footer.tt %]

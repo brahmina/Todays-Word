@@ -1,0 +1,39 @@
+
+    <!-- each shows only for administrator, and for only it's specific section -->
+    [% IF admin_section == 'todaysword' %]
+    <div id="tw_footer" class="footer">
+        <center>
+            <div id="footer_wrapper">
+                <a class="small_logo" href="/admin">Today's Word Admin</a>
+                [% INCLUDE site_links.tt %]
+            </div>
+        </center>
+    </div>
+    [% END %]
+
+    [% IF admin_section == 'printablecrosswords' %]
+    <div id="pcp_footer" class="footer">
+        <center>
+            <div id="footer_wrapper">
+                <a class="small_logo" href="/admin">Printable Crossword Admin</a>
+                <ul class="sitestripenav">
+                    <li><a href="/admin/games/all">Puzzles</a></li>
+                </ul>
+            </div>
+        </center>
+    </div>
+    [% END %]
+
+    [% IF admin_section == 'wordgamestoday' %]
+    <div id="wgt_footer" class="footer">
+        <center>
+            <div id="footer_wrapper">
+                <a class="small_logo" href="/admin">Word Games Today</a>
+                <ul class="sitestripenav">
+                    
+                </ul>
+            </div>
+        </center>
+    </div>
+    [% END %]
+

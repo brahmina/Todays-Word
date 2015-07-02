@@ -1,0 +1,53 @@
+[% INCLUDE admin/header.tt
+   title = 'Today\'s Word Admin - Sudoku' %]
+
+<script type="text/javascript" language="JavaScript">
+window.addEvent('domready', function() {
+
+});
+
+</script>
+<h2>Sudoku</h1>
+
+<div id="admin_sudoku_board">
+[% FOREACH cell IN cells %]
+    <div class="admin_sudoku_cell [% IF cell.hint %]admin_sudoku_cell_hint[% END %][% IF cell.topbar AND cell.x % 3 == 0 %] admin_sudoku_cell_topbar admin_sudoku_cell_$
+[% END %]
+</div>
+<div class="admin_game_details">
+    <h2>Today's Sudoku (id - [% sudoku.id%])</h2>
+    <p>Or above could say Crossword from March 2nd 2010</p>
+    <p>[% sudoku.description %]</p>
+    [% IF error_message %]
+        <p class="error">[% error_message %]</p>
+    [% END %]
+
+    [% IF sudoku.date_played %]
+        <p>Game played on sudoku.date_played </p>
+    [% ELSE %]
+        <br /><br />
+        <b>Schedule</b>:
+        <script type="text/javascript" src="/static/js/datepicker.js"></script>
+        <link type="text/css" rel="stylesheet" media="screen" href="/static/css/datepicker.css" />
+        <div id="set_played_date_button_[% sudoku.id %]_div" class="set_play_date_div">
+            [% INCLUDE admin/games/sudoku/set_play_date.tt %]
+        </div>
+    [% END %]
+    <div class="button" id="delete_button">
+        <a href="/admin/games/sudoku/delete/[% sudoku.id %]" onclick="return confirm('Are you sure?');" >
+            <img src="/static/images/icons/delete.png" alt="Delete" />
+            <span>Delete</span>
+        </a>
+    </div>
+
+    <br /><br />
+    <a href="/admin/games/sudoku/all"><b><< Back to Sudokus</b></a>
+</div>
+
+[% IF sudoku.date_played %]
+    Stats here on number of people who played, who won, and the scoring stats
+[% END %]
+
+[% INCLUDE admin/footer.tt %]
+
+

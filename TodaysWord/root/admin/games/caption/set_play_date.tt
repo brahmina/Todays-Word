@@ -1,0 +1,20 @@
+<input type="text" name="play_date" class="datepicker_input" id="play_date" value="[% date %]" />
+<a href="/admin/games/caption/set_play_date/[% caption.id %]" id="set_played_date_button_[% caption.id %]" class="admin_quick_button set_played_date" title="set_played$
+
+<script type="text/javascript" language="JavaScript">
+window.addEvent('domready', function() {
+
+    $('set_played_date_button_[% caption.id %]').addEvent('click', function(event){
+        event.stop();
+        adminSetPlayDate(this.id);
+    });
+
+    [% IF NOT caption.date_played %]
+    new DatePicker('.datepicker_input', {
+                allowEmpty: true
+        });
+    [% END %]
+});
+</script>
+
+

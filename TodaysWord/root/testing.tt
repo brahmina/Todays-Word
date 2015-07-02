@@ -1,0 +1,194 @@
+[% INCLUDE header.tt
+   title = 'Today\'s Word Testing' %]
+
+<h1>Playground</h1>
+<br/>
+
+
+<h1>Textbox with autocomplete</h1>
+<script type="text/javascript" src="/static/js/mootextboxlist.js"></script>
+<link type="text/css" rel="stylesheet" media="screen" href="/static/css/mootextboxlist.css" />
+<script type="text/javascript" charset="utf-8">		
+window.addEvent('domready', function(){
+    
+    // Autocomplete initialization
+    var t4 = new TextboxList('form_tags_input_3', {unique: true, plugins: {autocomplete: {}}});
+    t4.add('John Doe').add('Jane Roe');
+    
+    // sample data loading with json, but can be jsonp, local, etc. 
+    // the only requirement is that you call setValues with an array of this format:
+    // [
+    //	[id, bit_plaintext (on which search is performed), bit_html (optional, otherwise plain_text is used), autocomplete_html (html for the item displayed in the autocomplete suggestions dropdown)]
+    // ]
+    // read autocomplete.php for a JSON response exmaple
+    t4.container.addClass('textboxlist-loading');				
+    new Request.JSON({url: 'autocomplete.php', onSuccess: function(r){
+        t4.plugins['autocomplete'].setValues(r);
+        t4.container.removeClass('textboxlist-loading');
+    }}).send();				
+
+    
+});
+</script>
+
+<p>Select friends to email</p>
+<div class="form_friends">
+    <input type="text" name="test3" value="" id="form_tags_input_3" />
+</div>
+<p class="note">Type the tag (one or more words) and press enter. Use left/right arrows, backspace, delete to navigate/remove boxes, and up/down/enter to navigate/add suggestions.</p>
+
+<br /><br /><br /><br /><br /><br />
+
+
+<h1>CSS/JS Hover over</h1>
+
+<script type="text/javascript" language="JavaScript">
+    window.addEvent('domready', function() { 
+//        var myEffects = new Fx.Morph('roboflu_description', {duration: 2000, transition: Fx.Transitions.Sine.easeIn});
+//        
+//        
+//
+//        var roboflu_reveal = new Fx.Reveal($('roboflu_description'), {duration: 500, mode: 'horizontal'});
+//        $('roboflu_medium_').addEvent('mouseenter', function(){
+//            myEffects.start({
+//                'opacity': 100
+//            });
+//        });
+//        $('roboflu_description').addEvent('mouseleave', function(){
+//            myEffects.start({
+//                'opacity': 0
+//            });
+//        });
+
+        $('roboflu_medium_').set('opacity', 1).addEvents({
+        		mouseenter: function(){
+        			// This morphes the opacity and backgroundColor
+        			this.morph({
+                        'background-image': 'none',
+        				'backgroundColor': '#ffffff',
+                        'color' : '#000000'
+        			});
+                    //this.style.color = 'transparent';
+        		},
+        		mouseleave: function(){
+        			// Morphes back to the original style
+        			this.morph({
+                        'background-image': 'url(http://todays-word.com/static/images/playnow/sprite_medium.png)',
+        				'backgroundColor': 'transparent',
+                        
+        			});
+                    this.style.color = 'transparent';
+        		}
+        	});
+
+
+
+    });
+</script>
+<style>
+#roboflu_description{
+    
+
+}
+
+.playnow_description{
+    -moz-border-radius:10px 10px 10px 10px;
+    border:2px solid #121212;
+    float:left;
+    height:120px;
+    width:150px;
+
+    padding: 10px;
+    opacity: 0;
+}
+
+#roboflu_medium_ {
+    background:url("http://todays-word.com/static/images/playnow/sprite_medium.png") no-repeat scroll -160px -130px transparent;
+}
+
+.playnow_game_button div {
+    -moz-border-radius:10px 10px 10px 10px;
+    -moz-box-shadow:7px 6px 10px #888888;
+    border:2px solid #121212;
+    float:left;
+    height:120px;
+    
+    width:150px;
+    color: transparent;
+}   
+.playnow_game_button div p{
+    margin: 10px;
+}
+</style>
+
+<a href="/playnow/play/robo_flu/1" class="playnow_game_button" title="Robo Flu!">
+    <div id="roboflu_medium_" >
+        <p>A neato game with this and that! And some more words here for you and there for them. 100 characters.</p>
+    </div>
+</a>
+
+
+<div class="clear"></div>
+<br/><br/><br/><br/><br/><br/><br/>
+
+
+<h2>Play Now image sprite</h2>
+
+<style>
+.playnow_game_button_ div{
+        width: 200px;
+        height: 160px;
+        border: 2px solid #121212;
+        margin: 40px 40px 0 0;
+        float: left;
+
+        -moz-border-radius: 10px;
+        -moz-box-shadow: 3px 6px 5px #888;
+
+        -webkit-border-radius: 10px;
+        -webkit-box-shadow: 3px 6px 5px #888;
+}
+
+.playnow_game_button_:hover div{
+        border: 3px solid #121212;   
+        margin: 40px 40px -2px -2px;
+}
+
+#robofle{
+    background: url(/static/images/playnow/sprite.png) no-repeat;
+}
+</style>
+
+<a href="/playnow/" class="playnow_game_button_"><div id="robofle"></div></a>
+
+<br /><br /><br /><br /><br /><br />
+<h2>Rotating advert testing</h2>
+<script>
+
+setTimeout ( 'getAdvert()', ad_seconds);
+
+
+</script>
+<style>
+.ad{
+    background: #ffffff;
+    border: 0px solid #000000;
+}
+#hiddenadvert{
+    display:none;
+}
+</style>
+
+
+<br /><br /><br />
+<div id="advert_wrap" class="ad" style="width:300px;height:300px;">
+    <div id="advert" >
+        <a href="http://twitter.com"><img src="/static/ads/ad3.png" alt="" /></a>
+    </div>
+    <div id="hiddenadvert">If possible, load images here</div>
+</div>
+
+[% INCLUDE footer.tt %]
+
+
+

@@ -1,0 +1,19 @@
+<input type="text" name="play_date" class="datepicker_input" id="play_date" value="[% date %]" />
+<a href="/admin/games/todaysword/set_play_date/[% todaysword.id %]" id="set_played_date_button_[% todaysword.id %]" class="admin_quick_button set_played_date" title="s$
+
+<script type="text/javascript" language="JavaScript">
+window.addEvent('domready', function() {
+
+    $('set_played_date_button_[% todaysword.id %]').addEvent('click', function(event){
+        event.stop();
+        adminSetPlayDate(this.id);
+    });
+
+    [% IF NOT todaysword.date_played %]
+    new DatePicker('.datepicker_input', {
+                allowEmpty: true
+        });
+    [% END %]
+});
+</script>
+

@@ -1,0 +1,53 @@
+[% INCLUDE admin/header.tt
+   title = 'Today\'s Word Admin - Adverts' %]
+<script>
+window.addEvent('domready', function() {
+    initAdminAdverts();
+});
+</script>
+<h2>Advert</h1>
+<!--
+# $$('a[rel=external]').addEvent();
+-->
+<p class="error">[% error_message %] [% acro.id%]</p>
+
+<div class="button" id="add_advert_button">
+    <a href="/admin/adverts/add">
+        <img src="/static/images/icons/add.png" alt="Add Advert" />
+        <span>Add advert</span>
+        </a>
+    </div>
+<br /><br />
+<table class="admin_advert_table">
+    <tr><th>Source</th>
+        <th>Daily Impressions</th><th>Daily Clicks</th>
+        <th>Total Impressions</th><th>Total Clicks</th>
+        <th>Preview</th>
+        <th>Edit</th>
+        </tr>
+    [% FOREACH ad IN adverts %]
+        <tr><td>[% ad.source %]</td>
+            <td>[% ad.daily_impressions %]</td><td>[% ad.daily_clicks %]</td>
+            <td>[% ad.total_impressions %]</td><td>[% ad.total_clicks %]</td>
+            <td><div class="button small_button" id="edit_advert_button">
+                <a id="ad_preview_button_[% ad.id %]" title="ad_preview_button" ><img src="/static/images/icons/see.png" alt="Preview Advert" />
+                    <span>See</span>
+                    </a>
+                </div>
+                <textarea style="display:none" id="ad_code_[% ad.id %]">[% ad.code %]</textarea></td>
+            <td><div class="button small_button" id="edit_advert_button">
+                <a href="/admin/adverts/edit/[% ad.id %]">
+  <img src="/static/images/icons/edit.png" alt="Edit Advert" />
+                    <span>Edit</span>
+                    </a>
+                </div></td>
+            </tr>
+    [% END %]
+</table>
+
+
+
+[% INCLUDE admin/footer.tt %]
+
+
+

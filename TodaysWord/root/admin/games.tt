@@ -1,0 +1,22 @@
+[% INCLUDE admin/header.tt
+   title = 'Today\'s Word Admin - Games' %]
+
+<h2>Games</h1>
+
+<div class="Calendar">
+    [% calendar %]
+</div>
+
+<ul class="admin_list">
+    <li><a href="/admin/games/crossword/all">Crosswords</a> - <a href="/admin/games/crossword/add">Add Crossword</a></li>
+    <li><a href="/admin/games/sudoku/all">Sudoku</a> - <a href="/admin/games/sudoku/add">Add Sudoku</a></li>
+    <li><a href="/admin/games/caption/all">Captions</a> - <a href="/admin/games/caption/add">Add Caption</a></li>
+    <li><a href="/admin/games/acro/all">Acros</a> - <a href="/admin/games/acro/add">Add Acro</a></li>
+    <li><a href="/admin/games/todaysword/all">Today's Word</a> - <a href="/admin/games/todaysword/add">Add Today's Word</a></li>
+</ul>
+
+
+
+[% INCLUDE admin/footer.tt %]
+
+

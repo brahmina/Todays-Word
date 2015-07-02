@@ -1,0 +1,84 @@
+{
+    "alternate_url": "", 
+    "author": "tfowers", 
+    "author_link": "https://www.mochimedia.com/community/profile/tfowers", 
+    "categories": [
+        "Action", 
+        "Education", 
+        "Other", 
+        "Puzzles", 
+        "Shooting", 
+        "Strategy"
+    ], 
+    "category": "Puzzles", 
+    "coins_enabled": null, 
+    "coins_revshare_enabled": null, 
+    "control_scheme": "{\"fire\": \"enter\", \"jump\": \"na\", \"movement\": \"na\", \"Enter\": \"Submit Word\", \"Space\": \"SubmitWord and Clear\"}", 
+    "controls": [
+        [
+            "Enter", 
+            "Submit Word"
+        ], 
+        [
+            "Space", 
+            "SubmitWord and Clear"
+        ], 
+        [
+            "fire", 
+            "enter"
+        ], 
+        [
+            "jump", 
+            "na"
+        ], 
+        [
+            "movement", 
+            "na"
+        ]
+    ], 
+    "created": "2010-04-02T02:20:13-08:00", 
+    "description": "Clockwords is back!  Act 1 continues the story, following the adventures of the inventor and his machine.  Clockwords is a word game like no other.  Mix of a word game with speed, strategy, and steam-powered bugs!  Use your vocabulary to defend your laboratory.", 
+    "developer": "tfowers", 
+    "developer_url": "https://www.mochimedia.com/community/profile/tfowers", 
+    "feed_approval_created": "2010-04-02T19:26:36-08:00", 
+    "game_tag": "d594be76f5673a7d", 
+    "game_url": "http://www.mochimedia.com/games/clockwords-act-i", 
+    "height": 525, 
+    "instructions": "Use the keyboard to enter words to destroy the invading bugs.  Press Enter after each word.  No proper nouns.  Any letters can be used, but the ones that are shown do extra damage.", 
+    "key_mappings": "", 
+    "leaderboard_enabled": false, 
+    "metascore": 72.870000000000005, 
+    "name": "Clockwords: Act I", 
+    "rating": "Everyone", 
+    "recommendation": 4, 
+    "recommended": true, 
+    "resolution": "700x525", 
+    "screen1_thumb": "http://thumbs.mochiads.com/c/g/clockwords-act-i/screen1_thumb.png", 
+    "screen1_url": "http://thumbs.mochiads.com/c/g/clockwords-act-i/screen1.png", 
+    "screen2_thumb": "http://thumbs.mochiads.com/c/g/clockwords-act-i/screen2_thumb.png", 
+    "screen2_url": "http://thumbs.mochiads.com/c/g/clockwords-act-i/screen2.png", 
+    "screen3_thumb": "http://thumbs.mochiads.com/c/g/clockwords-act-i/screen3_thumb.png", 
+    "screen3_url": "http://thumbs.mochiads.com/c/g/clockwords-act-i/screen3.png", 
+    "screen4_thumb": "http://thumbs.mochiads.com/c/g/clockwords-act-i/screen4_thumb.png", 
+    "screen4_url": "http://thumbs.mochiads.com/c/g/clockwords-act-i/screen4.png", 
+    "slug": "clockwords-act-i", 
+    "swf_file_size": 9435928, 
+    "swf_url": "http://games.mochiads.com/c/g/clockwords-act-i/ClockwordsFlash.swf", 
+    "tags": [
+        "word", 
+        "defense", 
+        "typing", 
+        "steampunk", 
+        "dictionary.com", 
+        "bugs", 
+        "inventor", 
+        "letters"
+    ], 
+    "thumbnail_large_url": "http://thumbs.mochiads.com/c/g/clockwords-act-i/_thumb_200x200.png", 
+    "thumbnail_url": "http://thumbs.mochiads.com/c/g/clockwords-act-i/_thumb_100x100.png", 
+    "updated": "2010-05-08T15:23:44-08:00", 
+    "uuid": "3f9d05b6-7fb4-3034-a153-0e040040135d", 
+    "video_url": "http://gabob.s3.amazonaws.com/ClockwordsWEB/webpromo3.flv", 
+    "width": 700, 
+    "zip_url": "http://games.mochiads.com/c/g/clockwords-act-i.zip"
+}

@@ -1,0 +1,70 @@
+{
+    "alternate_url": "http://learnenglish.games.littlenex.com/Backpack_Travels/Learn_English_Games_Backpack_Travels.php", 
+    "author": "LittleNex", 
+    "author_link": "https://www.mochimedia.com/community/profile/LittleNex", 
+    "categories": [
+        "Education", 
+        "Other"
+    ], 
+    "category": "Education", 
+    "coins_enabled": null, 
+    "coins_revshare_enabled": null, 
+    "control_scheme": "{\"fire\": \"na\", \"jump\": \"na\", \"movement\": \"mouse\"}", 
+    "controls": [
+        [
+            "fire", 
+            "na"
+        ], 
+        [
+            "jump", 
+            "na"
+        ], 
+        [
+            "movement", 
+            "mouse"
+        ]
+    ], 
+    "created": "2010-02-09T20:59:46-08:00", 
+    "description": "Backpack Travels is a hidden word game to build your English vocabulary from basic words to more specialized terms. This word search game is also a good exercise for speed reading and accurate spelling. \r\n\r\nAttain a higher level of literacy and become more articulate as you memorize both common and complex words from 8 grid categories: trip planning, tourism, vehicles, ships and boats, hotels, camping, bicycles, and air transportation.", 
+    "developer": "LittleNex", 
+    "developer_url": "https://www.mochimedia.com/community/profile/LittleNex", 
+    "feed_approval_created": "2010-02-11T22:43:18-08:00", 
+    "game_tag": "9ce5b80c30caacaf", 
+    "game_url": "http://www.mochimedia.com/games/backpack-travels", 
+    "height": 655, 
+    "instructions": "Click and drag to select a word you recognize from the list of words to find. \r\n\r\nWords can be read horizontally, vertically and diagonally, forward and backward.", 
+    "key_mappings": "", 
+    "leaderboard_enabled": true, 
+    "metascore": 52.740000000000002, 
+    "name": "Backpack Travels", 
+    "rating": "Everyone", 
+    "recommendation": 2, 
+    "recommended": false, 
+    "resolution": "820x655", 
+    "screen1_thumb": null, 
+    "screen1_url": null, 
+    "screen2_thumb": null, 
+    "screen2_url": null, 
+    "screen3_thumb": null, 
+    "screen3_url": null, 
+    "screen4_thumb": null, 
+    "screen4_url": null, 
+    "slug": "backpack-travels", 
+    "swf_file_size": 490716, 
+    "swf_url": "http://games.mochiads.com/c/g/backpack-travels/BT.swf", 
+    "tags": [
+        "Learn English", 
+        "educational games", 
+        "build English vocabulary", 
+        "cross words", 
+        "hidden words", 
+        "mots caches"
+    ], 
+    "thumbnail_large_url": null, 
+    "thumbnail_url": "http://thumbs.mochiads.com/c/g/backpack-travels/_thumb_100x100.jpg", 
+    "updated": "2010-11-19T18:47:39-08:00", 
+    "uuid": "baff478d-4883-3970-88e5-e4af811f88eb", 
+    "video_url": null, 
+    "width": 820, 
+    "zip_url": "http://games.mochiads.com/c/g/backpack-travels.zip"
+}

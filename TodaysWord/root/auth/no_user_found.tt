@@ -1,0 +1,8 @@
+[% INCLUDE header.tt
+   title = 'Today\'s Word - No user found' %]
+
+<p>No user found</p>
+
+[% INCLUDE footer.tt %]
+
+

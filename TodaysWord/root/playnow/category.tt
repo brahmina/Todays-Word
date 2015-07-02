@@ -1,0 +1,76 @@
+[% INCLUDE playnow/header.tt
+   title = 'Play ' _ category.name %]
+
+<script type="text/javascript" language="JavaScript">
+window.addEvent('domready', function() { 
+    initPlaynowButtons();
+});
+
+</script>
+
+<h1 class="category_title">[% category.name %]</h1>
+<div id="playnow_button_container" class="playnow_category_button_containter">
+    
+    <div id="playnow_category_article">
+        
+        [% IF category.article %]
+            [% category.article %]
+        [% ELSE %]
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin sapien lacus, egestas lobortis porta non, tempor a nisl. Etiam sollicitudin nibh eget felis ornare vitae vestibulum velit vestibulum. Donec aliquet rutrum venenatis. Fusce tellus dui, imperdiet iaculis scelerisque vel, interdum a enim. Pellentesque erat lectus, vestibulum sed dignissim non, tincidunt vitae magna. Pellentesque eget tellus mi. Sed nisl nunc, rhoncus a dignissim ac, vehicula sed tortor. Etiam euismod ultrices fringilla. Curabitur sed odio vitae mi dictum porttitor a a lectus. Vestibulum sit amet fringilla libero. Donec sem magna, adipiscing vitae sodales et, commodo eu sem. Phasellus aliquam luctus ipsum, et varius arcu egestas in. Morbi in nulla non augue porttitor mollis vitae nec turpis. Suspendisse potenti. Curabitur a dui neque. Nam interdum porttitor lacus quis condimentum. Nam dapibus dictum lectus, ac consectetur lorem luctus et.</p>
+            <p>Cras eget purus enim. Mauris sed leo mauris, sed egestas neque. Duis consectetur neque vitae neque suscipit pulvinar. Donec hendrerit elementum velit ultricies fringilla. Donec ipsum neque, adipiscing ut luctus vel, varius vel nulla. Phasellus dui risus, tempor sit amet porta vitae, accumsan ac dui. Sed pulvinar, ante in imperdiet mollis, nibh nisl iaculis arcu, sed venenatis dolor libero sit amet ipsum. Duis ac augue sit amet orci tristique aliquam id quis ante. Phasellus condimentum dapibus dui, eget aliquet dui pellentesque in. Nullam nulla turpis, blandit eget consectetur eu, interdum sed lorem. Aliquam erat volutpat. Nam porttitor consectetur diam a lacinia.</p>
+            <p>Nunc tincidunt purus vel est condimentum id rutrum dui luctus. Ut vel justo purus, id ornare velit. Etiam vulputate pharetra euismod. Phasellus volutpat est eget nunc varius sed eleifend ante lobortis. Sed sodales hendrerit velit, sed suscipit neque tincidunt nec. Aenean consectetur adipiscing consequat. Praesent vel sem quis ante feugiat porta sed ut nulla. Vivamus semper sem sit amet lacus aliquam porttitor. Morbi viverra velit id nibh commodo pretium. Aliquam erat volutpat. Suspendisse pellentesque, orci id egestas suscipit, risus lectus hendrerit enim, sed aliquet est mi et turpis. Aenean in tincidunt erat. In sem risus, facilisis in bibendum commodo, placerat quis sem. Cras aliquet congue cursus. Fusce sed dolor id lectus commodo ullamcorper.</p>
+            <p>Nam orci nunc, congue ut pretium vitae, dapibus id dolor. Pellentesque eros nisl, convallis nec sollicitudin ut, pharetra in lorem. Maecenas nec erat eu lorem rhoncus molestie non vel lacus. Donec lobortis justo ac ligula luctus non consectetur sapien commodo. Morbi vel dui mi, quis elementum turpis. Duis luctus varius metus nec auctor. Donec at leo leo, et sollicitudin neque. Vivamus ac nulla libero, ut fringilla leo. Cras luctus felis nec dui consectetur at pretium quam cursus. Curabitur egestas velit vel velit facilisis vel placerat metus vestibulum. Maecenas sem nisl, porttitor et iaculis non, vulputate ut leo. Mauris feugiat molestie sapien sit amet venenatis. Vestibulum tempor urna commodo massa accumsan ultrices. Aenean leo lectus, eleifend nec varius a, consequat non odio. Curabitur sed tristique lectus. Ut ac diam nec dui porta pretium sed ut lorem. Aenean viverra rutrum libero eget euismod. Donec feugiat lobortis libero quis consequat.</p>
+            <p>Fusce non pharetra augue. Duis luctus sagittis tellus, vel accumsan neque feugiat ut. Praesent mattis dolor sit amet est tincidunt ut consequat metus blandit. Nullam vehicula viverra quam at pharetra. Cras consectetur bibendum tellus sed elementum. Duis rhoncus nunc a ante blandit euismod. Praesent tristique convallis consectetur. Cras ut sem sed turpis tempus pulvinar sed vel ante. Fusce elementum mattis laoreet. Donec a leo lacus, in iaculis leo. Sed convallis odio lorem, ac facilisis neque. Proin non tortor a orci volutpat eleifend. Sed tincidunt vestibulum erat at congue. Ut feugiat orci non tellus viverra non hendrerit dolor vulputate. Cras sollicitudin quam vel lectus auctor commodo laoreet orci porttitor. Vestibulum accumsan, enim vitae ultricies malesuada, velit justo ultricies erat, non porta libero est vitae purus. Nunc dui lacus, lobortis aliquam dignissim vitae, placerat vel purus.(640 words) </p>
+        <br />
+        [% END %]
+    </div>
+
+    <div id="playnow_category_top_ad_container">
+        <script type="text/javascript"><!--
+            google_ad_client = "ca-pub-9025319549732824";
+            /* TW Playnow Category top */
+            google_ad_slot = "6484082226";
+            google_ad_width = 468;
+            google_ad_height = 60;
+            //-->
+        </script>
+        <script type="text/javascript" src="http://pagead2.googlesyndication.com/pagead/show_ads.js"></script>
+    </div>
+    
+    [% FOR game IN games %]
+        [% IF game.releasable %]
+            [% INCLUDE playnow/button.tt game=game %]
+        [% END %]
+    [% END %]
+
+    <div class="clear"></div>
+</div>
+
+<div id="playnow_category_middle_ad_container">
+    <script type="text/javascript"><!--
+        google_ad_client = "ca-pub-9025319549732824";
+        /* TW Playnow Category midle */
+        google_ad_slot = "1071889563";
+        google_ad_width = 728;
+        google_ad_height = 90;
+        //-->
+    </script>
+    <script type="text/javascript" src="http://pagead2.googlesyndication.com/pagead/show_ads.js"></script>
+</div>
+
+<div class="clear"></div>
+
+<h2>Word Games to play online in other categories</h2>
+<p>Looking to find other types of word games? You may be interested in the games in these categories:</p>
+<br />
+<div id="playnow_category_related_categories">
+    [% FOR category IN categories %]
+        [% IF category.releasable %]
+            <ul class="pointy_list" id="category_listing_pointy_list">
+                [% INCLUDE playnow/category_listing_entry.tt category=category %]
+            </ul>
+        [% END %]
+    [% END %]
+    <div class="clear"></div>
+</div>
+[% INCLUDE playnow/footer.tt %]

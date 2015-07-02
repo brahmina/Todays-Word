@@ -1,0 +1,19 @@
+<script language="JavaScript" type="">
+    window.addEvent('domready', function() { 
+        [% tab_name %]_slide = $('[% tab_name %]_slider');
+        $('[% tab_name %]_link').addEvent('click', function(e){
+            e.stop();
+            if([% tab_name %]_slide.style.height == "200px"){
+                [% tab_name %]_slide.tween('height', 0);
+            }else{
+                [% tab_name %]_slide.tween('height', 200);
+            }
+        })
+    });
+</script>
+
+
+<div id="[% tab_name %]_tab" class="tab">
+    <a href="[% url %]" id="[% tab_name %]_link" class="tab_link">[% tab %]</a>    
+    <div id="[% tab_name %]_tab_rel" class="tab_rel">
+        <div id="[% tab_name %]_slider" class="tab_slider">

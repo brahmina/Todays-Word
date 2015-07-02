@@ -1,0 +1,99 @@
+{
+    "alternate_url": "http://www.buzzardgames.com/word_chain_plus/", 
+    "author": "tafty", 
+    "author_link": "https://www.mochimedia.com/community/profile/tafty", 
+    "categories": [
+        "Other", 
+        "Puzzles"
+    ], 
+    "category": "Puzzles", 
+    "coins_enabled": null, 
+    "coins_revshare_enabled": null, 
+    "control_scheme": {
+        "A-Z": "Change letter", 
+        "Backspace": "Previous word", 
+        "Left/Right Arrow": "Select letter in word", 
+        "Up/Down Arrow": "Cycle through word list", 
+        "fire": "na", 
+        "jump": "na", 
+        "movement": "mouse"
+    }, 
+    "controls": [
+        [
+            "A-Z", 
+            "Change letter"
+        ], 
+        [
+            "Backspace", 
+            "Previous word"
+        ], 
+        [
+            "Left/Right Arrow", 
+            "Select letter in word"
+        ], 
+        [
+            "Up/Down Arrow", 
+            "Cycle through word list"
+        ], 
+        [
+            "fire", 
+            "na"
+        ], 
+        [
+            "jump", 
+            "na"
+        ], 
+        [
+            "movement", 
+            "mouse"
+        ]
+    ], 
+    "created": "2009-06-11T05:40:51-08:00", 
+    "description": "Change a letter to make a new word...make a change again to make a chain!\r\n\r\nWord Chain is a simple and compulsive word game.", 
+    "developer": "tafty", 
+    "developer_url": "https://www.mochimedia.com/community/profile/tafty", 
+    "feed_approval_created": "2009-07-12T11:37:41-08:00", 
+    "game_tag": "0d03a935706ea4ab", 
+    "game_url": "http://www.mochimedia.com/games/word-chain-plus", 
+    "height": "400", 
+    "instructions": "Make new words by changing a letter in the current word.\r\n\r\nUsing the mouse or keyboard, select the letter in the word you want to change, then click a letter on the pad to make a new word.\r\n\r\nTurn on all the lights to increase the score multiplier.\r\n\r\nEach word scores the total of the letters plus time bonus multiplied by the multiplier.\r\n\r\nRemove the last word with the back button if you get stuck.\r\n\r\nThe game is over if the time runs out.\r\n\r\nLater levels are made more tricky by less time bonus and disabled keys.", 
+    "key_mappings": "", 
+    "leaderboard_enabled": true, 
+    "name": "Word Chain Plus", 
+    "rating": "Everyone", 
+    "recommendation": 3, 
+    "recommended": false, 
+    "resolution": "600x400", 
+    "screen1_thumb": null, 
+    "screen1_url": null, 
+    "screen2_thumb": null, 
+    "screen2_url": null, 
+    "screen3_thumb": null, 
+    "screen3_url": null, 
+    "screen4_thumb": null, 
+    "screen4_url": null, 
+    "slug": "word-chain-plus", 
+    "swf_file_size": 144049, 
+    "swf_url": "http://games.mochiads.com/c/g/word-chain-plus/WordChain.swf", 
+    "tags": [
+        "dictionary.com", 
+        "word", 
+        "game", 
+        "puzzle", 
+        "boggle", 
+        "scrabble", 
+        "words", 
+        "letter", 
+        "crossword", 
+        "anagram", 
+        "search", 
+        "solve"
+    ], 
+    "thumbnail_large_url": null, 
+    "thumbnail_url": "http://thumbs.mochiads.com/c/g/word-chain-plus/_thumb_100x100.jpg", 
+    "updated": "2009-12-18T08:02:01-08:00", 
+    "uuid": "53d0118f-b5e0-3d69-8526-c9aa0df274f4", 
+    "video_url": null, 
+    "width": "600", 
+    "zip_url": "http://cdn.mochiads.com/c/g/word-chain-plus.zip"
+}

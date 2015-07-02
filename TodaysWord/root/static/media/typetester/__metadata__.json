@@ -1,0 +1,70 @@
+{
+    "alternate_url": "", 
+    "author": "eliyahu", 
+    "author_link": "https://www.mochimedia.com/community/profile/eliyahu", 
+    "categories": [
+        "Education", 
+        "Other"
+    ], 
+    "category": "Education", 
+    "coins_enabled": null, 
+    "coins_revshare_enabled": null, 
+    "control_scheme": "{\"fire\": \"na\", \"jump\": \"na\", \"movement\": \"na\"}", 
+    "controls": [
+        [
+            "fire", 
+            "na"
+        ], 
+        [
+            "jump", 
+            "na"
+        ], 
+        [
+            "movement", 
+            "na"
+        ]
+    ], 
+    "created": "2010-07-18T11:27:26-08:00", 
+    "description": "Type the shown words as fast as you can!", 
+    "developer": "eliyahu", 
+    "developer_url": "https://www.mochimedia.com/community/profile/eliyahu", 
+    "feed_approval_created": "2010-07-19T00:07:15-08:00", 
+    "game_tag": "317d0b662de346ec", 
+    "game_url": "http://www.mochimedia.com/games/typetester", 
+    "height": 480, 
+    "instructions": "Use your keyboard to type the words.", 
+    "key_mappings": "", 
+    "leaderboard_enabled": true, 
+    "metascore": 27.629999999999999, 
+    "name": "Typetester", 
+    "rating": "Everyone", 
+    "recommendation": 1, 
+    "recommended": false, 
+    "resolution": "640x480", 
+    "screen1_thumb": "http://thumbs.mochiads.com/c/g/typetester/screen1_thumb.png", 
+    "screen1_url": "http://thumbs.mochiads.com/c/g/typetester/screen1.png", 
+    "screen2_thumb": null, 
+    "screen2_url": null, 
+    "screen3_thumb": null, 
+    "screen3_url": null, 
+    "screen4_thumb": null, 
+    "screen4_url": null, 
+    "slug": "typetester", 
+    "swf_file_size": 676257, 
+    "swf_url": "http://games.mochiads.com/c/g/typetester/Typetester.swf", 
+    "tags": [
+        "type", 
+        "keys", 
+        "keyboard", 
+        "spell", 
+        "letters", 
+        "speed"
+    ], 
+    "thumbnail_large_url": null, 
+    "thumbnail_url": "http://thumbs.mochiads.com/c/g/typetester/_thumb_100x100.png", 
+    "updated": "2010-07-20T07:09:22-08:00", 
+    "uuid": "f1896a4c-7f67-31be-8634-430af04ad9eb", 
+    "video_url": null, 
+    "width": 640, 
+    "zip_url": "http://games.mochiads.com/c/g/typetester.zip"
+}

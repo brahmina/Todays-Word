@@ -1,0 +1,42 @@
+[% INCLUDE playnow/header.tt
+   title = 'About Today\'s Word' %]
+
+
+
+<div id="about_todays_word_content">
+    <div id="about_todays_word_owl_container" class="owl_bubble">
+    <img src="/static/images/owl_speech_bubble_left.png" alt="Today's Word" id="about_todays_word_owl" />
+    <span>About<br /> Today's Word!</span>
+</div>
+
+    <h1>Welcome to Today's Word</h1>
+    <p>A happy place where word games go to play online!</p>
+
+    <p>We have some rather grandiose plans for this site, but step by step... little by little! We hope
+    you enjoy what this site has to offer! If you love it, or have any comments, please 
+    <a href="/contact">let us know</a>! If you are so inclined, sign up for our very infrequent 
+    newsletter below, in which we will send out updates as the grandious plans become a reality.</p>
+
+    <p>Today's Word is being created by <a href="http://dicinetabby.com">Divine Tabby</a>.</p>
+
+    <h3>Anagrams for Today's Word</h3>
+    <ul id="about_list">
+        <li>Rowdy Toads 
+        <li>Dads wry too
+        <li>Odd warts yo
+    </ul>
+    <p>Aren't words fun?!</p>
+</div>
+<div class="clear"></div>
+
+
+
+<a href="http://divinetabby.com">
+    <img src="/static/images/yet_another_divine_tabby_creation.png" alt="Yet another Divine Tabby creation..." id="yet_another_divine_tabby_creation" />
+</a>
+
+[% INCLUDE widgets/newsletter_signup.tt div_id="home_page_newsletter" %]
+<div class="clear"></div>
+
+[% INCLUDE playnow/footer.tt %]
+

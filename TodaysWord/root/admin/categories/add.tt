@@ -1,0 +1,15 @@
+[% INCLUDE admin/header.tt
+   title = 'Today\'s Word Admin - Add Category' %]
+
+<center>
+<div id="AddCategory" class="FormContainer">
+    <h1>Add Category</h1>
+    [% IF error_message %]<p class="error">[% error_message %]</p>[% END %]
+    <div id="category_div">
+        <p class="error">[% error_msg %]</p>
+        [% form.render %]
+    </div>
+</div>
+</center>
+
+[% INCLUDE admin/footer.tt %]

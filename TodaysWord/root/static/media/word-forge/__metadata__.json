@@ -1,0 +1,73 @@
+{
+    "alternate_url": "http://www.bored.com/game/play/150810/Word_Forge.html", 
+    "author": "peterpawan", 
+    "author_link": "https://www.mochimedia.com/community/profile/peterpawan", 
+    "categories": [
+        "Board Game", 
+        "Education", 
+        "Other", 
+        "Puzzles"
+    ], 
+    "category": "Education", 
+    "coins_enabled": null, 
+    "coins_revshare_enabled": null, 
+    "control_scheme": "{\"fire\": \"na\", \"jump\": \"na\", \"movement\": \"na\"}", 
+    "controls": [
+        [
+            "fire", 
+            "na"
+        ], 
+        [
+            "jump", 
+            "na"
+        ], 
+        [
+            "movement", 
+            "na"
+        ]
+    ], 
+    "created": "2010-03-09T01:28:19-08:00", 
+    "description": "A quick and addictive game where you battle against time to make as many words as possible from the alphabets you have.\r\n\r\nThe simplicity of the gameplay mechanic leads the player to extremely challenging levels of amazing word-forgery and undeniable awesomeness.\r\n\r\nThe game features music by Miguel Herrero and comes with a vocabulary of more than 250000 words.", 
+    "developer": "peterpawan", 
+    "developer_url": "https://www.mochimedia.com/community/profile/peterpawan", 
+    "feed_approval_created": null, 
+    "game_tag": "ca4f41b961177143", 
+    "game_url": "http://www.mochimedia.com/games/word-forge", 
+    "height": 400, 
+    "instructions": "Use the keyboard or the mouse to make as many words as possible by rearranging the alphabet tiles. Keep the combo going by not making a mistake to make some huge scores.", 
+    "key_mappings": "", 
+    "leaderboard_enabled": true, 
+    "metascore": 31.629999999999999, 
+    "name": "Word Forge", 
+    "rating": "Everyone", 
+    "recommendation": 2, 
+    "recommended": false, 
+    "resolution": "550x400", 
+    "screen1_thumb": "http://thumbs.mochiads.com/c/g/word-forge/screen1_thumb.png", 
+    "screen1_url": "http://thumbs.mochiads.com/c/g/word-forge/screen1.png", 
+    "screen2_thumb": "http://thumbs.mochiads.com/c/g/word-forge/screen2_thumb.png", 
+    "screen2_url": "http://thumbs.mochiads.com/c/g/word-forge/screen2.png", 
+    "screen3_thumb": "http://thumbs.mochiads.com/c/g/word-forge/screen3_thumb.png", 
+    "screen3_url": "http://thumbs.mochiads.com/c/g/word-forge/screen3.png", 
+    "screen4_thumb": "http://thumbs.mochiads.com/c/g/word-forge/screen4_thumb.png", 
+    "screen4_url": "http://thumbs.mochiads.com/c/g/word-forge/screen4.png", 
+    "slug": "word-forge", 
+    "swf_file_size": 2075702, 
+    "swf_url": "http://games.mochiads.com/c/g/word-forge/WordForge.swf", 
+    "tags": [
+        "Vocabulary", 
+        "word-game", 
+        "dictionary", 
+        "learning", 
+        "school", 
+        "word puzzle", 
+        "time"
+    ], 
+    "thumbnail_large_url": "http://thumbs.mochiads.com/c/g/word-forge/_thumb_200x200.jpg", 
+    "thumbnail_url": "http://thumbs.mochiads.com/c/g/word-forge/_thumb_100x100.png", 
+    "updated": "2010-07-13T23:33:23-08:00", 
+    "uuid": "080ddff3-346d-32a0-8f33-74f9c79565b5", 
+    "video_url": null, 
+    "width": 550, 
+    "zip_url": "http://games.mochiads.com/c/g/word-forge.zip"
+}

@@ -1,0 +1,35 @@
+            
+            
+            
+            [% IF feedback_received %]
+                <br />
+                <h3>Thank you for your feedback!</h3>
+                <p>We will be reviewing your comments shortly. If you provided an email address, you will be hearing from us.</p>
+            [% ELSE %]
+                <script type="text/javascript" language="JavaScript">
+                window.addEvent('domready', function() { 
+                    if($('send_feedback_link[% id_addition %]')){
+                        $('send_feedback_link[% id_addition %]').addEvent('click', function(event){
+                            event.stop();
+                            send_feedback("/contact", "[% id_addition %]");
+                        });
+                    }
+                });
+                </script>
+                <div id="feedback_tab_container[% id_addition %]">
+                    [% IF NOT omit_title %]<h3>Contact us</h3>[% END %]
+                    <form method="post" id="feedback_form[% id_addition %]" action="/feedback" onsubmit="return false;">
+                        <input type="hidden" name="id_addition" value="[% id_addition %]" />
+                        <textarea name="feedback_message" id="feedback_message[% id_addition %]"></textarea><br />
+                        <p>* Include your email if you would like a reply.</p>
+                        <div class="button small_button" id="submit_button[% id_addition %]">
+                        <a id="send_feedback_link[% id_addition %]">
+                            <img src="/static/images/icons/email.png" alt="Send feedback" />
+                            <span>Send</span>
+                            </a>
+                        </div>
+                        <input type="submit" name="hsubmit" class="hidden_submit" /><br />
+                    </form>
+                [% END %]
+            </div>
+

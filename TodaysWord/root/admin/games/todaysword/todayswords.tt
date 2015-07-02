@@ -1,0 +1,30 @@
+[% INCLUDE admin/header.tt
+   title = 'Today\'s Word Admin - Todays Word' %]
+
+<h2>Today's Word</h1>
+
+<p class="error">[% error_message %]</p>
+
+<div class="Calendar">
+    [% calendar %]
+</div>
+
+<div class="button" id="add_todaysword_button">
+    <a href="/admin/games/todaysword/add">
+        <img src="/static/images/icons/add.png" alt="Add Today's Word" />
+        <span>Add Word</span>
+        </a>
+    </div>
+<br /><br />
+<b>Unscheduled Today's Words</b><br />
+<ul>
+    [% FOREACH tw IN todayswords %]
+        <li><a href="/admin/games/todaysword/show/[% tw.id %]">Today's Word #[% tw.id %]</a>
+    [% END %]
+</ul>
+
+
+[% INCLUDE admin/footer.tt %]
+
+
+

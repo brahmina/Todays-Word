@@ -1,0 +1,73 @@
+{
+    "alternate_url": "", 
+    "author": "matpg", 
+    "author_link": "https://www.mochimedia.com/community/profile/matpg", 
+    "categories": [
+        "Education", 
+        "Other", 
+        "Puzzles"
+    ], 
+    "category": "Education", 
+    "coins_enabled": null, 
+    "coins_revshare_enabled": null, 
+    "control_scheme": "{\"fire\": \"left_mouse\", \"jump\": \"na\", \"movement\": \"mouse\"}", 
+    "controls": [
+        [
+            "fire", 
+            "left_mouse"
+        ], 
+        [
+            "jump", 
+            "na"
+        ], 
+        [
+            "movement", 
+            "mouse"
+        ]
+    ], 
+    "created": "2010-09-23T12:10:09-08:00", 
+    "description": "Concentrate and tap/click the letters and numbers in the correct order. Start with A and 1, and finish with Z and 26. It doesn't matter if you finish the letters or the numbers first.\r\n\r\nYou have 5 minutes to finish the game, be the quickest to get into the highscores. Advanced players can reach up to 30 correct taps per minute. Train daily to recieve good results!", 
+    "developer": "matpg", 
+    "developer_url": "https://www.mochimedia.com/community/profile/matpg", 
+    "feed_approval_created": "2010-09-25T00:02:57-08:00", 
+    "game_tag": "8e8eb1f08586c79e", 
+    "game_url": "http://www.mochimedia.com/games/52-taps", 
+    "height": 480, 
+    "instructions": "Tap/click the letters and numbers in the correct order. Start with A and 1, and finish with Z and 26.", 
+    "key_mappings": "", 
+    "leaderboard_enabled": true, 
+    "metascore": 50.530000000000001, 
+    "name": "52 Taps", 
+    "rating": "Everyone", 
+    "recommendation": 1, 
+    "recommended": false, 
+    "resolution": "800x480", 
+    "screen1_thumb": null, 
+    "screen1_url": null, 
+    "screen2_thumb": null, 
+    "screen2_url": null, 
+    "screen3_thumb": null, 
+    "screen3_url": null, 
+    "screen4_thumb": null, 
+    "screen4_url": null, 
+    "slug": "52-taps", 
+    "swf_file_size": 172629, 
+    "swf_url": "http://games.mochiads.com/c/g/52-taps/52taps.swf", 
+    "tags": [
+        "adobe2010", 
+        "platinagames.com", 
+        "fast", 
+        "quick", 
+        "brain", 
+        "stress", 
+        "numbers", 
+        "letters"
+    ], 
+    "thumbnail_large_url": null, 
+    "thumbnail_url": "http://games.mochiads.com/c/g/52-taps/_thumb_100x100.jpg", 
+    "updated": "2010-12-08T14:46:08-08:00", 
+    "uuid": "4f60613a-1d55-31ab-b682-6def52a0003d", 
+    "video_url": null, 
+    "width": 800, 
+    "zip_url": "http://games.mochiads.com/c/g/52-taps.zip"
+}

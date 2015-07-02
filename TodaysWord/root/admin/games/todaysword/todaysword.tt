@@ -1,0 +1,69 @@
+[% INCLUDE admin/header.tt
+   title = 'Today\'s Word Admin - Today\'s Word' %]
+
+<h1>Today's Word (id - [% todaysword.id %])</h1>
+
+<div class="admin_todays_word_choices_left">
+    [% IF todaysword.date_played %]
+        <p>Game played on todaysword.date_played_formatted </p>
+    [% ELSE %]
+        <br /><br />
+        <b>Schedule</b>:
+        <script type="text/javascript" src="/static/js/datepicker.js"></script>
+        <link type="text/css" rel="stylesheet" media="screen" href="/static/css/datepicker.css" />
+        <div id="set_played_date_button_[% todaysword.id %]_div" class="set_play_date_div">
+            [% INCLUDE admin/games/todaysword/set_play_date.tt %]
+        </div>
+    [% END %]
+
+
+    <br /><br />
+    <a href="/admin/games/todaysword/all" id="todaysword_back_link"><b><< Back to Today's Words</b></a>
+
+    <div class="button small_button" id="admin_todaysword_delete_button">
+        <a href="/admin/games/todaysword/delete/[% todaysword.id %]" onclick="return confirm('Are you sure?');" >
+            <img src="/static/images/icons/trash.png" alt="Delete" />
+            <span>Delete</span>
+            </a>
+        </div>
+
+    <div id="admin_todays_word_choice">
+    <h2 id="word_id_[% todaysword.id %]">[% todaysword.word %]</h2>
+    <a href="http://dictionary.reference.com/browse/[% todaysword.word %]" target="_new">Dictionary.com</a><br /><br />
+    [% IF word.definitions %]<span class="word_choice_def_label">Definition: </span>[% word.definitions %]<br />[% END %]
+    [% IF word.synonyms %]<span class="word_choice_def_label">Synonyms: </span> [% word.synonyms %]<br />[% END %]
+
+    [% IF todaysword.clues %]
+        <span class="word_choice_def_label">Clues: </span>
+        <ul class="word_choice_clues">
+            [% FOREACH clue IN word.clues %]
+                <li>[% clue.clue %]</li>
+            [% END %]
+        </ul>
+        <div class="clear"></div>
+        <br />
+    [% END %]
+    </div>
+</div>
+<div class="admin_todays_word_choices_right">
+    <h1>Today's Word & Clues</h1><br /><br />
+
+    <form action="/admin/games/todaysword/edit/[% todaysword.id %]" name="edit_game">
+        <label>Word: </label><input type="text" name="word" value="[% todaysword.word %]" /><br />
+        <label>Clue 1: </label> <input type="text" id="clue1" name="clue1" value="[% todaysword.clue1 %]" /><br />
+        <label>Clue 2: </label> <input type="text" id="clue2" name="clue2" value="[% todaysword.clue2 %]" /><br />
+        <label>Clue 3: </label> <input type="text" id="clue3" name="clue3" value="[% todaysword.clue3 %]" /><br />
+        <label>Clue 4: </label> <input type="text" id="clue4" name="clue4" value="[% todaysword.clue4 %]" /><br />
+        <label>Clue 5: </label> <input type="text" id="clue5" name="clue5" value="[% todaysword.clue5 %]" /><br />
+        <div class="button" id="submit_todaysword">
+            <a onclick="submitForm(document.edit_game)" id="submit_todaysword_a">
+            <img src="/static/images/icons/edit.png" alt="Edit Today's Word" />
+            <span>Edit Word</span>
+            </a>
+        </div>
+    </form>
+</div>
+<div class="clear"></div>
+[% INCLUDE admin/footer.tt %]
+
+

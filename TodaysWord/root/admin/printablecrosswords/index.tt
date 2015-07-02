@@ -1,0 +1,10 @@
+[% INCLUDE admin/header.tt
+   title = 'Printable Crosswords Admin' %]
+
+<h1>Printable Crossword Puzzles</h1>
+
+<p>A paging list? of the crossword puzzles made for the printable crosswords. Each links to a edit, for clue
+editing, view for a clean print version, pdf for a standard pdf creation, and delete.</p>
+
+
+[% INCLUDE admin/footer.tt %]

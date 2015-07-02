@@ -1,0 +1,10 @@
+[% INCLUDE header.tt
+   title = 'Access Denied' %]
+
+<center>
+   <a href="/auth/login" title="Login"> <img src="/static/images/denied.png" alt="Access denied" style="width: 530px;" /></a>
+</center>
+
+
+[% INCLUDE footer.tt %]
+

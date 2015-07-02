@@ -1,0 +1,47 @@
+[% INCLUDE admin/header.tt
+   title = 'Keywords Admin' %]
+
+<script language="JavaScript" type="text/javascript">
+
+var keywords = [% keywords %];
+
+var keyword_lists = new Object();
+keyword_lists[[% current_import.id %]] = keywords;
+
+window.addEvent('domready', function() { 
+    initAdminKeywordTable('keyword_table_container');
+
+    $('which_import').addEvent('change', function(event){
+        adminChangeKeywordsImport();
+    });
+
+});
+</script>
+<h1>Keywords</h1>
+<div id="keyword_table_container_float_right"><div id="keyword_table_container"></div></div>
+<div id="keyword_details">
+
+    <h3 id="keyword_count"></h3>
+   
+    <b>Select list</b><br />
+    <select name="which_list" id="which_list">
+        [% FOR list IN list %]
+            <option value="[% list.id %]"[% IF import.selected %] selected="selected"[% END %]>[% list.name %]</option>
+        [% END %]
+    </select><br />
+    
+    <br /><br />
+    <b>Filter</b><br />
+    <input type="text" name="keyword_filter" id="keyword_filter" />
+    <br />
+    <div class="button" id="admin_playnow_add_keyword">
+        <a href="/admin/keywords/add">
+        <img src="/static/images/icons/add.png" alt="Add Keywords" />
+        <span>Import keywords</span>
+        </a>            
+    </div>
+</div>
+
+
+
+[% INCLUDE admin/footer.tt %]

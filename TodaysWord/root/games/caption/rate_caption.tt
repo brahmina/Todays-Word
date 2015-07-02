@@ -1,0 +1,52 @@
+[% INCLUDE header.tt
+   title = 'Today\'s Word - Rate Caption' %]
+
+[% IF error_msg %]
+<p class="error">[% error_msg %]</p>
+[% END %]
+
+<style>
+#caption_image{
+    background: url("/[% caption.file_location %]") no-repeat 0 0;
+    width:[% caption.file_width %]px;
+    height:[% caption.file_height %]px;
+}
+[% IF bubble_count %]
+    [% FOREACH bubble IN bubbles %]    
+#bubble_[% bubble.count %]{
+    [% bubble.class %]
+}
+    [% END %]
+[% END %]
+
+</style>
+
+<form method="post" action="/games/caption/done/[% game_play.id %]">
+<div id="caption_right">
+    <h2>Caption</h1>
+    <b>[% caption.title %]</b> (<a href="[% caption.source %]">Source</a>)<br />
+    <b>[% user_message %]</b>
+
+    <br /><br /><br />
+    <div id="rating_div_[% game_play.id %]">
+        [% INCLUDE games/rating.tt size = 'medium' what = 'game_play' id='[% game_play.id %]' %]
+    </div>
+    <br /><br /><br /><br /><br /><br />
+    <div class="star_loading"><img src="/static/images/star_loader.gif" alt="Please Wait" /></div>
+</div>
+
+<div id="caption_div">
+    
+    <div id="caption_image">
+    [% IF bubble_count %]
+        [% FOREACH bubble IN bubbles %]    
+        <textarea class="caption_bubble_textarea" name="bubble_[% bubble.count %]" id="bubble_[% bubble.count %]"></textarea>
+        [% END %]
+    [% END %]    
+    </div>
+</div>
+
+</form>
+
+
+[% INCLUDE footer.tt %]

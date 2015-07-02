@@ -1,0 +1,80 @@
+{
+    "achievements_enabled": false, 
+    "alternate_url": "http://moopgames.com/Puzzle-Board/21365/eXtreme-Crossword.html", 
+    "author": "alex_pof", 
+    "author_link": "https://www.mochimedia.com/community/profile/alex_pof", 
+    "categories": [
+        "Puzzles"
+    ], 
+    "category": "Puzzles", 
+    "coins_enabled": null, 
+    "coins_revshare_enabled": null, 
+    "control_scheme": "{\"fire\": \"na\", \"jump\": \"na\", \"Space\": \"Check Word\", \"movement\": \"mouse\"}", 
+    "controls": [
+        [
+            "Space", 
+            "Check Word"
+        ], 
+        [
+            "fire", 
+            "na"
+        ], 
+        [
+            "jump", 
+            "na"
+        ], 
+        [
+            "movement", 
+            "mouse"
+        ]
+    ], 
+    "created": "2008-07-23T11:11:20-08:00", 
+    "description": "earn as many points as you can by finding as many words as possible. But if you think that is to easy why not try and curve your words.", 
+    "developer": "alex_pof", 
+    "developer_url": "https://www.mochimedia.com/community/profile/alex_pof", 
+    "feed_approval_created": "2008-07-23T20:50:04-08:00", 
+    "game_tag": "1d404929ce12c732", 
+    "game_url": "http://www.mochimedia.com/games/extreme-crossword", 
+    "height": 400, 
+    "instructions": "", 
+    "key_mappings": "", 
+    "languages": [], 
+    "leaderboard_enabled": true, 
+    "metascore": 47.96, 
+    "name": "eXtreme Crossword", 
+    "rating": "Everyone", 
+    "recommendation": 0, 
+    "recommended": false, 
+    "resolution": "550x400", 
+    "screen1_thumb": null, 
+    "screen1_url": null, 
+    "screen2_thumb": null, 
+    "screen2_url": null, 
+    "screen3_thumb": null, 
+    "screen3_url": null, 
+    "screen4_thumb": null, 
+    "screen4_url": null, 
+    "slug": "extreme-crossword", 
+    "swf_file_size": 0, 
+    "swf_url": "http://games.mochiads.com/c/g/extreme-crossword/extremecrossword.swf", 
+    "tags": [
+        "puzzle", 
+        "word", 
+        "words", 
+        "letters", 
+        "letter", 
+        "marathon", 
+        "crossword", 
+        "crosswords", 
+        "classic", 
+        "game", 
+        "games"
+    ], 
+    "thumbnail_large_url": null, 
+    "thumbnail_url": "http://cdn.mochiads.com/c/g/extreme-crossword/_thumb_100x100.jpg", 
+    "updated": "2011-05-19T11:42:28-08:00", 
+    "uuid": "407e07a5-d8f0-3fa2-8828-dc21427e9bf2", 
+    "video_url": null, 
+    "width": 550, 
+    "zip_url": "http://games.mochiads.com/c/g/extreme-crossword.zip"
+}

@@ -1,0 +1,75 @@
+{
+    "alternate_url": "http://www.jimiahlgren.com", 
+    "author": "jahlgren", 
+    "author_link": "https://www.mochimedia.com/community/profile/jahlgren", 
+    "categories": [
+        "Action", 
+        "Education", 
+        "Other"
+    ], 
+    "category": "Education", 
+    "coins_enabled": null, 
+    "coins_revshare_enabled": null, 
+    "control_scheme": "{\"fire\": \"na\", \"jump\": \"na\", \"movement\": \"na\"}", 
+    "controls": [
+        [
+            "fire", 
+            "na"
+        ], 
+        [
+            "jump", 
+            "na"
+        ], 
+        [
+            "movement", 
+            "na"
+        ]
+    ], 
+    "created": "2010-02-09T10:33:33-08:00", 
+    "description": "This is a fun and addictive typing game. The goal is to type as many characters as you can in 30 seconds!", 
+    "developer": "jahlgren", 
+    "developer_url": "https://www.mochimedia.com/community/profile/jahlgren", 
+    "feed_approval_created": null, 
+    "game_tag": "03d473a2d301cf55", 
+    "game_url": "http://www.mochimedia.com/games/30-sec-alphabet", 
+    "height": 400, 
+    "instructions": "Press the same key as the bubble has. And do it as fast as you can!", 
+    "key_mappings": "", 
+    "leaderboard_enabled": true, 
+    "name": "30 sec Alphabet", 
+    "rating": "Everyone", 
+    "recommendation": 0, 
+    "recommended": false, 
+    "resolution": "550x400", 
+    "screen1_thumb": null, 
+    "screen1_url": null, 
+    "screen2_thumb": null, 
+    "screen2_url": null, 
+    "screen3_thumb": null, 
+    "screen3_url": null, 
+    "screen4_thumb": null, 
+    "screen4_url": null, 
+    "slug": "30-sec-alphabet", 
+    "swf_file_size": 404079, 
+    "swf_url": "http://games.mochiads.com/c/g/30-sec-alphabet/30sec_alphabet.swf", 
+    "tags": [
+        "alphabet", 
+        "characters", 
+        "typing", 
+        "fast", 
+        "speed", 
+        "30", 
+        "seconds", 
+        "sec", 
+        "jimi", 
+        "ahlgren", 
+        "jahlgren"
+    ], 
+    "thumbnail_large_url": null, 
+    "thumbnail_url": "http://thumbs.mochiads.com/c/g/30-sec-alphabet/_thumb_100x100.png", 
+    "updated": "2010-02-10T01:20:06-08:00", 
+    "uuid": "71ce7af8-bca5-38a5-9db9-8d127f1d7101", 
+    "video_url": null, 
+    "width": 550, 
+    "zip_url": "http://cdn.mochiads.com/c/g/30-sec-alphabet.zip"
+}

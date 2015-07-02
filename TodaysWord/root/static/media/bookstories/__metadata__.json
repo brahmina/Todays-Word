@@ -1,0 +1,75 @@
+{
+    "achievements_enabled": false, 
+    "alternate_url": null, 
+    "author": "gambana", 
+    "author_link": "https://www.mochimedia.com/community/profile/gambana", 
+    "categories": [
+        "Board Game", 
+        "Education", 
+        "Puzzles"
+    ], 
+    "category": "Puzzles", 
+    "coins_enabled": null, 
+    "coins_revshare_enabled": null, 
+    "control_scheme": "{\"fire\": \"na\", \"jump\": \"na\", \"movement\": \"mouse\"}", 
+    "controls": [
+        [
+            "fire", 
+            "na"
+        ], 
+        [
+            "jump", 
+            "na"
+        ], 
+        [
+            "movement", 
+            "mouse"
+        ]
+    ], 
+    "created": "2008-09-26T01:44:59-08:00", 
+    "description": "They were supposed to clean up the library, but they cleaned out all the books! Now it's up to you to help the librarian get them back in Book Stories. Build a research library as you make your way through Quest mode. Use your keen word building skills as the levels get increasingly difficult, and maybe you'll even win an award! Or, you can enjoy endless gameplay in Relaxing mode. Either way, start building today!", 
+    "developer": "gambana", 
+    "developer_url": "https://www.mochimedia.com/community/profile/gambana", 
+    "feed_approval_created": "2011-07-07T12:02:22-08:00", 
+    "game_tag": "479edcfe98c107b4", 
+    "game_url": "http://www.mochimedia.com/games/bookstories", 
+    "height": 480, 
+    "instructions": "", 
+    "key_mappings": "", 
+    "languages": [
+        "en"
+    ], 
+    "leaderboard_enabled": false, 
+    "metascore": 27.63, 
+    "name": "BookStories", 
+    "rating": "Everyone", 
+    "recommendation": 1, 
+    "recommended": false, 
+    "resolution": "640x480", 
+    "screen1_thumb": "http://games.mochiads.com/c/g/bookstories/screen1_thumb.jpg", 
+    "screen1_url": "http://games.mochiads.com/c/g/bookstories/screen1.jpg", 
+    "screen2_thumb": "http://games.mochiads.com/c/g/bookstories/screen2_thumb.jpg", 
+    "screen2_url": "http://games.mochiads.com/c/g/bookstories/screen2.jpg", 
+    "screen3_thumb": "http://games.mochiads.com/c/g/bookstories/screen3_thumb.jpg", 
+    "screen3_url": "http://games.mochiads.com/c/g/bookstories/screen3.jpg", 
+    "screen4_thumb": null, 
+    "screen4_url": null, 
+    "slug": "bookstories", 
+    "swf_file_size": 2458066, 
+    "swf_url": "http://games.mochiads.com/c/g/bookstories/BookStoriesOnLine-eng.swf", 
+    "tags": [
+        "bookstories", 
+        "word", 
+        "puzzle", 
+        "board", 
+        "crossword", 
+        "en"
+    ], 
+    "thumbnail_large_url": "http://games.mochiads.com/c/g/bookstories/_thumb_200x200.jpg", 
+    "thumbnail_url": "http://games.mochiads.com/c/g/bookstories/_thumb_100x100.jpg", 
+    "updated": "2011-10-24T20:40:52-08:00", 
+    "uuid": "bdef6a8f-5282-3c1b-987d-da938b1da5ca", 
+    "video_url": "http://www.gambana.com/images/bookstories/swf_anim/bookstories_1_175x150.swf", 
+    "width": 640, 
+    "zip_url": "http://games.mochiads.com/c/g/bookstories.zip"
+}

@@ -1,0 +1,286 @@
+<style>
+    .section{
+        background: #fafafa;
+        border: 1px solid #323232;
+        margin-bottom: 20px;
+        padding: 0 20px;
+    }
+    .image{
+        width: 200px;
+        height: 200px;
+        margin: 10px;
+        padding: 10px;
+        float: left;
+        background: #ffffff;
+    }
+    .image img{
+        max-width: 180px;
+        max-height: 180px;
+    }
+
+    .clear{
+        clear: both;
+        width: 0px;
+        height: 0px;
+        margin: 0px;
+        padding: 0px;
+    }
+</style>
+
+<div class="section">
+    <h1>Free Images</h1>
+
+    <div class="image"><center>
+        <img src="http://farm4.static.flickr.com/3276/2451043950_22dbeb9523.jpg" /><br />
+        <span><a href="http://www.flickr.com/photos/qwrrty/2451043950/">
+        Watch by qwerty</a></span>
+    </center></div>
+
+
+    <div class="image"><center>
+        <img src="http://farm4.static.flickr.com/3344/3482262404_08a49e1cc9.jpg" /><br />
+        <span><a href="http://www.flickr.com/photos/linecon0/3482262404/">
+        Typewriter by St0rmz</a></span>
+    </center></div>
+
+    <div class="image"><center>
+        <img src="http://www.sxc.hu/pic/m/j/ja/jaylopez/914288_sundays_crossword.jpg" /><br />
+        <span><a href="http://www.sxc.hu/photo/914288">
+        Sunday's Crssword</a></span>
+    </center></div>
+
+    <div class="image"><center>
+        <img src="http://www.sxc.hu/pic/m/s/su/surely/446956_crossword.jpg" /><br />
+        <span><a href="http://www.sxc.hu/photo/446956">
+        Crossword</a></span>
+    </center></div>
+
+    <div class="image"><center>
+        <img src="http://www.sxc.hu/pic/m/h/hv/hvaldez1/1126729_home_work_close-up_4.jpg" /><br />
+        <span><a href="http://www.sxc.hu/photo/1126729">
+        Home work</a></span>
+    </center></div>
+
+    <div class="image"><center>
+        <img src="http://www.sxc.hu/pic/m/h/ho/hortongrou/899943_girls_read_book.jpg" /><br />
+        <span><a href="http://www.sxc.hu/photo/899943">
+        Girls read book</a></span>
+    </center></div>
+
+    <div class="image"><center>
+        <img src="http://www.sxc.hu/pic/m/g/ge/geri-jean/848152_scrabble.jpg" /><br />
+        <span><a href="http://www.sxc.hu/photo/848152">
+        Scrabble</a></span>
+    </center></div>
+
+    <div class="image"><center>
+        <img src="http://www.sxc.hu/pic/m/v/vi/vierdrie/634336_book.jpg" /><br />
+        <span><a href="http://www.sxc.hu/photo/634336">
+        Book</a></span>
+    </center></div>
+
+    <div class="image"><center>
+        <img src="http://www.sxc.hu/pic/m/p/pu/pulpdtp/748277_newspaper_with_cuppacino_1.jpg" /><br />
+        <span><a href="http://www.sxc.hu/photo/748277">
+        Newspaper & Cappacino</a></span>
+    </center></div>
+
+    <div class="image"><center>
+        <img src="http://www.sxc.hu/pic/m/m/me/mexikids/63488_class_full_o_bored_students.jpg" /><br />
+        <span><a href="http://www.sxc.hu/photo/63488">
+        Board students in class</a></span>
+    </center></div>
+
+    <div class="image"><center>
+        <img src="http://mrg.bz/YgL19Z" /><br />
+        <span><a href="http://www.morguefile.com/archive/display/138251">
+        Crossword</a></span>
+    </center></div>
+
+    <div class="image"><center>
+        <img src="http://mrg.bz/csSNG0" /><br />
+        <span><a href="http://www.morguefile.com/archive/display/56070">
+        Crossed words</a></span>
+    </center></div>
+
+    <div class="image"><center>
+        <img src="http://s3.amazonaws.com/estock/fspid9/11/07/91/2/srilanka-colombo-isabella-1107912-l.jpg" /><br />
+        <span><a href="http://www.everystockphoto.com/photo.php?imageId=3017751">
+        Isabelle</a></span>
+    </center></div>
+
+    <div class="image"><center>
+        <img src="http://mrg.bz/MrQZ9n" /><br />
+        <span><a href="http://morguefile.com/archive/display/45421">
+        Crosswords from paper</a></span>
+    </center></div>
+
+    <div class="image"><center>
+        <img src="http://upload.wikimedia.org/wikipedia/commons/thumb/8/80/Maggie_Allen%2C_teacher_%28135767789%29.jpg/800px-Maggie_Allen%2C_teacher_%28135767789%29.jp$
+        <span><a href="http://commons.wikimedia.org/wiki/File:Maggie_Allen,_teacher_(135767789).jpg">
+        Teacher</a></span>
+    </center></div>
+
+    <div class="clear"></div>
+</div>
+<div class="section">
+    <h1>Pay Images</h1>
+
+    <div class="image"><center>
+        <img src="http://www.istockphoto.com//file_thumbview_approve/10676885/2/istockphoto_10676885-pile-of-words.jpg" /><br />
+        <span><a href="http://www.istockphoto.com/stock-photo-10676885-pile-of-words.php">
+        Pile of words (1 credit)</a></span>
+    </center></div>
+
+    <div class="image"><center>
+        <img src="http://www.istockphoto.com//file_thumbview_approve/8122267/2/istockphoto_8122267-word-block.jpg" /><br />
+        <span><a href="http://www.istockphoto.com/stock-photo-8122267-word-block.php">
+        Word block (1 credit)</a></span>
+    </center></div>
+
+    <div class="image"><center>
+        <img src="http://www.istockphoto.com//file_thumbview_approve/7491884/2/istockphoto_7491884-study-and-learn.jpg" /><br />
+        <span><a href="http://www.istockphoto.com/stock-photo-7491884-study-and-learn.php">
+        Study & Learn (1 credit)</a></span>
+    </center></div>
+
+    <div class="image"><center>
+        <img src="http://www.istockphoto.com/file_thumbview_approve/6386889/2/istockphoto_6386889-pencil-in-child-hand.jpg" /><br />
+        <span><a href="http://www.istockphoto.com/stock-photo-6386889-pencil-in-child-hand.php">
+        Pencil in child hand (1 credit)</a></span>
+    </center></div>
+
+    <div class="image"><center>
+        <img src="http://www.istockphoto.com//file_thumbview_approve/206013/2/istockphoto_206013-jill-doing-a-crossword.jpg" /><br />
+        <span><a href="http://www.istockphoto.com/stock-photo-206013-jill-doing-a-crossword.php">
+        Girl doing crossword (1 credit)</a></span>
+    </center></div>
+
+    <div class="image"><center>
+        <img src="http://www.istockphoto.com/file_thumbview_approve/11537996/2/istockphoto_11537996-child-is-learning-letters.jpg" /><br />
+        <span><a href="http://www.istockphoto.com/stock-photo-11537996-child-is-learning-letters.php">
+        Child is learning letters (1 credit)</a></span>
+    </center></div>
+
+    <div class="image"><center>
+        <img src="http://www.istockphoto.com//file_thumbview_approve/6459434/2/istockphoto_6459434-boy-showing-word-learn.jpg" /><br />
+        <span><a href="http://www.istockphoto.com/stock-photo-6459434-boy-showing-word-learn.php">
+        Learn (2 credits)</a></span>
+    </center></div>
+
+    <div class="image"><center>
+        <img src="http://www.istockphoto.com//file_thumbview_approve/11299294/2/istockphoto_11299294-key-words.jpg" /><br />
+        <span><a href="http://www.istockphoto.com/stock-photo-11299294-key-words.php">
+        Key words (2 credits)</a></span>
+    </center></div>
+
+    <div class="image"><center>
+        <img src="http://www.istockphoto.com//file_thumbview_approve/13003988/2/istockphoto_13003988-learning-concept.jpg" /><br />
+        <span><a href="http://www.istockphoto.com/stock-photo-13003988-learning-concept.php">
+        Learn (2 credits)</a></span>
+    </center></div>
+
+    <div class="image"><center>
+        <img src="http://www.istockphoto.com//file_thumbview_approve/8388285/2/istockphoto_8388285-crossword.jpg" /><br />
+        <span><a href="http://www.istockphoto.com/stock-photo-8388285-crossword.php">
+        Lounging with crossword (2 credits)</a></span>
+    </center></div>
+
+    <div class="image"><center>
+        <img src="http://www.istockphoto.com//file_thumbview_approve/4206322/2/istockphoto_4206322-woman-relaxes-at-beach-doing-puzzle.jpg" /><br />
+        <span><a href="http://www.istockphoto.com/stock-photo-4206322-woman-relaxes-at-beach-doing-puzzle.php">
+        Crossword on the beach (2 credits)</a></span>
+    </center></div>
+
+    <div class="image"><center>
+        <img src="http://www.istockphoto.com//file_thumbview_approve/12165898/2/istockphoto_12165898-mature-couple-reading-in-bed.jpg" /><br />
+        <span><a href="http://www.istockphoto.com/stock-photo-12165898-mature-couple-reading-in-bed.php">
+        Crossword in bed (2 credits)</a></span>
+    </center></div>
+
+    <div class="image"><center>
+        <img src="http://www.istockphoto.com//file_thumbview_approve/5383933/2/istockphoto_5383933-morning-crossword.jpg" /><br />
+        <span><a href="http://www.istockphoto.com/stock-photo-5383933-morning-crossword.php">
+        Morning crossword (2 credits)</a></span>
+    </center></div>
+
+    <div class="image"><center>
+        <img src="http://www.istockphoto.com/file_thumbview_approve/3203444/2/istockphoto_3203444-morning-coffee.jpg" /><br />
+        <span><a href="http://www.istockphoto.com/stock-photo-3203444-morning-coffee.php">
+        Morning coffee (2 credits)</a></span>
+    </center></div>
+
+    <div class="image"><center>
+        <img src="http://www.istockphoto.com/file_thumbview_approve/7276486/2/istockphoto_7276486-crossword-puzzle.jpg" /><br />
+        <span><a href="http://www.istockphoto.com/stock-photo-7276486-crossword-puzzle.php">
+        Crossword Puzzle (2 credits)</a></span>
+    </center></div>
+
+    <div class="image"><center>
+        <img src="http://www.istockphoto.com//file_thumbview_approve/7597548/2/istockphoto_7597548-diverse-children-from-around-the-world-spell-happy-holidays.jpg" /><$
+        <span><a href="http://www.istockphoto.com/stock-photo-7597548-diverse-children-from-around-the-world-spell-happy-holidays.php">
+        Kids Happy Holidays (5 credits)</a></span>
+    </center></div>
+
+    <div class="image"><center>
+        <img src="http://www.istockphoto.com//file_thumbview_approve/11912400/2/istockphoto_11912400-education-is-freedom.jpg" /><br />
+        <span><a href="http://www.istockphoto.com/stock-photo-11912400-education-is-freedom.php">
+        Learn blocks (20 credits)</a></span>
+    </center></div>
+
+    <div class="image"><center>
+        <img src="http://www.istockphoto.com//file_thumbview_approve/13313849/2/istockphoto_13313849-boy-10-11-sitting-at-table-over-open-book.jpg" /><br />
+        <span><a href="http://www.istockphoto.com/stock-photo-13313849-boy-10-11-sitting-at-table-over-open-book.php">
+        Boy at school (20 credits)</a></span>
+    </center></div>
+
+    <div class="clear"></div>
+</div>
+<div class="section">
+    <h1>Unknown Images</h1>
+    <div class="image"><center>
+        <img src="http://www.reconnections.net/words-1.jpg" /><br />
+        <span><a href="http://www.reconnections.net/communication.htm">
+        Communication article</a></span>
+    </center></div>
+
+    <div class="image"><center>
+        <img src="http://farm3.static.flickr.com/2688/4510867687_530af0c120.jpg" /><br />
+        <span><a href="http://www.flickr.com/photos/janetgalore/4510867687/">
+        Tiles by janetgalore</a></span>
+    </center></div>
+
+    <div class="image"><center>
+        <img src="http://bloomingtonsouth.org/theoptimist/wp-content/uploads/2010/01/teacher.jpg" /><br />
+        <span><a href="http://bloomingtonsouth.org/theoptimist/wp-content/uploads/2010/01/teacher.jpg">
+        Teacher</a></span>
+    </center></div>
+
+    <div class="image"><center>
+        <img src="http://pre.cloudfront.goodinc.com/posts/post_full_1272634932teacher.jpg" /><br />
+        <span><a href="http://www.good.is/post/education-morning-roundup-teacher-tenure-debate">
+        Old school teaching</a></span>
+    </center></div>
+
+    <div class="image"><center>
+        <img src="http://education-portal.com/cimages/multimages/16/teacher.jpg" /><br />
+        <span><a href="http://education-portal.com/articles/10_Websites_Offering_Free_Online_Teacher_Education.html">
+        Book apple & glasses</a></span>
+    </center></div>
+
+    <div class="image"><center>
+        <img src="http://newscenter.sdsu.edu/sdsu_newscenter/images/stories/res300xy-str-081610-teacher.jpg" /><br />
+        <span><a href="http://newscenter.sdsu.edu/sdsu_newscenter/news.aspx?s=72311">
+        Teacher writer on chalkboard</a></span>
+    </center></div>
+
+    <div class="image"><center>
+        <img src="http://mediamacaroni.com/wp-content/uploads/2009/04/crosswordolive.jpg" /><br />
+        <span><a href="http://mediamacaroni.com/?p=929">
+        Olive (ask for permission)</a></span>
+    </center></div>
+
+    <div class="clear"></div>
+</div>
+
+

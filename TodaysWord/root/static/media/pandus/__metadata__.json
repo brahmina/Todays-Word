@@ -1,0 +1,90 @@
+{
+    "alternate_url": "", 
+    "author": "thorir", 
+    "author_link": "https://www.mochimedia.com/community/profile/thorir", 
+    "categories": [
+        "Education", 
+        "Other", 
+        "Puzzles"
+    ], 
+    "category": "Puzzles", 
+    "coins_enabled": null, 
+    "coins_revshare_enabled": null, 
+    "control_scheme": {
+        "fire": "na", 
+        "jump": "na", 
+        "movement": "na"
+    }, 
+    "controls": [
+        [
+            "fire", 
+            "na"
+        ], 
+        [
+            "jump", 
+            "na"
+        ], 
+        [
+            "movement", 
+            "na"
+        ]
+    ], 
+    "created": "2010-07-07T19:55:31-08:00", 
+    "description": "Figure out the puzzle without using all of the platform and letting Pandus fall to his doom! Fill in blanks hangman-style in this puzzle game to advance to the next levels and accumulate points on your way to the top of the leaderboards.", 
+    "developer": "thorir", 
+    "developer_url": "https://www.mochimedia.com/community/profile/thorir", 
+    "feed_approval_created": "2010-07-12T21:46:16-08:00", 
+    "game_tag": "49c453c294d67f66", 
+    "game_url": "http://www.mochimedia.com/games/pandus", 
+    "height": "400", 
+    "instructions": "Pandus functions like a game of hangman. You have few tries to guess the letters and find the right word before the plank disappears and Pandus falls. When you guess the right word you advance to the next level and collect points which you need in your journey to the top of the leaderboard.", 
+    "key_mappings": "", 
+    "leaderboard_enabled": true, 
+    "metascore": 51.57, 
+    "name": "Save Pandus", 
+    "rating": "Everyone", 
+    "recommendation": 1, 
+    "recommended": false, 
+    "resolution": "550x400", 
+    "screen1_thumb": null, 
+    "screen1_url": null, 
+    "screen2_thumb": null, 
+    "screen2_url": null, 
+    "screen3_thumb": null, 
+    "screen3_url": null, 
+    "screen4_thumb": null, 
+    "screen4_url": null, 
+    "slug": "pandus", 
+    "swf_file_size": 749916, 
+    "swf_url": "http://games.mochiads.com/c/g/pandus/Save_Pandus.swf", 
+    "tags": [
+        "hangman", 
+        "wordplay", 
+        "puzzle", 
+        "fun", 
+        "word", 
+        "highscore", 
+        "leaderboard", 
+        "music", 
+        "sound", 
+        "art", 
+        "panda", 
+        "game", 
+        "online", 
+        "free", 
+        "quality", 
+        "letter", 
+        "animal", 
+        "save", 
+        "flash", 
+        "minigame", 
+        "mini"
+    ], 
+    "thumbnail_large_url": null, 
+    "thumbnail_url": "http://thumbs.mochiads.com/c/g/pandus/_thumb_100x100.jpg", 
+    "updated": "2010-10-03T18:47:37-08:00", 
+    "uuid": "7d66eaea-664b-3c6d-9618-6be3cf3dea8e", 
+    "video_url": null, 
+    "width": "550", 
+    "zip_url": "http://games.mochiads.com/c/g/pandus.zip"
+}

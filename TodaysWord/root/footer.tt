@@ -1,0 +1,17 @@
+            </center>
+            <div class="push"></div>
+         </div>
+         <div class="footer">
+            <center>
+                <div id="footer_wrapper">
+                    <a class="small_logo" href="/">Today's Word</a>
+                    [% INCLUDE site_links.tt %]
+                </div>
+            </center>
+        </div>
+    </div>
+    [% INCLUDE analytics.tt %]
+    </body>
+</html>
+
+

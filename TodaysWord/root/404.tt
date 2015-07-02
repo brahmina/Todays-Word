@@ -1,0 +1,11 @@
+[% INCLUDE playnow/header.tt
+   title = '404 - Not found' %]
+
+<h1>404.tt</h1>
+
+<center>
+    <img src="/static/images/page_not_found_owl.png" alt="Not found" id="page_not_found_owl" />
+</center>
+
+[% INCLUDE playnow/footer.tt %]
+

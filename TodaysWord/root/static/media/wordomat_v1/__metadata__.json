@@ -1,0 +1,20 @@
+{
+    "control_scheme": {
+        "fire": "left_mouse", 
+        "jump": "na", 
+        "movement": "na"
+    }, 
+    "description": "Guess the hidden phrases!", 
+    "developer": "orneka", 
+    "developer_url": "https://www.mochiads.com/community/profile/orneka", 
+    "height": 600, 
+    "instructions": "Click on letters.", 
+    "key_mappings": "", 
+    "name": "Wordomat", 
+    "rating": "Everyone", 
+    "resolution": "700x600", 
+    "slug": "wordomat_v1", 
+    "swf_url": "http://games.mochiads.com/c/g/wordomat_v1/wordomat.swf", 
+    "thumbnail_url": "http://cdn.mochiads.com/c/g/wordomat_v1/_thumb_100x100.jpg", 
+    "width": 700
+}

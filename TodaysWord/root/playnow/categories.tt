@@ -1,0 +1,22 @@
+[% INCLUDE playnow/header.tt
+   title = 'Categories of Word Games to Play Online at Today\'s Word' %]
+
+<h1>Find Word Games to Play Online</h1>
+<p>Today's Word has many word games to play online right now! All of the games are sorted by category, which you can find here. 
+Or, check out complete list of all the <a href="/playnow">word games online</a> at Today's Word.</p>
+
+<div id="playnow_categories_listing_top_ad">
+    <script type="text/javascript"><!--
+        google_ad_client = "ca-pub-9025319549732824";
+        /* TW Playnow Categories */
+        google_ad_slot = "6007778929";
+        google_ad_width = 728;
+        google_ad_height = 90;
+        //-->
+    </script>
+    <script type="text/javascript" src="http://pagead2.googlesyndication.com/pagead/show_ads.js"></script>
+</div>
+
+[% INCLUDE playnow/category_listing.tt div_id='category_listing_playnow_categories' %]
+
+[% INCLUDE playnow/footer.tt %]

@@ -1,0 +1,115 @@
+[% INCLUDE header.tt
+   title = 'Today\'s Word To Do' %]
+<h1>To Do</h1>
+<ul>
+    <li>Landing page plan & implementation</li>
+    <li>Marketing stategy</li>
+        <ul>
+            <li>Including crossword & word game sitesell</li>
+        </ul>
+    <li>Budget</li>
+    <li>Business plan</li>
+    <li>Find a puzzle master (If Liz Milne doesn't work, check out the Quora page for crossword</li>
+    <li>Email system, to users, competitors, past competitors</li>
+    <li>Clearly define user roles (guest/user/competitor/admin), spcially user versus competitor</li>
+    <li>Privacy Policy</li>
+    <li>Terms & Conditions</li>
+    <li>Caching <a href="http://www.catalystframework.org/calendar/2010/3">Memcached</a></li>
+    <li>Find lawyer -> Lawyer Referral Service  (http://www.cba.org/bc/Public_Media/main/lawyer_referral.aspx)</li>
+    <li>Implementation</li>
+        <ul>
+            <li>Adserver with rotation via fading ajax</li>
+            <li>Subscription payments</li>
+            <li>Competitor sign up with pay</li>
+            <li>Admin track/manage/report users & transactions</li>
+            <li>Crosswords
+                <ul>
+                    <li>Admin add</li>
+                    <li>Admin show</li>
+                    <li>Admin edit</li>
+                    <li>Admin schedule</li>
+                    <li>Competitor play</li>
+                    <li>Competitor score</li>
+                    <li>Competitor compete</li>
+                    <li>User play, with ads</li>
+                </ul>
+                </li>
+            <li>Sudoku
+                <ul>
+                    <li>Admin add</li>
+                    <li>Admin show</li>
+                    <li>Admin edit</li>
+                    <li>Admin schedule</li>
+                    <li>Competitor play</li>
+                    <li>Competitor score</li>
+                    <li>Competitor compete</li>
+                    <li>User play, with ads</li>
+                </ul>
+                </li>
+            <li>Captions
+                <ul>
+                    <li>Admin add</li>
+                    <li>Admin show</li>
+                    <li>Admin edit</li>
+                    <li>Admin schedule</li>
+                    <li>Competitor play</li>
+                    <li>Competitor score</li>
+                    <li>Competitor compete</li>
+                    <li>User play, with ads</li>
+                </ul>
+                </li>
+            <li>Acro
+                <ul>
+                    <li>Admin add</li>
+                    <li>Admin show</li>
+                    <li>Admin edit</li>
+                    <li>Admin schedule</li>
+                    <li>Competitor play</li>
+                    <li>Competitor score</li>
+                    <li>Competitor compete</li>
+                    <li>User play, with ads</li>
+                </ul>
+                </li>
+            <li>Today's Word
+                <ul>
+                    <li>Admin add</li>
+                    <li>Admin show</li>
+                    <li>Admin edit</li>
+                    <li>Admin schedule</li>
+                    <li>Competitor play</li>
+                    <li>Competitor score</li>
+                    <li>Competitor compete</li>
+                    <li>User play, with ads</li>
+                </ul>
+                </li>
+        </ul>
+</ul>
+<b>Fix:</b>
+<ul>
+    <li>Tabbing in sudoku and crossword play, to enable tab to the next line</li>
+    <li>Crossword play right panel, needs cleaning and thought</li>
+    <li>Sudoku play left panel, needs cleaning and thought</li>
+    <li>Sudoku play right panel, needs cleaning and thought</li>
+</ul>
+
+<h1>Calls to action</h1>
+<ul>
+    <li>Play for free</li>
+    <li>Pay to compete</li>
+</ul>
+<br />
+<b>Landing page tips</b>
+<p>Do an Ask HN: What are some examples of successful home and landing pages for subscription consumer internet applications?</p>
+<ul>
+    <li>Be clear on the call to action, de-emphacize everthing else</li>
+    <li>Align content of landing page with expectations and intent of the user based on the campaign they come in on </li>
+    <li>Avoid loud and distracting designs that may lead the user away from your call to action</li>
+    <li>Reduce anxiety, increase trust</li>
+    <li>Utilize testimonials and press mentions</li>
+    <li>The less text the better. People don't read.</li>
+    <li>http://www.seomoz.org/blog/announcing-the-seomoz-landing-page-competition-winner</li>
+    <li>https://www.openforum.com/idea-hub/topics/the-world/article/the-art-of-the-landing-page-seven-tips-for-increasing-conversions-tim-ash</li>
+</ul>
+[% INCLUDE footer.tt %]
+
+

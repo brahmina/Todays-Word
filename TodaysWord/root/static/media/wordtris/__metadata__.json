@@ -1,0 +1,77 @@
+{
+    "alternate_url": "", 
+    "author": "Aqeel", 
+    "author_link": "https://www.mochimedia.com/community/profile/Aqeel", 
+    "categories": [
+        "Puzzles"
+    ], 
+    "category": "Puzzles", 
+    "coins_enabled": null, 
+    "coins_revshare_enabled": null, 
+    "control_scheme": {
+        "fire": "na", 
+        "jump": "na", 
+        "movement": "arrow"
+    }, 
+    "controls": [
+        [
+            "fire", 
+            "na"
+        ], 
+        [
+            "jump", 
+            "na"
+        ], 
+        [
+            "movement", 
+            "arrow"
+        ]
+    ], 
+    "created": "2009-08-18T06:15:25-08:00", 
+    "description": "Get into the action of creating words with falling letters in WORDTRIS. Letters drop from the top of the screen, and you must form words horizontally and vertically. When the words form, the letters disappear, and the pace begins to quicken as you complete levels. As the letters continue to descend, look out for the letter to create the magic word that will clear all of the letters from the screen. Test your reflexes and your vocabulary with WORDTRIS", 
+    "developer": "Aqeel", 
+    "developer_url": "https://www.mochimedia.com/community/profile/Aqeel", 
+    "feed_approval_created": "2009-08-18T16:30:52-08:00", 
+    "game_tag": "b540219ce87b743e", 
+    "game_url": "http://www.mochimedia.com/games/wordtris", 
+    "height": "400", 
+    "instructions": "There are 10 levels in WORDTRIS game, 1 through 10, with each level becoming harder. The higher the level the faster the blocks fall.  The scene on the right shows you the minimum number of letters required to create a word on that level and the last six words you have created in that game. The lower portion of the well is filled with water.  Letter blocks fall randomly from the top of the well and float on the water.  If a block lands on top of a floating block, the lower blocks is pushed beneath the water.  When the blocks reach the bottom of the well, they begin stacking above the water line unless you manage to form words, at which time blocks forming the word(s) disappear from the well and youe earn a score.", 
+    "key_mappings": "", 
+    "leaderboard_enabled": true, 
+    "name": "WordTris", 
+    "rating": "Everyone", 
+    "recommendation": 3, 
+    "recommended": false, 
+    "resolution": "550x400", 
+    "screen1_thumb": "http://thumbs.mochiads.com/c/g/wordtris/screen1_thumb.jpg", 
+    "screen1_url": "http://thumbs.mochiads.com/c/g/wordtris/screen1.jpg", 
+    "screen2_thumb": null, 
+    "screen2_url": null, 
+    "screen3_thumb": null, 
+    "screen3_url": null, 
+    "screen4_thumb": null, 
+    "screen4_url": null, 
+    "slug": "wordtris", 
+    "swf_file_size": 268525, 
+    "swf_url": "http://games.mochiads.com/c/g/wordtris/wordtris.swf", 
+    "tags": [
+        "words", 
+        "tetris", 
+        "words game", 
+        "shuffle", 
+        "blocks", 
+        "letters", 
+        "guess", 
+        "brain", 
+        "puzzle", 
+        "wordtris", 
+        "dictionary.com"
+    ], 
+    "thumbnail_large_url": "http://thumbs.mochiads.com/c/g/wordtris/_thumb_200x200.jpg", 
+    "thumbnail_url": "http://thumbs.mochiads.com/c/g/wordtris/_thumb_100x100.jpg", 
+    "updated": "2009-08-26T12:12:34-08:00", 
+    "uuid": "e50cfecd-0d44-3032-abfd-ad3971cdbbfa", 
+    "video_url": null, 
+    "width": "550", 
+    "zip_url": "http://cdn.mochiads.com/c/g/wordtris.zip"
+}

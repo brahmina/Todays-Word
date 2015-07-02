@@ -1,0 +1,41 @@
+<center>
+<div id="LoginForm" class="FormContainer">
+[% IF c.user_exists %]
+    <h1>Hello [% c.user.username %]!</h1>
+
+    <p><b>You are already logged in!</b></p>
+
+    <ul>
+    <li><a href="/account">My Account</a></li>
+    <li><a href="/games">Games</a></li>
+    <li><a href="/auth/logout">Logout</a></li>
+    </ul>
+[% ELSE %]
+    <h1>Login to Today's Word</h1>
+    <div id="login_div">
+        [% IF error_message %]<p class="error">[% error_message %]</p>[% END %]
+        <form method="get" action="/auth/login" name="login" id="login">
+            <fieldset class="main_fieldset">
+                <div><label class="label" for="username">Username: </label><input type="text" name="username" id="username" maxlength="20" value="" /></div>
+                <div><label class="label" for="password">Password: </label><input type="password" name="password" id="password" maxlength="20" value="" /></div>
+                <div><input type="checkbox" name="remember" id="remember" /><label class="remember" for="remember">Remember me </label></div>
+
+                <script type="text/javascript">
+                var button = '<div class="button" id="submit_login">'+
+                             '<a onclick="submitForm(document.login)" id="submit_login_a">'+
+                             '<img src="/static/images/icons/agent.png" alt="Login" />'+
+                             '<span>Login</span> </a> </div>'+
+                             '<input type="submit" name="hsubmit" class="hidden_submit" /><br />';
+                document.write(button);
+                </script>                
+                <noscript><input type="submit" name="hsubmit" class="submit" value="Submit" /><br /></noscript>
+                <a href="forgot_password" id="forgot_link">Help! I forgot my password!</a><br /><br />
+            </fieldset>
+        </form>
+    </div>
+[% END %]
+</div>
+</center>
+
+
+

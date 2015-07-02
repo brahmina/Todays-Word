@@ -1,0 +1,49 @@
+[% INCLUDE admin/header.tt
+   title = 'Today\'s Word Admin' %]
+
+<h1>Today's Word Administration</h1>
+
+<p>Hiya [% c.user.full_name %]!</p>
+
+<div id="admin_todo">
+    <h3>Admin ToDo</h3>
+    <ul>
+        <li>Quick stats</li>
+        <li>Links to each game</li>
+        <li>Links to users and such</li>
+        <li>Money and transaction stats</li>
+    </ul>
+</div>
+
+<h2>Tools & Links</h2>
+<ul class="pointy_list">
+    <li><a href="/admin/dictionary">Dictionary management</a></li>
+    <li><a href="/admin/scripts">Scripts on demand</a></li>
+    <li><a href="/admin/playnow">Playnow</a></li>
+    <li><a href="/admin/playnow/prep">Playnow prep</a></li>
+    <li><a href="/admin/todo">To Do</a></li>
+    <li><a href="/admin/images">Word game images</a></li>
+    <li><a href="/admin/testing">Testing</a></li>
+    <li><a href="/admin/keywords">Keywords</a></li>
+    <li><a href="/admin/categories">Categories</a></li>
+    <li><a href="/admin/articles">Articles</a></li>
+    <li><a href="/admin/adverts">Adverts</a></li>
+</ul>
+<br /><br />
+<h2>Future Tools & Links</h2>
+<ul class="pointy_list">
+    <li><a href="/admin/games/all">Games</a></li>
+    <li><a href="/admin/games/crossword/all">Crosswords</a></li>
+    <li><a href="/admin/games/sudoku/all">Sudoku</a></li>
+    <li><a href="/admin/games/caption/all">Captions</a></li>
+    <li><a href="/admin/games/acro/all">Acros</a></li>
+    <li><a href="/admin/games/todaysword/all">Today's Words</a></li>
+</ul>
+
+
+
+[% INCLUDE admin/footer.tt %]
+
+
+
+

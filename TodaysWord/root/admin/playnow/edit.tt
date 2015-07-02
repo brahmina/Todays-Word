@@ -1,0 +1,64 @@
+[% INCLUDE admin/header.tt
+   title = 'Today\'s Word Admin - Play Now Game' %]
+
+   <script type="text/javascript" language="JavaScript">
+    window.addEvent('domready', function() {
+        $('toggle_releasable_button').addEvent('click', function(event){
+            event.stop();
+            toggleReleasable('playnow', [% game.id %]);
+        });
+    });
+    </script>
+
+   <h1>[% game.name %] details</h1>
+
+      <div id="playnow_admin_edit_left">
+        <div class="playnow_game_faux_button" id="[% game.game %]_medium">
+            <div class="playnow_[% IF NOT game.releasable %]not_[% END %]releasable" id="toggle_releasable_button"></div>
+        </div>
+
+        <div class="button small_button" id="admin_playnow_edit_play">
+            <a href="/playnow/play/[% game.seo_name %]/[% game.id %]" target="_new">
+            <img src="/static/images/icons/play.png" alt="Play" />
+            <span>Play</span>
+            </a>
+        </div>
+        <div class="button small_button" id="admin_playnow_edit_source">
+            <a href="[% game.source %]">
+            <img src="/static/images/icons/see.png" alt="Source" />
+            <span>Source</span>
+            </a>
+        </div>
+        <div class="button small_button" id="admin_playnow_edit_delete">
+            <a href="/admin/playnow/delete/[% game.id %]">
+            <img src="/static/images/icons/delete.png" alt="Delete" />
+            <span>Delete</span>
+            </a>            
+        </div>
+        <div class="clear"></div>
+        
+        [% INCLUDE admin/keywords/associate.tt table='playnow' %]
+        
+        <div id="admin_associate_categories_container">
+            [% INCLUDE admin/categories/associate.tt table='playnow' %]  
+        </div>
+   </div>
+   
+   <!--[% game.code %]-->
+
+   <div id="playnow_admin_edit_right">
+       <div id="EditPlayNow" class="FormContainer">
+           <center>
+            <h1>Edit [% game.name %]</h1>
+            <div id="playnow_div">
+                <p class="error">[% error_msg %]</p>
+                [% form.render %]
+            </div>
+            </center>
+        </div>
+   </div>
+<div class="clear"></div>
+<br />
+<br />
+[% INCLUDE tabs/cross_multiply_divide.tt %]
+[% INCLUDE admin/footer.tt %]

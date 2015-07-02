@@ -1,0 +1,11 @@
+[% INCLUDE header.tt
+   title = 'Today\'s Word - Your account' %]
+
+<h1>Today's Word account details for [% c.user.username %]</h1>
+
+<p>Here will be user stats, and change account details stuff.</p>
+
+[% INCLUDE footer.tt %]
+
+
+

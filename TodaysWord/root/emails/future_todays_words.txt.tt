@@ -1,0 +1,18 @@
+Upcoming Today's Words
+[% FOR todaysword IN future_words %]
+--> [% todaysword.word %]
+[% MACRO floor(n)
+    GET n
+    FILTER format("%d"); %]
+[% IF todaysword.definitions %][% IF todaysword.wiki_definitions %][% FOR definition IN todaysword.wiki_definitions %]        - [% definition %][% END %][% END %][% FOR definition IN todaysword.definitions %]        - [% definition %][% END %][% END %]
+
+[% IF todaysword.synonyms %]Synonyms:
+[% IF todaysword.synonyms.size > 4 %][% FOR synonym IN todaysword.synonyms %]
+    - [% synonym %][% END %][% ELSE %][% FOR synonym IN todaysword.synonyms %]
+    - [% synonym %][% END %][% END %][% END %]
+
+http://dictionary.reference.com/browse/[% todaysword.word %]
+
+http://en.wiktionary.org/wiki/[% todaysword.word %]
+______________________________________________________________________
+[% END %]

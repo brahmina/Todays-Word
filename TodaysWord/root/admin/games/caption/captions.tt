@@ -1,0 +1,27 @@
+[% INCLUDE admin/header.tt
+   title = 'Today\'s Word Admin - Captions' %]
+
+<h2>Captions</h1>
+
+<p class="error">[% error_message %]</p>
+<div class="Calendar">
+    [% calendar %]
+</div>
+
+<div class="button" id="add_caption_button">
+    <a href="/admin/games/caption/add">
+        <img src="/static/images/icons/add.png" alt="Add Caption" />
+        <span>Add Caption</span>
+    </a>
+</div>
+<b>Unscheduled captions:</b><br />
+<ul>
+    [% FOREACH caption IN captions %]
+        <li><a href="/admin/games/caption/show/[% caption.id %]">Caption #[% caption.id %]</a><br />
+            <img src="/[% caption.file_location %]" class="admin_image_thumb" /></li>
+    [% END %]
+</ul>
+
+[% INCLUDE admin/footer.tt %]
+
+

@@ -1,0 +1,77 @@
+{
+    "alternate_url": "http://www.ospreygames.com/saveme/saveme.swf", 
+    "author": "ospreysoft", 
+    "author_link": "https://www.mochimedia.com/community/profile/ospreysoft", 
+    "categories": [
+        "Education", 
+        "Puzzles"
+    ], 
+    "category": "Puzzles", 
+    "coins_enabled": null, 
+    "coins_revshare_enabled": null, 
+    "control_scheme": {
+        "fire": "na", 
+        "jump": "na", 
+        "movement": "mouse"
+    }, 
+    "controls": [
+        [
+            "fire", 
+            "na"
+        ], 
+        [
+            "jump", 
+            "na"
+        ], 
+        [
+            "movement", 
+            "mouse"
+        ]
+    ], 
+    "created": "2010-03-18T00:04:43-08:00", 
+    "description": "Click the correct alphabet for forming the correct word and also save the man from hanging. If forming the word is correct then man will be saved and display you win otherwise man will be hanged(died) for every wrong selection of alphabet and you lose the game will be displayed.", 
+    "developer": "ospreysoft", 
+    "developer_url": "https://www.mochimedia.com/community/profile/ospreysoft", 
+    "feed_approval_created": "2010-03-19T14:20:15-08:00", 
+    "game_tag": "a7a1fcae3af1358f", 
+    "game_url": "http://www.mochimedia.com/games/save-me_v1", 
+    "height": "441", 
+    "instructions": "Mouse left click to select the alphabets.", 
+    "key_mappings": "", 
+    "leaderboard_enabled": false, 
+    "metascore": 31.629999999999999, 
+    "name": "SAVE ME", 
+    "rating": "Everyone", 
+    "recommendation": 2, 
+    "recommended": false, 
+    "resolution": "699x441", 
+    "screen1_thumb": null, 
+    "screen1_url": null, 
+    "screen2_thumb": null, 
+    "screen2_url": null, 
+    "screen3_thumb": null, 
+    "screen3_url": null, 
+    "screen4_thumb": null, 
+    "screen4_url": null, 
+    "slug": "save-me_v1", 
+    "swf_file_size": 876479, 
+    "swf_url": "http://games.mochiads.com/c/g/save-me_v1/saveme.swf", 
+    "tags": [
+        "SAVE ME", 
+        "Puzzle Game", 
+        "education", 
+        "kill", 
+        "word", 
+        "guess", 
+        "category", 
+        "vocabulary", 
+        "shape."
+    ], 
+    "thumbnail_large_url": "http://thumbs.mochiads.com/c/g/save-me_v1/_thumb_200x200.jpg", 
+    "thumbnail_url": "http://thumbs.mochiads.com/c/g/save-me_v1/_thumb_100x100.jpg", 
+    "updated": "2010-03-22T15:26:32-08:00", 
+    "uuid": "7a21fafb-4e51-35c0-8d17-04d031d6d7da", 
+    "video_url": null, 
+    "width": "699", 
+    "zip_url": "http://cdn.mochiads.com/c/g/save-me_v1.zip"
+}

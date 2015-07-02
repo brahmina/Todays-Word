@@ -1,0 +1,61 @@
+[% INCLUDE header.tt
+   title = 'Today\'s Word - Done Crossword' %]
+
+[% IF error_msg %]
+<p class="error">[% error_msg %]</p>
+[% END %]
+
+<script type="text/javascript" language="JavaScript">
+window.addEvent('domready', function() {
+
+});
+</script>
+
+<div id="left">
+    <h2>[% crossword.title %]</h2>
+    <div id="crossword_timer" class="timer">Time: [% time_played %]</div>
+    <div id="CrosswordScore">
+        Score: [% score %]
+    </div>
+    <div id="CrosswordRanking">
+        Rank: [% score %]
+    </div>
+</div>
+<div id="board" class="crossword_board">
+[% FOREACH cell IN cells %]
+    <div class="crossword_cell_[% cell.class %]" id="x[% cell.x %]y[% cell.y %]"><div class="crossword_cell_number">[% cell.number %]</div>[% cell.submission %]</div>
+[% END %]
+</div>
+
+<div id="clues">
+   <div id="down">
+        <h2>Down</h2>
+        <div class="clues">
+            [% FOREACH clue IN down_clues %]
+                [% IF clue.is_bottom_clue %]
+                    <div class="bottomclue" id="clue[% clue.id %]">
+                [% ELSE %]
+                    <div class="clue" id="clue[% clue.id %]">
+                [% END %]
+                        [% clue.number %]) [% clue.clue %]
+                </div>
+            [% END %]
+        </div>
+   </div>
+   <div id="across">
+        <h2>Across</h2>
+        <div class="clues">
+            [% FOREACH clue IN across_clues %]
+                [% IF clue.is_bottom_clue %]
+                    <div class="bottomclue" id="clue[% clue.id %]">
+                [% ELSE %]
+                    <div class="clue" id="clue[% clue.id %]">
+                [% END %]                    
+                    [% clue.number %]) [% clue.clue %]
+                </div>
+            [% END %]
+        </div>
+   </div>
+</div>
+
+[% INCLUDE footer.tt %]

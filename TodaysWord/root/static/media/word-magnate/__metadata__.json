@@ -1,0 +1,75 @@
+{
+    "alternate_url": "", 
+    "author": "matpg", 
+    "author_link": "https://www.mochimedia.com/community/profile/matpg", 
+    "categories": [
+        "Education", 
+        "Other", 
+        "Puzzles"
+    ], 
+    "category": "Education", 
+    "coins_enabled": null, 
+    "coins_revshare_enabled": null, 
+    "control_scheme": "{\"fire\": \"na\", \"jump\": \"na\", \"movement\": \"na\"}", 
+    "controls": [
+        [
+            "fire", 
+            "na"
+        ], 
+        [
+            "jump", 
+            "na"
+        ], 
+        [
+            "movement", 
+            "na"
+        ]
+    ], 
+    "created": "2009-09-17T12:15:50-08:00", 
+    "description": "Be the best word broker on the letter market!", 
+    "developer": "matpg", 
+    "developer_url": "https://www.mochimedia.com/community/profile/matpg", 
+    "feed_approval_created": "2009-09-19T22:28:18-08:00", 
+    "game_tag": "f24566245ee25434", 
+    "game_url": "http://www.mochimedia.com/games/word-magnate", 
+    "height": 500, 
+    "instructions": "Word Magnate is a game where you can show off your vocabulary and your typing skills.\r\n\r\nBuy words cheap and sell them expensive on a letter stock market.\r\nUse the keyboard and your typing skills to get good scores.\r\n\r\nType a word and press enter to buy it.\r\nRetype a already bought word and press enter to sell it.\r\nUse backspace to delete last letter, and escape to delete all letters.\r\nKeys 1-3 are used to sort your word list.\r\n\r\nThe game can also be played with the mouse.\r\nPlease read the \"How To\" for further instructions.\r\n\r\nStrategy tip: start buying short words, buy longer words when you have made enough money.", 
+    "key_mappings": "", 
+    "leaderboard_enabled": true, 
+    "metascore": 59.520000000000003, 
+    "name": "Word Magnate", 
+    "rating": "Everyone", 
+    "recommendation": 4, 
+    "recommended": true, 
+    "resolution": "700x500", 
+    "screen1_thumb": null, 
+    "screen1_url": null, 
+    "screen2_thumb": null, 
+    "screen2_url": null, 
+    "screen3_thumb": null, 
+    "screen3_url": null, 
+    "screen4_thumb": null, 
+    "screen4_url": null, 
+    "slug": "word-magnate", 
+    "swf_file_size": 975524, 
+    "swf_url": "http://games.mochiads.com/c/g/word-magnate/word_magnate.swf", 
+    "tags": [
+        "stock", 
+        "market", 
+        "words", 
+        "dictionary.com", 
+        "reading", 
+        "letters", 
+        "stress", 
+        "hectic", 
+        "bonds", 
+        "vocabulary"
+    ], 
+    "thumbnail_large_url": null, 
+    "thumbnail_url": "http://thumbs.mochiads.com/c/g/word-magnate/_thumb_100x100.jpg", 
+    "updated": "2010-12-08T14:46:08-08:00", 
+    "uuid": "d59bd0f5-ec59-3ce2-8716-b69857a76410", 
+    "video_url": null, 
+    "width": 700, 
+    "zip_url": "http://games.mochiads.com/c/g/word-magnate.zip"
+}

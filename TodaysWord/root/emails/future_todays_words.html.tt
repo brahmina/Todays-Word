@@ -1,0 +1,101 @@
+<h1>Upcoming Today's Words</h1>
+
+<style>
+.todays_word_div{
+        -webkit-border-radius: 10px 10px 10px 10px;
+        -moz-border-radius: 10px 10px 10px 10px;
+        background: none repeat scroll 0 0 #e2e2e2;
+        height: auto;
+        margin-right: 90px;
+        margin-right: 30px;
+        padding: 5px 15px 15px;
+        position: relative;
+        top: 40px;
+        width: 650px;
+}
+.todaysword_definitions{
+        margin-left: 25px;
+}
+.todaysword_definitions li{
+        margin: 0 0 10px 0;
+}
+.todaysword_synonyms_div{
+        position: relative;
+        left: 85px;
+        top: -15px;
+}
+.todaysword_synonyms{
+        width: 110px;
+        float: left;
+}
+.todaysword_synonyms li{
+        margin: 0;
+}
+.dict_link{
+        float: left;
+}
+.wikidict_link{
+        float: right;
+}
+.clear{
+    clear: both;
+}
+</style>
+
+[% FOR todaysword IN future_words %]
+
+    <div class="todays_word_div">
+        <h2>[% todaysword.word %]</h2>
+        <h4>[% todaysword.date %]</h4>
+        [% MACRO floor(n)
+            GET n
+            FILTER format("%d"); %]
+
+        [% IF todaysword.definitions %]
+        	<ol class="todaysword_definitions">
+                [% IF todaysword.wiki_definitions %]
+                    [% FOR definition IN todaysword.wiki_definitions %]
+            			<li>[% definition %]</li>
+            		[% END %]
+                [% END %]
+                [% FOR definition IN todaysword.definitions %]
+        			<li>[% definition %]</li>
+        		[% END %]
+        	</ol>
+        [% END %]
+
+        [% IF todaysword.synonyms %]
+            <b>Synonyms:</b><br />
+            <div class="todaysword_synonyms_div">
+                [% IF todaysword.synonyms.size > 4 %]
+                    [% item_per_column = floor(todaysword.synonyms.size / 3) %]
+                    [% count = 0 %]
+            	    <ul class="todaysword_synonyms">
+                    [% FOR synonym IN todaysword.synonyms %]
+                        <li>[% synonym %]</li>
+                        [% count = count + 1 %]
+                        [% IF count == item_per_column %]
+                            </ul>
+                            <ul class="todaysword_synonyms">
+                            [% count = 0 %]
+                        [% END %]
+                    [% END %]
+                [% ELSE %]
+                    <ul class="todaysword_synonyms">
+                    [% FOR synonym IN todaysword.synonyms %]
+                        <li>[% synonym %]</li>
+                    [% END %]
+                    </ul>
+                [% END %]
+            	</ul>
+            </div>
+        [% END %]
+        <div class="clear"></div>
+        
+        <div class="dict_link"><a href="http://dictionary.reference.com/browse/[% todaysword.word %]">More via Dictionary.com</a></div>
+        <div class="wikidict_link"><a href="http://en.wiktionary.org/wiki/[% todaysword.word %]">More via Wiktionary</a></div>
+        <hr />     
+    </div>
+   
+
+[% END %]

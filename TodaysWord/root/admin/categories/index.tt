@@ -1,0 +1,41 @@
+[% INCLUDE admin/header.tt
+   title = 'Today\'s Word Admin - Categories' %]
+
+<h1>Category Administation</h1>
+
+<div class="button small_button" id="admin_add_category">
+    <a href="/admin/categories/add">
+    <img src="/static/images/icons/add.png" alt="Add" />
+    <span>Add</span>
+    </a>
+</div>
+<div class="clear"></div>
+
+[% FOR category IN categories %]
+<div class="admin_category_listing [% IF category.releasable %]admin_category_listing_releaseable[% ELSE %]admin_category_listing_not_releasable[% END %]">
+    <b>[% category.name %]</b><br />
+    <div class="button icon_button" id="admin_category_delete">
+        <a href="/admin/categories/delete/[% category.id %]">
+        <img src="/static/images/icons/delete.png" alt="Delete" />
+        </a>
+    </div>
+    <div class="button icon_button" id="admin_category_edit">
+        <a href="/admin/categories/edit/[% category.id %]">
+        <img src="/static/images/icons/edit.png" alt="Edit" />
+        </a>
+    </div>
+    <div class="button icon_button" id="admin_category_see">
+        <a href="/playnow/category/[% category.seo_name %]/[% category.id %]">
+        <img src="/static/images/icons/see.png" alt="View" />
+        </a>
+    </div>
+    <div class="clear"></div>
+    <br />
+    [% FOR association IN category.associations %]
+        <b style="text-transform:capitalize;">[% association.key %] -> [% association.value %]<b><br />
+    [% END %]
+</div>
+[% END %]
+<div class="clear"></div>
+
+[% INCLUDE admin/footer.tt %]

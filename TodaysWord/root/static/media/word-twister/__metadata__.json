@@ -1,0 +1,69 @@
+{
+    "alternate_url": "", 
+    "author": "eidosk", 
+    "author_link": "https://www.mochimedia.com/community/profile/eidosk", 
+    "categories": [
+        "Education", 
+        "Puzzles"
+    ], 
+    "category": "Puzzles", 
+    "coins_enabled": null, 
+    "coins_revshare_enabled": null, 
+    "control_scheme": "{\"fire\": \"na\", \"jump\": \"na\", \"movement\": \"na\"}", 
+    "controls": [
+        [
+            "fire", 
+            "na"
+        ], 
+        [
+            "jump", 
+            "na"
+        ], 
+        [
+            "movement", 
+            "na"
+        ]
+    ], 
+    "created": "2010-04-30T03:38:36-08:00", 
+    "description": "Create as many words as you can in 2 minutes, using 6 random letters.", 
+    "developer": "eidosk", 
+    "developer_url": "https://www.mochimedia.com/community/profile/eidosk", 
+    "feed_approval_created": "2010-05-12T13:08:22-08:00", 
+    "game_tag": "025034deb9c8ccfb", 
+    "game_url": "http://www.mochimedia.com/games/word-twister", 
+    "height": 400, 
+    "instructions": "Use your mouse or keyborad to create as many words as you can, using the 6 letter tiles provided.", 
+    "key_mappings": "", 
+    "leaderboard_enabled": true, 
+    "metascore": 60.08, 
+    "name": "Word Boss", 
+    "rating": "Everyone", 
+    "recommendation": 2, 
+    "recommended": false, 
+    "resolution": "550x400", 
+    "screen1_thumb": null, 
+    "screen1_url": null, 
+    "screen2_thumb": null, 
+    "screen2_url": null, 
+    "screen3_thumb": null, 
+    "screen3_url": null, 
+    "screen4_thumb": null, 
+    "screen4_url": null, 
+    "slug": "word-twister", 
+    "swf_file_size": 422880, 
+    "swf_url": "http://games.mochiads.com/c/g/word-twister/game.swf", 
+    "tags": [
+        "word", 
+        "anagram", 
+        "skill", 
+        "english", 
+        "dictionary"
+    ], 
+    "thumbnail_large_url": null, 
+    "thumbnail_url": "http://thumbs.mochiads.com/c/g/word-twister/_thumb_100x100.jpg", 
+    "updated": "2010-12-08T14:46:08-08:00", 
+    "uuid": "7172f5f8-7ce4-3b0d-8ab9-18a69a4cdafa", 
+    "video_url": null, 
+    "width": 550, 
+    "zip_url": "http://games.mochiads.com/c/g/word-twister.zip"
+}

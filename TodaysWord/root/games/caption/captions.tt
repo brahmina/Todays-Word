@@ -1,0 +1,28 @@
+[% INCLUDE header.tt
+   title = 'Today\'s Word - Captions' %]
+
+<h1>Captions</h1>
+<br /><br />
+<a href="/games/caption/play/todays" class="big_play_button button">Play Today's Caption</a>
+<a href="/games/caption/rate_captions" class="big_rate_button button">Rate Today's Caption</a>
+<br /><br /><br /><br />
+
+<b>Yesterday's Caption Winners:</b><br />
+<p>Window into yesterdays game, who won, and what the scoreboard results were</p>
+
+<b>Past Caption Winners:</b><br />
+<p>Each of the caption thumbnail here are liked to a page that shows the winning enty, and that days scoreboard. 
+May or may not display via a multibox.</p>
+
+
+[% FOREACH caption IN captions %]
+<div class="caption_thumb_div">
+    <a href="/games/caption/winner/[% caption.id %]">[% caption.title %] ([% caption.id %])<br />
+    <img src="/[% caption.file_location %]" alt="" class="caption_thumb" /> </a>
+</div>
+    
+[% END %]
+
+
+
+[% INCLUDE footer.tt %]

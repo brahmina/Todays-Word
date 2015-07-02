@@ -1,0 +1,84 @@
+{
+    "alternate_url": "http://www.games.com/game/my-word", 
+    "author": "aolgames", 
+    "author_link": "https://www.mochimedia.com/community/profile/aolgames", 
+    "categories": [
+        "Board Game", 
+        "Education", 
+        "Other", 
+        "Puzzles", 
+        "Strategy"
+    ], 
+    "category": "Education", 
+    "coins_enabled": null, 
+    "coins_revshare_enabled": null, 
+    "control_scheme": "{\"fire\": \"na\", \"jump\": \"na\", \"Keyboard\": \"use the keyboard to make words.\", \"movement\": \"na\"}", 
+    "controls": [
+        [
+            "Keyboard", 
+            "use the keyboard to make words."
+        ], 
+        [
+            "fire", 
+            "na"
+        ], 
+        [
+            "jump", 
+            "na"
+        ], 
+        [
+            "movement", 
+            "na"
+        ]
+    ], 
+    "created": "2010-10-11T08:39:06-08:00", 
+    "description": "My Word! is a word game seemingly in the traditional mold, but several features set it apart from other games in the genre. The unique 3D board allows the player to lookahead for the next incoming letters, and if they are to keep formulating words, they must manage the grid carefully! With a dictionary of over 150,000 words and a chilled-out style, My Word! is a charming and relaxed addition to the genre.", 
+    "developer": "aolgames", 
+    "developer_url": "https://www.mochimedia.com/community/profile/aolgames", 
+    "feed_approval_created": null, 
+    "game_tag": "c775dece867d8771", 
+    "game_url": "http://www.mochimedia.com/games/my-word_v1", 
+    "height": 480, 
+    "instructions": "Use the keyboard to create words based of the cubes in the front row.  The key to the game is to think ahead and for maximum points.  Be sure that the word you are spelling is a word.  You are deducted points for non-words. \r\nThe game has four modes:\r\nCasual - play as long as you like.\r\nPanic! - you have a set amount of time to create each word.\r\n5 Minutes - score as many points as you can in 5 minutes.\r\n50 Words - score as many points as you can with just 50 words.", 
+    "key_mappings": "", 
+    "leaderboard_enabled": true, 
+    "metascore": 68.890000000000001, 
+    "name": "My Word!", 
+    "rating": "Everyone", 
+    "recommendation": 2, 
+    "recommended": false, 
+    "resolution": "640x480", 
+    "screen1_thumb": "http://games.mochiads.com/c/g/my-word_v1/screen1_thumb.jpg", 
+    "screen1_url": "http://games.mochiads.com/c/g/my-word_v1/screen1.jpg", 
+    "screen2_thumb": null, 
+    "screen2_url": null, 
+    "screen3_thumb": null, 
+    "screen3_url": null, 
+    "screen4_thumb": null, 
+    "screen4_url": null, 
+    "slug": "my-word_v1", 
+    "swf_file_size": 4375714, 
+    "swf_url": "http://games.mochiads.com/c/g/my-word_v1/myword_mochi.swf", 
+    "tags": [
+        "words", 
+        "spelling", 
+        "puzzle", 
+        "anagram", 
+        "dictionary", 
+        "scrabble", 
+        "countdown", 
+        "crossword", 
+        "bookworm", 
+        "casual", 
+        "mouse", 
+        "pencil", 
+        "pen"
+    ], 
+    "thumbnail_large_url": "http://games.mochiads.com/c/g/my-word_v1/_thumb_200x200.png", 
+    "thumbnail_url": "http://games.mochiads.com/c/g/my-word_v1/_thumb_100x100.png", 
+    "updated": "2010-10-28T14:49:49-08:00", 
+    "uuid": "cf3ab267-5517-3c46-8dc9-0bf30a3e7213", 
+    "video_url": null, 
+    "width": 640, 
+    "zip_url": "http://games.mochiads.com/c/g/my-word_v1.zip"
+}

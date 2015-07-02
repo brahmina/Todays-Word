@@ -1,0 +1,18 @@
+[% INCLUDE admin/header.tt
+   title = 'Today\'s Word Admin - Add Sudoku' %]
+
+<center>
+<div id="AddSudoku" class="FormContainer">
+    <h1>Add Sudoku</h1>
+    [% IF error_message %]<p class="error">[% error_message %]</p>[% END %]
+    <div id="add_game_div">
+        <p class="error">[% error_message %]</p>
+        [%# Render the HTML::FormHandler Form %]
+        [% form.render %]
+    </div>
+</div>
+</center>
+
+[% INCLUDE admin/footer.tt %]
+
+

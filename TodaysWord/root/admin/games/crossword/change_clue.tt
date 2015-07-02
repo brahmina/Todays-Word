@@ -1,0 +1,15 @@
+<input type="text" name="clue_[% clue.id %]" id="clue_[% clue.id %]" value="[% clue.clue %]" /><a href="/admin/games/crossword/change_clue/[% clue.id %]" id="change_cl$
+
+[% IF isAjax %]
+<script type="text/javascript" language="JavaScript">
+window.addEvent('domready', function() {
+    $('change_clue_[% clue.id %]').addEvent('click', function(event){
+        event.stop();
+
+        adminChangeCrosswordClue(this.id);
+    });
+});
+</script>
+[% END %]
+
+

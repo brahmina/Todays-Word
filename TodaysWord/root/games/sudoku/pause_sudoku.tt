@@ -1,0 +1,12 @@
+<h1>Sudoku Paused</h1>
+<br /><br /><br />
+<a href="/games/sudoku/resume/[% game_play.id %]" rel="ajax:true" class="resume button" id="game_resume">Resume</a>
+
+<script type="text/javascript" language="JavaScript">
+window.addEvent('domready', function() {
+    $('game_resume').addEvent('click', function(event){
+        event.stop();
+        closeGamePause();
+    });
+});
+</script>

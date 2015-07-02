@@ -1,0 +1,17 @@
+[% INCLUDE admin/header.tt
+   title = 'Keyword Import' %]
+
+<center>
+<div id="AddImport" class="FormContainer">
+    <h1>Import Keywords</h1>
+    [% IF error_message %]<p class="error">[% error_message %]</p>[% END %]
+    <div id="add_import_div">
+        <p class="error">[% error_msg %]</p>
+        [% form.render %]
+    </div>
+</div>
+</center>
+
+[% INCLUDE admin/footer.tt %]
+
+

@@ -1,0 +1,10 @@
+[% INCLUDE tabs/tab_header.tt tab_name='feedback' url='/feedback' tab='Feedback'%]
+    
+[% INCLUDE feedback_form.tt ajax=1 %]
+
+[% INCLUDE tabs/tab_footer.tt %]
+
+
+
+
+

@@ -1,0 +1,66 @@
+{
+    "alternate_url": null, 
+    "author": "wildharmonystudio", 
+    "author_link": "https://www.mochimedia.com/community/profile/wildharmonystudio", 
+    "categories": [
+        "Puzzles"
+    ], 
+    "category": "Puzzles", 
+    "coins_enabled": null, 
+    "coins_revshare_enabled": null, 
+    "control_scheme": "{\"fire\": \"left_mouse\", \"jump\": \"na\", \"movement\": \"mouse\"}", 
+    "controls": [
+        [
+            "fire", 
+            "left_mouse"
+        ], 
+        [
+            "jump", 
+            "na"
+        ], 
+        [
+            "movement", 
+            "mouse"
+        ]
+    ], 
+    "created": "2010-09-24T06:10:50-08:00", 
+    "description": "Once again you are trapped and must find the secret words to exit the room", 
+    "developer": "wildharmonystudio", 
+    "developer_url": "https://www.mochimedia.com/community/profile/wildharmonystudio", 
+    "feed_approval_created": null, 
+    "game_tag": "f80d3509cf54b717", 
+    "game_url": "http://www.mochimedia.com/games/anagram-escape-2", 
+    "height": 550, 
+    "instructions": "", 
+    "key_mappings": "", 
+    "languages": [], 
+    "leaderboard_enabled": false, 
+    "metascore": 54.0, 
+    "name": "Anagram Escape 2", 
+    "rating": "Everyone", 
+    "recommendation": 2, 
+    "recommended": false, 
+    "resolution": "640x550", 
+    "screen1_thumb": null, 
+    "screen1_url": null, 
+    "screen2_thumb": null, 
+    "screen2_url": null, 
+    "screen3_thumb": null, 
+    "screen3_url": null, 
+    "screen4_thumb": null, 
+    "screen4_url": null, 
+    "slug": "anagram-escape-2", 
+    "swf_file_size": 1021908, 
+    "swf_url": "http://games.mochiads.com/c/g/anagram-escape-2/anagram-escape2.swf", 
+    "tags": [
+        "escape room", 
+        "escape"
+    ], 
+    "thumbnail_large_url": "http://games.mochiads.com/c/g/anagram-escape-2/_thumb_200x200.jpg", 
+    "thumbnail_url": "http://games.mochiads.com/c/g/anagram-escape-2/_thumb_100x100.jpg", 
+    "updated": "2010-12-29T17:08:52-08:00", 
+    "uuid": "6a453992-7183-3922-b44c-f8b6fa8f2793", 
+    "video_url": null, 
+    "width": 640, 
+    "zip_url": "http://games.mochiads.com/c/g/anagram-escape-2.zip"
+}

@@ -1,0 +1,70 @@
+{
+    "alternate_url": "", 
+    "author": "nnbaike", 
+    "author_link": "https://www.mochimedia.com/community/profile/nnbaike", 
+    "categories": [
+        "Education"
+    ], 
+    "category": "Education", 
+    "coins_enabled": false, 
+    "coins_revshare_enabled": null, 
+    "control_scheme": "{\"fire\": \"na\", \"jump\": \"na\", \"movement\": \"na\"}", 
+    "controls": [
+        [
+            "fire", 
+            "na"
+        ], 
+        [
+            "jump", 
+            "na"
+        ], 
+        [
+            "movement", 
+            "na"
+        ]
+    ], 
+    "created": "2011-04-19T22:50:52-08:00", 
+    "description": "The most fun typing game\r\nhttp://www.timeandgame.com", 
+    "developer": "nnbaike", 
+    "developer_url": "https://www.mochimedia.com/community/profile/nnbaike", 
+    "feed_approval_created": "2011-04-20T23:44:11-08:00", 
+    "game_tag": "ea5da5e5e1ff71f2", 
+    "game_url": "http://www.mochimedia.com/games/best-typing", 
+    "height": 550, 
+    "instructions": "The most fun typing game\r\nhttp://www.timeandgame.com", 
+    "key_mappings": "", 
+    "languages": [], 
+    "leaderboard_enabled": true, 
+    "metascore": 35.63, 
+    "name": "Best Typing", 
+    "rating": "Everyone", 
+    "recommendation": 3, 
+    "recommended": false, 
+    "resolution": "700x550", 
+    "screen1_thumb": "http://games.mochiads.com/c/g/best-typing/screen1_thumb.png", 
+    "screen1_url": "http://games.mochiads.com/c/g/best-typing/screen1.png", 
+    "screen2_thumb": null, 
+    "screen2_url": null, 
+    "screen3_thumb": null, 
+    "screen3_url": null, 
+    "screen4_thumb": null, 
+    "screen4_url": null, 
+    "slug": "best-typing", 
+    "swf_file_size": 1105939, 
+    "swf_url": "http://games.mochiads.com/c/g/best-typing/Main.swf", 
+    "tags": [
+        "typing", 
+        "word", 
+        "best", 
+        "timeandgame", 
+        "english", 
+        "usa"
+    ], 
+    "thumbnail_large_url": "http://games.mochiads.com/c/g/best-typing/_thumb_200x200.jpg", 
+    "thumbnail_url": "http://games.mochiads.com/c/g/best-typing/_thumb_100x100.jpg", 
+    "updated": "2011-04-24T09:46:24-08:00", 
+    "uuid": "a35ab559-e3de-3e40-9648-fd780a86eee1", 
+    "video_url": null, 
+    "width": 700, 
+    "zip_url": "http://games.mochiads.com/c/g/best-typing.zip"
+}

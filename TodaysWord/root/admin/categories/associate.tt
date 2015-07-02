@@ -1,0 +1,35 @@
+<script language="JavaScript" type="text/javascript">
+window.addEvent('domready', function() { 
+
+    $('associate_categories_button').addEvent('click', function(event){
+        event.stop();
+        asociateCategories();
+    });
+
+});
+</script>
+        <div id="admin_associate_categories" class="FormContainer">     
+            <h1>Edit Categories</h1>
+            <div class="button icon_button" id="admin_edit_add_category">
+                <a href="/admin/categories/add">
+                <img src="/static/images/icons/add.png" alt="Add Categories" />
+                </a>            
+            </div>
+            <form name="associate_categories" id="associate_categories" onsubmit="resturn false;">
+                <input type="hidden" name="i" id="i" value="[% item.id %]" />
+                <input type="hidden" name="t" id="t" value="[% table %]" />
+                <select name="c" id="c" multiple size="8" id="admin_category_select" >
+                    [% FOR category IN categories %]
+                    <option value="[% category.id %]" [% IF category.selected %]selected="1"[% END %]>[% category.name %]</option>
+                    [% END %]
+                </select>
+                <div class="button" id="admin_edit_delete">
+                    <a href="/admin/categories/associate" id="associate_categories_button">
+                    <img src="/static/images/icons/edit.png" alt="Edit Categories" />
+                    <span>Edit</span>
+                    </a>            
+                </div>
+            </form>
+            <div class="clear"></div>
+        </div>
+

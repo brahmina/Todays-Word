@@ -1,0 +1,68 @@
+{
+    "alternate_url": "http://www.goopla.net/flash-cards.html", 
+    "author": "olltwit", 
+    "author_link": "https://www.mochimedia.com/community/profile/olltwit", 
+    "categories": [
+        "Education"
+    ], 
+    "category": "Education", 
+    "coins_enabled": null, 
+    "coins_revshare_enabled": null, 
+    "control_scheme": "{\"fire\": \"na\", \"jump\": \"na\", \"movement\": \"na\"}", 
+    "controls": [
+        [
+            "fire", 
+            "na"
+        ], 
+        [
+            "jump", 
+            "na"
+        ], 
+        [
+            "movement", 
+            "na"
+        ]
+    ], 
+    "created": "2011-04-17T12:55:12-08:00", 
+    "description": "Play words as flash cards with our education program.", 
+    "developer": "olltwit", 
+    "developer_url": "https://www.mochimedia.com/community/profile/olltwit", 
+    "feed_approval_created": "2011-04-17T20:15:40-08:00", 
+    "game_tag": "19d4ce2e0509c35d", 
+    "game_url": "http://www.mochimedia.com/games/flash-cards", 
+    "height": 440, 
+    "instructions": "Play words as flash cards with our education program. There is no need to print them out and you can add your own lists, for example, homework spelling lists. There are 58 lists with over 4,000 words included in the program. These words in the lists show as flash cards at a speed you choose. The available lists include 10 lists of 220 words in total, known as the Dolch words after Edward William Dolch who prepared them in 1936. These 220 words cannot be learned with the use of pictures and are known as 'service words'. These are pronouns, adjectives, adverbs, prepositions, conjunctions, and verbs and can only be learned by sight, the easiest way being in flash cards. Almost 75 percent of the words we see daily in books, magazines, newspapers etc., are Dolch words, which shows just how important they are in the English language. They also cannot be 'sounded out' using traditional phonics patterns and it is generally accepted that they should be learnt by the end of the first grade to give a good sound base to reading.\r\n\r\nHow To Use \r\nOn the first screen click on either the Main Flash Cards or My Flash Cards button. Clicking the Main Flash Cards button gives you access to the 58 lists of words included with the program. The My Flash Cards button gives you access to your own word lists saved with the program.\r\n\r\nThe Flash Cards main screen is the same for both the main flash cards lists and your own lists. Select a word list from the top drop down menu. The selected word list will then be loaded and    Play - Random and Play - In Order buttons will appear at the bottom. Clicking the Play - Random button will then show all the words at random, one by one, whilst clicking the Play - In Order button will show the words in the order they appear in the list. Alter the speed they are shown by clicking and dragging the slider bar on the left. Moving it up will make them appear faster and down will make them appear more slowly. You can also change the colour of the cards by clicking on any colour bar in the right hand grey column and the font size can be increased or decreased by clicking the small plus and minus signs on the right above the coloured cards. You can pause the cards being shown at any time by clicking the Pause button below the cards. This will be replaced by a Continue button which you need to click when you are ready to carry on. To re-start the list at any time click the Start Again button just under the cards.\r\n\r\nAt the top of the colour bar column you will see a box which shows the number of words in the current list. This decreases by one for each word shown. To choose a new word list to try without restarting the program, click on the New Word List button. To add your own word lists, click on the My Flash Cards button and follow the instructions on that screen.", 
+    "key_mappings": "", 
+    "languages": [
+        "en"
+    ], 
+    "leaderboard_enabled": false, 
+    "metascore": 37.79, 
+    "name": "Flash Cards", 
+    "rating": "Everyone", 
+    "recommendation": 1, 
+    "recommended": false, 
+    "resolution": "640x440", 
+    "screen1_thumb": "http://games.mochiads.com/c/g/flash-cards/screen1_thumb.jpg", 
+    "screen1_url": "http://games.mochiads.com/c/g/flash-cards/screen1.jpg", 
+    "screen2_thumb": null, 
+    "screen2_url": null, 
+    "screen3_thumb": null, 
+    "screen3_url": null, 
+    "screen4_thumb": null, 
+    "screen4_url": null, 
+    "slug": "flash-cards", 
+    "swf_file_size": 397449, 
+    "swf_url": "http://games.mochiads.com/c/g/flash-cards/flashcardsmv.swf", 
+    "tags": [
+        "flash cards", 
+        "en"
+    ], 
+    "thumbnail_large_url": "http://games.mochiads.com/c/g/flash-cards/_thumb_200x200.jpg", 
+    "thumbnail_url": "http://games.mochiads.com/c/g/flash-cards/_thumb_100x100.jpg", 
+    "updated": "2011-04-29T15:37:46-08:00", 
+    "uuid": "783609a0-da5a-33a7-881e-68ab395ec24e", 
+    "video_url": null, 
+    "width": 640, 
+    "zip_url": "http://games.mochiads.com/c/g/flash-cards.zip"
+}

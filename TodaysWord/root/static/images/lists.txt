@@ -1,0 +1,14 @@
+todays-word/root/static/images
+bg_diamond.png          
+icons/                  
+multibox/               
+star_loader_custom.gif  
+t2b.png
+bg_square.png           
+l2r.png                 
+spinner.gif             
+star_rating.png
+crosswords.png          
+large_loader.gif        
+star_loader.gif         
+sudokus.png

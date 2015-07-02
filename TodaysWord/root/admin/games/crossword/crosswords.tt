@@ -1,0 +1,29 @@
+[% INCLUDE admin/header.tt
+   title = 'Today\'s Word Admin - Crosswords' %]
+
+<h2>Crosswords</h1>
+
+<p class="error">[% error_message %] [% crossword.id%]</p>
+
+<div class="Calendar">
+    [% calendar %]
+</div>
+
+<div class="button" id="add_crossword_button">
+    <a href="/admin/games/crossword/add">
+        <img src="/static/images/icons/add.png" alt="Add Crossword" />
+        <span>Add Crossword</span>
+        </a>
+    </div>
+<br /><br />
+<b>Unscheduled Crosswords:</b><br />
+<ul>
+    [% FOREACH crossword IN crosswords %]
+        <li><a href="/admin/games/crossword/show/[% crossword.id %]">Crossword #[% crossword.id %]</a>
+    [% END %]
+</ul>
+
+
+[% INCLUDE admin/footer.tt %]
+
+

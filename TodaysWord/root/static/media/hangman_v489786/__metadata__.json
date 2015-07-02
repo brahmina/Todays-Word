@@ -1,0 +1,75 @@
+{
+    "alternate_url": null, 
+    "author": "olltwit", 
+    "author_link": "https://www.mochimedia.com/community/profile/olltwit", 
+    "categories": [
+        "Education", 
+        "Other", 
+        "Puzzles"
+    ], 
+    "category": "Education", 
+    "coins_enabled": null, 
+    "coins_revshare_enabled": null, 
+    "control_scheme": "{\"fire\": \"left_mouse\", \"jump\": \"na\", \"movement\": \"na\"}", 
+    "controls": [
+        [
+            "fire", 
+            "left_mouse"
+        ], 
+        [
+            "jump", 
+            "na"
+        ], 
+        [
+            "movement", 
+            "na"
+        ]
+    ], 
+    "created": "2011-02-27T12:42:00-08:00", 
+    "description": "The classic game of hangman which has been proven over many generations, to improve spelling and general knowledge in a fun easy to play format. Choose from eleven categories within the game including, animals, Bible characters, birds, capital cities, countries, sports, vegetables, insects, flowers and fruit.", 
+    "developer": "olltwit", 
+    "developer_url": "https://www.mochimedia.com/community/profile/olltwit", 
+    "feed_approval_created": "2011-02-27T20:28:24-08:00", 
+    "game_tag": "931f0dc38eae4713", 
+    "game_url": "http://www.mochimedia.com/games/hangman_v489786", 
+    "height": 466, 
+    "instructions": "Over 500 words and phrases are included in the game plus you can create your own hangman word and phrases lists here online and play them right within the game by choosing the My Hangman option. Your own lists are saved and can be recalled, edited and re-saved at any time. Full instructions are provided on every screen and a high score table keeps track of best efforts.", 
+    "key_mappings": "", 
+    "languages": [
+        "en"
+    ], 
+    "leaderboard_enabled": false, 
+    "metascore": 53.42, 
+    "name": "Hangman", 
+    "rating": "Everyone", 
+    "recommendation": 2, 
+    "recommended": false, 
+    "resolution": "640x466", 
+    "screen1_thumb": "http://games.mochiads.com/c/g/hangman_v489786/screen1_thumb.jpg", 
+    "screen1_url": "http://games.mochiads.com/c/g/hangman_v489786/screen1.jpg", 
+    "screen2_thumb": null, 
+    "screen2_url": null, 
+    "screen3_thumb": null, 
+    "screen3_url": null, 
+    "screen4_thumb": null, 
+    "screen4_url": null, 
+    "slug": "hangman_v489786", 
+    "swf_file_size": 435710, 
+    "swf_url": "http://games.mochiads.com/c/g/hangman_v489786/hangmanmv.swf", 
+    "tags": [
+        "hangman", 
+        "spelling", 
+        "hangman online game", 
+        "hangman online", 
+        "spelling educational games", 
+        "online education games", 
+        "en"
+    ], 
+    "thumbnail_large_url": "http://games.mochiads.com/c/g/hangman_v489786/_thumb_200x200.jpg", 
+    "thumbnail_url": "http://games.mochiads.com/c/g/hangman_v489786/_thumb_100x100.jpg", 
+    "updated": "2011-05-01T15:59:51-08:00", 
+    "uuid": "3270f767-c81c-3f55-82b3-544c41151b07", 
+    "video_url": null, 
+    "width": 640, 
+    "zip_url": "http://games.mochiads.com/c/g/hangman_v489786.zip"
+}

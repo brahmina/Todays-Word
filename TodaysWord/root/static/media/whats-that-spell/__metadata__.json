@@ -1,0 +1,43 @@
+{
+    "categories": [
+        "Puzzles", 
+        "Other", 
+        "Board Game"
+    ], 
+    "control_scheme": {
+        "fire": "na", 
+        "jump": "na", 
+        "movement": "mouse"
+    }, 
+    "description": "Spell Anagrams from Memory!", 
+    "developer": "spirefly", 
+    "developer_url": "https://www.mochiads.com/community/profile/spirefly", 
+    "height": "450", 
+    "instructions": "Memorize each letter as announced.  Unscramble the letters to make words of 3 or more letters.  Longer words are worth more points.  Spell 5 words using all available letters to progress to longer words.", 
+    "key_mappings": "", 
+    "name": "What's That Spell?", 
+    "rating": "Everyone", 
+    "resolution": "600x450", 
+    "slug": "whats-that-spell", 
+    "swf_file_size": 245502, 
+    "swf_url": "http://games.mochiads.com/c/g/whats-that-spell/wordgameplayable.swf", 
+    "tags": [
+        "words", 
+        "spell", 
+        "spelling", 
+        "anagram", 
+        "jumble", 
+        "memory", 
+        "cute", 
+        "funny", 
+        "word", 
+        "mix up", 
+        "order", 
+        "remember", 
+        "game", 
+        "puzzle", 
+        "character"
+    ], 
+    "thumbnail_url": "http://cdn.mochiads.com/c/g/whats-that-spell/_thumb_100x100.png", 
+    "width": "600"
+}

@@ -1,0 +1,30 @@
+[% INCLUDE admin/header.tt
+   title = 'Today\'s Word Admin - Sudoku' %]
+
+<h2>Sudoku</h1>
+
+<p class="error">[% error_message %]</p>
+
+<div class="Calendar">
+    [% calendar %]
+</div>
+
+<div class="button" id="add_sudoku_button">
+    <a href="/admin/games/sudoku/add">
+        <img src="/static/images/icons/add.png" alt="Add Sudoku" />
+        <span>Add Sudoku</span>
+        </a>
+    </div>
+<br /><br />
+<b>Unscheduled Sudokus:</b><br />
+<ul>
+    [% FOREACH sudoku IN sudokus %]
+        <li><a href="/admin/games/sudoku/show/[% sudoku.id %]">Sudoku #[% sudoku.id %]</a>
+    [% END %]
+</ul>
+
+
+[% INCLUDE admin/footer.tt %]
+
+
+

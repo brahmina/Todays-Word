@@ -1,0 +1,112 @@
+[% INCLUDE admin/header.tt
+   title = 'Today\'s Word Admin - Captions' %]
+
+<script type="text/javascript" language="JavaScript">
+bubble_count = [% bubble_count || 0 %];
+window.addEvent('domready', function() {
+    initAdminCaption();
+
+});
+
+</script>
+<style>
+#admin_caption_image{
+    background: url("[% caption.optimized_location %]") no-repeat 0 0;
+    width:[% caption.width %]px;
+    min-height:[% caption.height %]px;
+}
+#admin_caption_left{
+    min-height:[% caption.height - 20 %]px;
+}
+[% IF bubble_count %]
+    [% FOREACH bubble IN bubbles %]
+#bubble_[% bubble.count %]{
+    [% bubble.class %]
+}
+    [% END %]
+[% END %]
+</style>
+<h2>Caption [% IF caption.title %] : [% caption.title %][% END %]</h1>
+<div id="admin_caption_source">
+    <b>Source:</b>
+    [% IF (caption.source.match('^http')) %]
+        <a href="[% caption.source %]">[% caption.source %]</a>
+    [% ELSE %]
+        [% caption.source %]
+    [% END %]
+</div>
+
+<div id="caption_div">
+    <div id="admin_caption_image">
+        [% IF bubble_count %]
+            [% FOREACH bubble IN bubbles %]
+        <textarea class='caption_bubble_textarea' id='bubble_[% bubble.count %]'></textarea>
+            [% END %]
+    [% END %]
+    </div>
+</div>
+
+<div id="admin_caption_left" class="sidebar">
+    <div class="button small_button" id="admin_caption_delete_button">
+        <a href="/admin/games/caption/delete/[% caption.id %]" onclick="return confirm('Are you sure?');" >
+            <img src="/static/images/icons/delete.png" alt="Delete" />
+            <span>Delete</span>
+        </a>
+    </div>
+
+    <div class="caption_scheduling">
+    [% IF caption.date_played %]
+        <p>Game played on caption.date_played_formatted </p>
+    [% ELSE %]
+        <b>Schedule</b>:
+        <script type="text/javascript" src="/static/js/datepicker.js"></script>
+        <link type="text/css" rel="stylesheet" media="screen" href="/static/css/datepicker.css" />
+        <div id="set_played_date_button_[% caption.id %]_div" class="set_play_date_div">
+            [% INCLUDE admin/games/caption/set_play_date.tt %]
+        </div>
+    [% END %]
+    </div>
+    <div class="clear" id="caption_back_link"><a href="/admin/games/caption/all"><b><< Back to Captions</b></a></div>
+
+    <div class="bubbles" id="bubbles">
+        <div class="button" id="reset_bubble_button">
+            <a href="/admin/games/caption/reset_bubbles/[% caption.id %]">
+                <img src="/static/images/icons/add.png" alt="Reset Bubbles" />
+                <span>Reset Bubbles</span>
+            </a>
+        </div>
+        <div class="button" id="add_bubble_button">
+            <a href="/admin/games/caption/add_bubble/[% caption.id %]">
+                <img src="/static/images/icons/add.png" alt="Add Bubble" />
+                <span>Add Bubble</span>
+            </a>
+        </div>
+        <form method="post" action="/admin/games/caption/save_bubbles/[% caption.id %]" name="save_bubbles">
+            <input type="hidden" name="caption_id" value="[% caption.id %]" />
+            <div id="bubble_wrapper">
+                <div id="bubble_info_wrapper_[% IF bubble_count %]bubble_count + 1[% ELSE %]0[% END %]"></div>
+                <div id="bubble_info_wrapper_top">
+                    [% IF bubble_count %]
+                        [% FOREACH bubble IN bubbles %]
+                            [% INCLUDE admin/games/caption/bubble_info.tt %]
+                        [% END %]
+                    [% END %]
+                </div>
+            </div>
+
+            <div class="button" id="save_bubbles_button" [% IF NOT bubble_count %]style="display:none"[% END %]>
+                <a href="#" onclick="document.save_bubbles.submit();" >
+                    <img src="/static/images/icons/save.png" alt="Save Bubbles" />
+                    <span>Save Bubbles</span>
+                </a>
+            </div>
+        </form>
+        <div class="clear"></div>
+    </div>
+    <div class="clear"></div>
+</div>
+<div class="clear"></div>
+<br /><br /><br /><br /><br /><br /><br /><br />
+
+[% INCLUDE admin/footer.tt %]
+

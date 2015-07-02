@@ -1,0 +1,55 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+    <title>[% IF title %][% title %][% ELSE %]Today's Word[% END %]</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+
+    <meta name="description" content="" />
+    <meta name="keywords" content="" />
+
+    <link rel="icon" href="/favicon.ico" type="image/x-icon" />
+    <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon" />
+
+    <script type="text/javascript" src="/static/js/mootools.js"></script>
+    <script type="text/javascript" src="/static/js/mootoolsmore.js"></script>
+    <script type="text/javascript" src="/static/js/moopatch.js"></script>
+    <script type="text/javascript" src="/static/js/todaysword.js"></script>
+    [% IF user_is_admin %]
+        <script type="text/javascript" src="/static/js/admin.js"></script>
+    [% END %]
+    <!-- TODO -> remove Dumper for production -->
+    <script type="text/javascript" src="/static/js/Dumper.js"></script>
+
+    <link type="text/css" rel="stylesheet" media="screen" href="/static/css/todaysword.css" />
+    <link type="text/css" rel="stylesheet" media="screen" href="/static/css/playnow.css" />
+    [% IF authorized_ip %]
+    <link type="text/css" rel="stylesheet" media="screen" href="/static/css/games.css" />
+    [% END %]
+
+    [% IF browser == 'safari' %]
+    <link type="text/css" rel="stylesheet" media="screen" href="/static/css/safari.css" />
+    [% END %]
+
+    <script type="text/javascript" language="JavaScript">
+    window.addEvent('domready', function() { 
+        init();
+    });
+    </script>
+</head>
+<body id="bodywrap">
+    <div class="wrapper">
+    [% IF user_is_admin %]
+        [% INCLUDE admin/header_bar.tt %]
+    [% END %]
+    <center>
+    <div id="header_bar">
+        <center>
+            <div id="header_wrapper">
+                <a class="logo" href="/">Today's Word</a>
+                [% INCLUDE site_links.tt %]
+            </div>
+        </center>
+    </div>
+    <div id="header_shadow"></div>
+    <div id="main">
+

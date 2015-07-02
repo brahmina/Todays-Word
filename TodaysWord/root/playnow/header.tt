@@ -1,0 +1,51 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+    <title>[% IF title %][% title %][% ELSE %]Today's Word[% END %]</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+
+    <meta name="description" content="[% IF meta_description %][% meta_description %][% ELSE %]Word games to play online at Today's Word.[% END %]" />
+    [% IF meta_keywords %]
+    <meta name="keywords" content="[% FOR keyword IN meta_keywords %][% keyword.keyword %], [% END %]" />
+    [% END %]
+    <link rel="icon" href="/favicon.ico" type="image/x-icon" />
+    <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon" />
+
+    <script type="text/javascript" src="/static/js/mootools.js"></script>
+    <script type="text/javascript" src="/static/js/mootoolsmore.js"></script>
+    <script type="text/javascript" src="/static/js/moopatch.js"></script>
+    <script type="text/javascript" src="/static/js/todaysword.js"></script>
+
+    <link type="text/css" rel="stylesheet" media="screen" href="/static/css/todaysword.css" />
+    <link type="text/css" rel="stylesheet" media="screen" href="/static/css/playnow.css" />
+
+    [% IF browser == 'safari' %]
+    <link type="text/css" rel="stylesheet" media="screen" href="/static/css/safari.css" />
+    [% END %]
+    <script type="text/javascript" src="http://cufon.shoqolate.com/js/cufon-yui.js?v=1.09i"></script>
+    <script type="text/javascript" src="/static/js/TypeWrong_700.font.js"></script>
+    <script type="text/javascript" language="JavaScript">
+    Cufon.replace('.logo');
+    Cufon.replace('.small_logo');    
+    </script>
+
+</head>
+<body id="bodywrap">
+    <div class="wrapper">
+    <center>
+    <div id="header_bar">
+        <center>
+            <div id="header_wrapper">
+                <a class="logo" href="/">Today's Word</a>
+                <ul class="sitestripenav">
+                    <li><a href="/playnow">play now</a> |
+                    <li><a href="/about">about</a> |
+                    <li><a href="/contact">contact</a> 
+                </ul>
+            </div>
+        </center>
+    </div>
+    <div id="header_shadow"></div>
+    <div id="main">
+
+

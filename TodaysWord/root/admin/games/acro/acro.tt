@@ -1,0 +1,62 @@
+[% INCLUDE admin/header.tt
+   title = 'Today\'s Word Admin - Acro' %]
+
+<script type="text/javascript" language="JavaScript">
+window.addEvent('domready', function() {
+
+});
+
+</script>
+
+<div class="admin_game_details" id="admin_acro_box">
+    <h2>Acro</h1>
+
+    <div id="admin_acro_scheduling">
+        [% IF acro.date_played %]
+            <p>Game played on acro.date_played_formatted </p>
+        [% ELSE %]
+            <br /><br />
+            <b>Schedule</b>:
+            <script type="text/javascript" src="/static/js/datepicker.js"></script>
+            <link type="text/css" rel="stylesheet" media="screen" href="/static/css/datepicker.css" />
+            <div id="set_played_date_button_[% acro.id %]_div" class="set_play_date_div">
+                [% INCLUDE admin/games/acro/set_play_date.tt %]
+            </div>
+        [% END %]
+    </div>
+    <b>Today's Acro (id - [% acro.id %])</b>
+    <p>[% acro.description %]</p>
+    <p>Or above could say Acro from March 2nd 2010</p>
+    [% IF error_message %]
+        <p class="error">[% error_message %]</p>
+    [% END %]
+    <div class="clear"></div>
+    <div id="acro_change_letters">
+        <form name="acro_change_letters" action="/admin/games/acro/change_letters/[% acro.id %]" >
+
+            <label>Letters</label>  <input type="text" name="letters" class="admin_acro_letters" value="[% acro.letters %]" />
+
+            <div class="button" id="change_letters_button">
+                <a onclick="document.acro_change_letters.submit()" >
+                <img src="/static/images/icons/edit.png" alt="Change" />
+                <span>Change</span>
+                </a>
+            </div>
+        </form>
+    </div>
+    <div class="clear"></div>
+    <div class="button" id="acro_delete_button">
+        <a href="/admin/games/acro/delete/[% acro.id %]" onclick="return confirm('Are you sure?');" >
+            <img src="/static/images/icons/trash.png" alt="Delete" />
+            <span>Delete</span>
+            </a>
+        </div>
+    <a href="/admin/games/acro/all" id="admin_acros_link"><b><< Back to Acros</b></a>
+</div>
+<div class="clear"></div>
+
+
+[% INCLUDE admin/footer.tt %]
+
+
+

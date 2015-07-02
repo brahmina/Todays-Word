@@ -1,0 +1,54 @@
+{
+    "author": "GamingHungama", 
+    "author_link": "https://www.mochiads.com/community/profile/GamingHungama", 
+    "categories": [
+        "Other"
+    ], 
+    "control_scheme": {
+        "fire": "na", 
+        "jump": "na", 
+        "movement": "na"
+    }, 
+    "controls": [
+        [
+            "fire", 
+            "na"
+        ], 
+        [
+            "jump", 
+            "na"
+        ], 
+        [
+            "movement", 
+            "na"
+        ]
+    ], 
+    "created": "2009-05-18T03:14:00-08:00", 
+    "description": "How well do you know your Bollywood? Try this game to find out now!", 
+    "developer": "GamingHungama", 
+    "developer_url": "https://www.mochiads.com/community/profile/GamingHungama", 
+    "feed_approval_created": null, 
+    "game_tag": "f242926c54078c07", 
+    "game_url": "http://www.mochiads.com/games/bolly-word", 
+    "height": 600, 
+    "instructions": "Select the question that you want to answer by clicking on it and then select the box where the answer has to be put in, by clicking on it. Type the alphabets into the boxes, making up the answer.", 
+    "key_mappings": "", 
+    "leaderboard_enabled": false, 
+    "name": "Bolly Word", 
+    "rating": "Everyone", 
+    "recommendation": 0, 
+    "recommended": false, 
+    "resolution": "800x600", 
+    "slug": "bolly-word", 
+    "swf_file_size": 604701, 
+    "swf_url": "http://games.mochiads.com/c/g/bolly-word/bolly_word.swf", 
+    "tags": [
+        "bolly word", 
+        "crossword"
+    ], 
+    "thumbnail_url": "http://thumbs.mochiads.com/c/g/bolly-word/_thumb_100x100.jpg", 
+    "updated": "2009-05-18T03:25:04-08:00", 
+    "uuid": "ea8933c6-f0bb-3f08-a814-c26fe65b2c5b", 
+    "width": 800, 
+    "zip_url": "http://cdn.mochiads.com/c/g/bolly-word.zip"
+}

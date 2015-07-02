@@ -1,0 +1,20 @@
+[% INCLUDE playnow/header.tt
+   title = 'Under Construction' %]
+
+<div id="construction_owl" class="owl_bubble">
+    <img src="/static/images/contact_us_owl.png" alt="We're Live!" />
+    <p>We're Live!</p>
+</div>
+
+<div id="construction_right">
+<h1>We're Live!</h1>
+    
+    <p>Today's Word is live!! </p>
+    
+    <p>Head to the <a href="/">home page</a> to check it out.</p>
+</div>
+
+[% INCLUDE playnow/footer.tt %]
+
+
+

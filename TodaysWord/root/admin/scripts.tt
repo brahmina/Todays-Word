@@ -1,0 +1,52 @@
+[% INCLUDE admin/header.tt
+   title = 'Today\'s Word Admin - Scripts' %]
+
+<h2>Available scripts</h1>
+
+<p>Run any of the cron scripts available on demand here.</p>
+
+<script type="text/javascript" language="JavaScript">
+window.addEvent('domready', function() {
+
+    var script_links = $('script_buttons').getElements('a');
+
+    for (var i = 0; i < script_links.length; i++) {
+        script_links[i].addEvent('click', function(event){
+            event.stop();
+            doServerRequest(this.href, this.id+'_div');
+        });
+    }
+});
+</script>
+
+<div id="script_buttons">
+
+    <!-- Send future Today's Words email -->
+    <div class="button" id="send_future_todays_words_email_div">
+       <a href="/admin/scripts/send_future_todays_words_email" id="send_future_todays_words_email">
+       <img src="/static/images/icons/email.png" alt="Run" />
+       <span>Send future Today's Words email</span>
+       </a>            
+    </div>
+
+    <!-- Propagate keyword associations from categories to Playnow games -->
+    <div class="button" id="propagate_keyword_associations_to_playnow_games_div">
+       <a href="/admin/scripts/propagate_keyword_associations_from_categories_to_playnow_games" id="propagate_keyword_associations_to_playnow_games">
+       <img src="/static/images/icons/key.png" alt="Run" />
+       <span>Propagate keyword associations from categories to Playnow games</span>
+       </a>            
+    </div>
+    
+    <!-- Clean Playnow directory -->
+    <div class="button" id="clean_playnow_directory_div">
+       <a href="/admin/scripts/clean_playnow_directory" id="clean_playnow_directory">
+       <img src="/static/images/icons/clean.png" alt="Clean" />
+       <span>Clean Playnow directory</span>
+       </a>            
+    </div>
+</div>
+
+
+[% INCLUDE admin/footer.tt %]
+
+

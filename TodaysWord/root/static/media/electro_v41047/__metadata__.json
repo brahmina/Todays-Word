@@ -1,0 +1,78 @@
+{
+    "alternate_url": null, 
+    "author": "thesmellycat", 
+    "author_link": "https://www.mochimedia.com/community/profile/thesmellycat", 
+    "categories": [
+        "Other", 
+        "Puzzles"
+    ], 
+    "category": "Puzzles", 
+    "coins_enabled": null, 
+    "coins_revshare_enabled": null, 
+    "control_scheme": "{\"fire\": \"na\", \"jump\": \"na\", \"movement\": \"na\"}", 
+    "controls": [
+        [
+            "fire", 
+            "na"
+        ], 
+        [
+            "jump", 
+            "na"
+        ], 
+        [
+            "movement", 
+            "na"
+        ]
+    ], 
+    "created": "2011-06-06T19:38:43-08:00", 
+    "description": "An updated version of the classic \"Hangman\" game. Guess the word or phrase to survive.", 
+    "developer": "thesmellycat", 
+    "developer_url": "https://www.mochimedia.com/community/profile/thesmellycat", 
+    "feed_approval_created": null, 
+    "game_tag": "8eafa8883d180264", 
+    "game_url": "http://www.mochimedia.com/games/electro_v41047", 
+    "height": 600, 
+    "instructions": "Type or click a letter to start guessing.\r\n\r\nUse the space bar to select a different word/phrase.", 
+    "key_mappings": "", 
+    "languages": [], 
+    "leaderboard_enabled": false, 
+    "metascore": 31.63, 
+    "name": "Electro", 
+    "rating": "Teen", 
+    "recommendation": 2, 
+    "recommended": false, 
+    "resolution": "600x600", 
+    "screen1_thumb": null, 
+    "screen1_url": null, 
+    "screen2_thumb": null, 
+    "screen2_url": null, 
+    "screen3_thumb": null, 
+    "screen3_url": null, 
+    "screen4_thumb": null, 
+    "screen4_url": null, 
+    "slug": "electro_v41047", 
+    "swf_file_size": 555208, 
+    "swf_url": "http://games.mochiads.com/c/g/electro_v41047/Electro.swf", 
+    "tags": [
+        "hangman", 
+        "puzzle", 
+        "guess", 
+        "guessing", 
+        "puzzler", 
+        "casual", 
+        "electric", 
+        "electricity", 
+        "zap", 
+        "buzz", 
+        "electrocute", 
+        "electrocution", 
+        "electric chair"
+    ], 
+    "thumbnail_large_url": "http://games.mochiads.com/c/g/electro_v41047/_thumb_200x200.jpg", 
+    "thumbnail_url": "http://games.mochiads.com/c/g/electro_v41047/_thumb_100x100.jpg", 
+    "updated": "2011-06-07T15:08:33-08:00", 
+    "uuid": "57913630-c2fa-3ff5-bfb1-a8a2d9968633", 
+    "video_url": null, 
+    "width": 600, 
+    "zip_url": "http://games.mochiads.com/c/g/electro_v41047.zip"
+}

@@ -1,0 +1,145 @@
+[% INCLUDE admin/header.tt
+   title = 'Today\'s Word Admin - Crosswords' %]
+
+<script type="text/javascript" language="JavaScript">
+window.addEvent('domready', function() {
+    initAdminCrossword();
+});
+
+</script>
+<h2>Crossword</h1>
+
+<div id="admin_crossword_board">
+[% FOREACH cell IN cells %]
+    [% IF cell.solution %]
+    <div class="admin_crossword_cell"><div class="admin_crossword_cell_number">[% cell.number %]</div>[% cell.solution %]</div>
+    [% ELSE %]
+    <div class="admin_crossword_cell_black"></div>
+    [% END %]
+[% END %]
+</div>
+<div class="admin_game_details">
+    <h2>Today's Crosword (id - [% crossword.id %])</h2>
+    <p>[% crossword.description %]</p>
+    <p>Or above could say Crossword from March 2nd 2010</p>
+    [% IF error_message %]
+        <p class="error">[% error_message %]</p>
+    [% END %]
+
+    [% IF crossword.date_played %]
+        <p>Game played on crossword.date_played_formatted </p>
+    [% ELSE %]
+        <br /><br />
+        <b>Schedule</b>:
+        <script type="text/javascript" src="/static/js/datepicker.js"></script>
+        <link type="text/css" rel="stylesheet" media="screen" href="/static/css/datepicker.css" />
+        <div id="set_played_date_button_[% crossword.id %]_div" class="set_play_date_div">
+            [% INCLUDE admin/games/crossword/set_play_date.tt %]
+        </div>
+    [% END %]
+    <div class="button small_button" id="crossword_delete_button">
+        <a href="/admin/games/crossword/delete/[% crossword.id %]" onclick="return confirm('Are you sure?');" >
+            <img src="/static/images/icons/trash.png" alt="Delete" />
+            <span>Delete</span>
+            </a>
+        </div>
+
+    <br /><br />
+    <a href="/admin/games/crossword/all"><b><< Back to Crosswords</b></a>
+</div>
+<div class="clear"></div>
+[% IF crossword.played_date %]
+<div id="admin_clues">
+   <div id="admin_across">
+        <h2>Across Blues</h2><br />
+        <div class="admin_clues">
+            [% FOREACH clue IN across_clues %]
+                <div class="admin_clue_input">
+                    <label>[% clue.number %])</label> [% clue.clue %]
+                </div>
+            [% END %]
+        </div>
+   </div>
+   <div id="admin_down">
+        <h2>Down Clues</h2><br />
+        <div class="admin_clues">
+            [% FOREACH clue IN down_clues %]
+                <div class="admin_clue_input">
+                    <label>[% clue.number %])</label> [% clue.clue %]
+                </div>
+            [% END %]
+        </div>
+   </div>
+</div>
+[% ELSE %]
+<div id="admin_clues_unplayed">
+   <div id="admin_across_unplayed">
+        <h2>Across Clues</h2><br />
+        <div class="admin_clues_unplayed">
+            [% FOREACH clue IN across_clues %]
+                <div class="admin_clue">
+                    <div class="admin_clue_header"><h3>[% clue.number %]) [% clue.word %]</h3></div>
+                    <div class="admin_clue_input" id="change_clue_[% clue.id %]_div">[% INCLUDE admin/games/crossword/change_clue.tt %]</div>
+                    <div class="clear"></div>
+                    <div class="admin_clue_meanings">
+                        <div class="admin_clue_definition">
+                            <b>Definitions:</b>
+                            [% clue.definition %]
+                        </div>
+                        <div class="admin_clue_synonyms">
+                            <b>Synonyms:</b>
+                            [% clue.synonym %]
+                        </div>
+                    </div>
+                    <div class="admin_clue_clues">
+                        [% IF clue.related_clues %]
+                            <ul class="admin_related_clues">
+                            [% FOREACH dict_clue IN clue.related_clues %]
+                                <li><div id="use_clue_[% clue.id %]_[% dict_clue.id %]_div" class="clue_button_div">[% INCLUDE admin/games/crossword/use_clue.tt %]</di$
+                            [% END %]
+                            </ul>
+                        [% END %]
+                    </div>
+                    <div class="clear"></div>
+                </div>
+            [% END %]
+        </div>
+   </div>
+
+   <div id="admin_down_unplayed">
+        <h2>Down Clues</h2><br />
+        <div class="admin_clues_unplayed">
+            [% FOREACH clue IN down_clues %]
+                <div class="admin_clue">
+                    <div class="admin_clue_header"><h3>[% clue.number %]) [% clue.word %]</h3></div>
+                    <div class="admin_clue_input" id="change_clue_[% clue.id %]_div">[% INCLUDE admin/games/crossword/change_clue.tt %]</div>
+                    <div class="clear"></div>
+                    <div class="admin_clue_meanings">
+                        <div class="admin_clue_definition">
+                            <b>Definitions:</b>
+                            [% clue.definition %]
+                        </div>
+                        <div class="admin_clue_synonyms">
+                            <b>Synonyms:</b>
+                            [% clue.synonym %]
+                        </div>
+                    </div>
+                    <div class="admin_clue_clues">
+                        [% IF clue.related_clues %]
+                            <ul class="admin_related_clues">
+                            [% FOREACH dict_clue IN clue.related_clues %]
+                                <li><div id="use_clue_[% clue.id %]_[% dict_clue.id %]_div" class="clue_button_div">[% INCLUDE admin/games/crossword/use_clue.tt %]</di$
+                            [% END %]
+                            </ul>
+                        [% END %]
+                    </div>
+                    <div class="clear"></div>
+                </div>
+            [% END %]
+        </div>
+   </div>
+</div>
+[% END %]
+
+[% INCLUDE admin/footer.tt %]
+

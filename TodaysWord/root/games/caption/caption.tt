@@ -1,0 +1,54 @@
+[% INCLUDE header.tt
+   title = 'Today\'s Word - Playing Caption' %]
+
+[% IF error_msg %]
+<p class="error">[% error_msg %]</p>
+[% END %]
+
+<script type="text/javascript" language="JavaScript">
+window.addEvent('domready', function() {
+    //initCapiton();
+    $('bubble_1').focus();
+});
+</script>
+<style>
+#caption_image{
+    background: url("/[% caption.file_location %]") no-repeat 0 0;
+    width:[% caption.file_width %]px;
+    height:[% caption.file_height %]px;
+}
+[% IF bubble_count %]
+    [% FOREACH bubble IN bubbles %]    
+#bubble_[% bubble.count %]{
+    [% bubble.class %]
+}
+    [% END %]
+[% END %]
+</style>
+
+<form method="post" action="/games/caption/done/[% game_play.id %]">
+<div id="caption_right">
+    <h2>Caption</h1>
+    <b>[% caption.title %]</b> (<a href="[% caption.source %]">Source</a>)<br />
+    <b>[% user_message %]</b>
+
+    <div id="caption_done_button">
+        <input type="submit" name="CaptionDone" value="Done" class="button" />
+    </div>
+</div>
+
+<div id="caption_div">
+    
+    <div id="caption_image">
+    [% IF bubble_count %]
+        [% FOREACH bubble IN bubbles %]    
+        <textarea class="caption_bubble_textarea" name="bubble_[% bubble.count %]" id="bubble_[% bubble.count %]"></textarea>
+        [% END %]
+    [% END %]    
+    </div>
+</div>
+
+</form>
+
+
+[% INCLUDE footer.tt %]

@@ -1,0 +1,93 @@
+[% INCLUDE admin/header.tt
+   title = 'TW Admin - Play Now' %]
+
+<h1>Play Now Games Administation</h1>
+
+<div class="button small_button" id="admin_add_playnow">
+    <a href="/admin/playnow/add">
+    <img src="/static/images/icons/add.png" alt="Add" />
+    <span>Add</span>
+    </a>
+</div>
+<div class="button small_button" id="admin_generate_sprite_playnow">
+    <a href="/admin/playnow/generate_sprite">
+    <img src="/static/images/icons/light.png" alt="Generate Sprite" />
+    <span>Sprite</span>
+    </a>
+</div>
+<div class="button small_button" id="admin_reorder_playnow">
+    <a href="/admin/playnow/reorder">
+    <img src="/static/images/icons/reorder.png" alt="Reorder" />
+    <span>Reorder</span>
+    </a>
+</div>
+<div class="clear"></div>
+<!-- Order 2N so the fuck what, its for my convience as and admintrator! -->
+[% FOR game IN games %]
+    [% IF NOT game.releasable %]
+        <div class="admin_playnow_listing [% IF game.releasable %]admin_playnow_releasable[% ELSE %]admin_playnow_not_releasable[% END %]">
+            <b class="admin_playnow_game_name">[% game.name %]</b><br />
+            <a href="/admin/playnow/edit/[% game.id %]">
+                <div class="admin_playnow_listing_image" id="[% game.game %]_large"></div>
+            </a>
+            <div class="clear"></div>
+            <div class="admin_playnow_actions">
+                <div class="button icon_button" id="admin_playnow_play">
+                    <a href="/playnow/play/[% game.seo_name %]/[% game.id %]" target="_new">
+                    <img src="/static/images/icons/play.png" alt="play" />
+                    </a>
+                </div>
+                <div class="button icon_button" id="admin_playnow_edit">
+                    <a href="/admin/playnow/edit/[% game.id %]">
+                    <img src="/static/images/icons/edit.png" alt="Edit" />
+                    </a>
+                </div>
+                <div class="button icon_button" id="admin_playnow_delete">
+                    <a href="/admin/playnow/delete/[% game.id %]">
+                    <img src="/static/images/icons/delete.png" alt="Delete" />
+                    </a>
+                </div>
+                <div class="button icon_button" id="admin_playnow_source">
+                    <a href="[% game.source %]" target="_new">
+                    <img src="/static/images/icons/see.png" alt="Source" />
+                    </a>
+                </div>
+            </div>
+        </div>
+    [% END %]
+[% END %]
+[% FOR game IN games %]
+    [% IF game.releasable %]
+        <div class="admin_playnow_listing [% IF game.releasable %]admin_playnow_releasable[% ELSE %]admin_playnow_not_releasable[% END %]">
+            <b class="admin_playnow_game_name">[% game.name %]</b><br />
+            <a href="/admin/playnow/edit/[% game.id %]">
+                <div class="admin_playnow_listing_image" id="[% game.game %]_large"></div>
+            </a>
+            <div class="clear"></div>
+            <div class="admin_playnow_actions">
+                <div class="button icon_button" id="admin_playnow_play">
+                    <a href="/playnow/play/[% game.seo_name %]/[% game.id %]" target="_new">
+                    <img src="/static/images/icons/play.png" alt="play" />
+                    </a>
+                </div>
+                <div class="button icon_button" id="admin_playnow_edit">
+                    <a href="/admin/playnow/edit/[% game.id %]">
+                    <img src="/static/images/icons/edit.png" alt="Edit" />
+                    </a>
+                </div>
+                <div class="button icon_button" id="admin_playnow_delete">
+                    <a href="/admin/playnow/delete/[% game.id %]">
+                    <img src="/static/images/icons/delete.png" alt="Delete" />
+                    </a>
+                </div>
+                <div class="button icon_button" id="admin_playnow_source">
+                    <a href="[% game.source %]" target="_new">
+                    <img src="/static/images/icons/see.png" alt="Source" />
+                    </a>
+                </div>
+            </div>
+        </div>
+    [% END %]
+[% END %]
+
+[% INCLUDE admin/footer.tt %]

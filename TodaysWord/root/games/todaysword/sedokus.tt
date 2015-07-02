@@ -1,0 +1,11 @@
+
+[% INCLUDE header.tt
+   title = 'Today\'s Word - Sedoku' %]
+
+<h1>Sedoku</h1>
+<p class="error">[% error_msg %]</p>
+[% FOREACH sedoku IN sedokus %]
+    <a href="/games/sedoku/play/[% sedoku.id %]">[% sedoku.title %] ([% sedoku.id %])</a><br />
+[% END %]
+
+[% INCLUDE footer.tt %]

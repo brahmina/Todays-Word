@@ -1,0 +1,11 @@
+
+[% INCLUDE header.tt
+   title = 'Today\'s Word - Crosswords' %]
+
+<h1>Crosswords</h1>
+<p class="error">[% error_msg %]</p>
+[% FOREACH crossword IN crosswords %]
+    <a href="/games/crossword/play/[% crossword.id %]">[% crossword.title %] ([% crossword.id %])</a><br />
+[% END %]
+
+[% INCLUDE footer.tt %]

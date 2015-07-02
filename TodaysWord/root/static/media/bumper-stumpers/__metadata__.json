@@ -1,0 +1,73 @@
+{
+    "alternate_url": "http://www.mochimedia.com/games/bumper-stumpers/", 
+    "author": "doobster", 
+    "author_link": "https://www.mochimedia.com/community/profile/doobster", 
+    "categories": [
+        "Education", 
+        "Puzzles"
+    ], 
+    "category": "Puzzles", 
+    "coins_enabled": true, 
+    "coins_revshare_enabled": true, 
+    "control_scheme": "{\"fire\": \"na\", \"jump\": \"na\", \"movement\": \"na\"}", 
+    "controls": [
+        [
+            "fire", 
+            "na"
+        ], 
+        [
+            "jump", 
+            "na"
+        ], 
+        [
+            "movement", 
+            "na"
+        ]
+    ], 
+    "created": "2010-07-03T05:07:43-08:00", 
+    "description": "A car game we've all played.  Your driving down the road and someone has a custom plate, what does it stand for?  Start guessing now!", 
+    "developer": "doobster", 
+    "developer_url": "https://www.mochimedia.com/community/profile/doobster", 
+    "feed_approval_created": "2010-07-05T06:10:49-08:00", 
+    "game_tag": "961f4970c366419a", 
+    "game_url": "http://www.mochimedia.com/games/bumper-stumpers", 
+    "height": 400, 
+    "instructions": "", 
+    "key_mappings": "", 
+    "leaderboard_enabled": true, 
+    "metascore": 50.479999999999997, 
+    "name": "Bumper Stumpers", 
+    "rating": "Everyone", 
+    "recommendation": 1, 
+    "recommended": false, 
+    "resolution": "600x400", 
+    "screen1_thumb": null, 
+    "screen1_url": null, 
+    "screen2_thumb": null, 
+    "screen2_url": null, 
+    "screen3_thumb": null, 
+    "screen3_url": null, 
+    "screen4_thumb": null, 
+    "screen4_url": null, 
+    "slug": "bumper-stumpers", 
+    "swf_file_size": 976991, 
+    "swf_url": "http://games.mochiads.com/c/g/bumper-stumpers/BumperStumpers.swf", 
+    "tags": [
+        "word", 
+        "words", 
+        "word game", 
+        "word smith", 
+        "fun", 
+        "bumper", 
+        "car", 
+        "stumpers", 
+        "crossword"
+    ], 
+    "thumbnail_large_url": "http://thumbs.mochiads.com/c/g/bumper-stumpers/_thumb_200x200.jpg", 
+    "thumbnail_url": "http://thumbs.mochiads.com/c/g/bumper-stumpers/_thumb_100x100.jpg", 
+    "updated": "2010-12-08T14:46:08-08:00", 
+    "uuid": "a6cb248d-e93a-34ab-a4ed-281c3b962552", 
+    "video_url": null, 
+    "width": 600, 
+    "zip_url": "http://games.mochiads.com/c/g/bumper-stumpers.zip"
+}

@@ -1,0 +1,68 @@
+{
+    "author": "Titch007uk", 
+    "author_link": "https://www.mochimedia.com/community/profile/Titch007uk", 
+    "categories": [
+        "Other", 
+        "Puzzles"
+    ], 
+    "control_scheme": {
+        "fire": "left_mouse", 
+        "jump": "na", 
+        "movement": "mouse"
+    }, 
+    "controls": [
+        [
+            "fire", 
+            "left_mouse"
+        ], 
+        [
+            "jump", 
+            "na"
+        ], 
+        [
+            "movement", 
+            "mouse"
+        ]
+    ], 
+    "created": "2009-06-23T06:40:56-08:00", 
+    "description": "Find words and match colours to score points and clear the grid. New grids daily. Eight level puzzle mode.", 
+    "developer": "Titch007uk", 
+    "developer_url": "https://www.mochimedia.com/community/profile/Titch007uk", 
+    "feed_approval_created": "2009-07-15T23:44:26-08:00", 
+    "game_tag": "864fff34173c01a0", 
+    "game_url": "http://www.mochimedia.com/games/wordie", 
+    "height": 448, 
+    "instructions": "Click on tiles to select letters. Click on glowing white tiles to remove selected words or lines of three or more of the same colour. Click Finished to send your score or Menu to restart.", 
+    "key_mappings": "", 
+    "leaderboard_enabled": true, 
+    "name": "DeWord", 
+    "rating": "Everyone", 
+    "recommendation": 3, 
+    "recommended": false, 
+    "resolution": "512x448", 
+    "slug": "wordie", 
+    "swf_file_size": 3063002, 
+    "swf_url": "http://games.mochiads.com/c/g/wordie/DeWord.swf", 
+    "tags": [
+        "dictionary.com", 
+        "word", 
+        "words", 
+        "letter", 
+        "match 3", 
+        "colour", 
+        "grid", 
+        "daily", 
+        "wordsearch", 
+        "crossword", 
+        "challenge", 
+        "scoreboard", 
+        "word game", 
+        "matching", 
+        "tiles."
+    ], 
+    "thumbnail_url": "http://thumbs.mochiads.com/c/g/wordie/_thumb_100x100.jpg", 
+    "updated": "2009-07-20T17:22:10-08:00", 
+    "uuid": "89425630-d6fc-3797-8697-30a11ea4cbc7", 
+    "width": 512, 
+    "zip_url": "http://cdn.mochiads.com/c/g/wordie.zip"
+}

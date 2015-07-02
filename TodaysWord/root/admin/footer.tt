@@ -1,0 +1,10 @@
+            <div id="FloatBoxWrapper"></div>
+            </center>
+        <div class="push"></div>
+     </div>
+     [% INCLUDE admin/footer_bars.tt %]
+     
+    <div id="preloaded_images"></div>
+    </body>
+</html>
+

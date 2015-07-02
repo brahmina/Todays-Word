@@ -1,0 +1,34 @@
+{
+    "categories": [
+        "Puzzles"
+    ], 
+    "control_scheme": {
+        "fire": "space", 
+        "jump": "na", 
+        "movement": "right_left"
+    }, 
+    "description": "Improve your vocabulary while having fun! Includes approx 8000 words for current version. Move the afro dude with left and right arrow keys, space bar to swap letters. Make the letters match the word below you before time runs out. Earn more points the more games you play!", 
+    "developer": "esjd", 
+    "developer_url": "https://www.mochiads.com/community/profile/esjd", 
+    "height": 400, 
+    "instructions": "left and right arrow keys to move\r\nspace to swap\r\nMake the letters match the word below you before time runs out.\r\nEarn more points the more games you play!", 
+    "key_mappings": "", 
+    "name": "Swap", 
+    "rating": "Everyone", 
+    "resolution": "500x400", 
+    "slug": "swap_v2", 
+    "swf_file_size": 703978, 
+    "swf_url": "http://games.mochiads.com/c/g/swap_v2/Swap.swf", 
+    "tags": [
+        "swap", 
+        "vocabulary", 
+        "letters", 
+        "words", 
+        "fun", 
+        "learn", 
+        "educational", 
+        "education"
+    ], 
+    "thumbnail_url": "http://thumbs.mochiads.com/c/g/swap_v2/_thumb_100x100.png", 
+    "width": 500
+}

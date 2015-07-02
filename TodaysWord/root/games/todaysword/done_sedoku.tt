@@ -1,0 +1,32 @@
+[% INCLUDE header.tt
+   title = 'Today\'s Word - Done Sedoku' %]
+
+[% IF error_msg %]
+<p class="error">[% error_msg %]</p>
+[% END %]
+
+<script type="text/javascript" language="JavaScript">
+window.addEvent('domready', function() {
+
+});
+</script>
+
+<div id="left">
+    <h2>[% sedoku.title %]</h2>
+    
+
+    <div id="crossword_timer" class="timer">Time: [% time_played %]</div>
+    <div id="CrosswordScore">
+        Score: [% score %]
+    </div>
+    <div id="CrosswordRanking">
+        Rank: [% score %]
+    </div>
+</div>
+<div id="board" class="sedoku_board">
+[% FOREACH cell IN cells %]
+    <div class="sedoku_cell_[% cell.class %]" id="x[% cell.x %]y[% cell.y %]">[% cell.submission %]</div>
+[% END %]
+</div>
+
+[% INCLUDE footer.tt %]

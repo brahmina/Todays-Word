@@ -1,0 +1,22 @@
+
+
+    <ul class="rating" id="rating[% id %]">
+        <li class='current-rating' style="width:108px;">&nbsp;</li>
+        <li><a id="rating1" title="1 out of 5" class="rating1" href="/games/[% game %]/rate/[% id %]/1">&nbsp;</a></li>
+        <li><a id="rating2" title="2 out of 5" class="rating2" href="/games/[% game %]/rate/[% id %]/2">&nbsp;</a></li>
+        <li><a id="rating3" title="3 out of 5" class="rating3" href="/games/[% game %]/rate/[% id %]/3">&nbsp;</a></li>
+        <li><a id="rating4" title="4 out of 5" class="rating4" href="/games/[% game %]/rate/[% id %]/4">&nbsp;</a></li>
+        <li><a id="rating5" title="5 out of 5" class="rating5" href="/games/[% game %]/rate/[% id %]/5">&nbsp;</a></li>
+    </ul>
+
+<script type="text/javascript" language="JavaScript">
+window.addEvent('domready', function() {
+    for (var i = 1; i <= 5; i++) {
+        var rating = "rating" + i;
+        $(rating).addEvent('click', function(event){
+            event.stop();
+            doRating(this.id, [% what %], [% id %], i);
+        });
+    }
+});
+</script>

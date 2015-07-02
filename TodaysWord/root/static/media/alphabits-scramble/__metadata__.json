@@ -1,0 +1,71 @@
+{
+    "alternate_url": "http://www.crobasoft.com/index.php?site=alphabits", 
+    "author": "Wartagon", 
+    "author_link": "https://www.mochimedia.com/community/profile/Wartagon", 
+    "categories": [
+        "Puzzles"
+    ], 
+    "category": "Puzzles", 
+    "coins_enabled": null, 
+    "coins_revshare_enabled": null, 
+    "control_scheme": "{\"fire\": \"na\", \"jump\": \"na\", \"movement\": \"mouse\"}", 
+    "controls": [
+        [
+            "fire", 
+            "na"
+        ], 
+        [
+            "jump", 
+            "na"
+        ], 
+        [
+            "movement", 
+            "mouse"
+        ]
+    ], 
+    "created": "2010-08-06T00:21:53-08:00", 
+    "description": "In Alphabits Scramble you score points by finding as many words as possible from six letters that you are given at each round. If you also find a word consisting of all six letters before the time runs out, you may proceed to the next round.\r\n\r\nSounds easy? Alphabits Scramble will require full concentration if you want to find as many solutions as possible. The game will broaden your vocabulary at the same time as it's highly entertaining!", 
+    "developer": "Wartagon", 
+    "developer_url": "https://www.mochimedia.com/community/profile/Wartagon", 
+    "feed_approval_created": "2010-08-07T06:07:06-08:00", 
+    "game_tag": "57335aa50ae25ace", 
+    "game_url": "http://www.mochimedia.com/games/alphabits-scramble", 
+    "height": 480, 
+    "instructions": "Score as many points as possible by finding words using the given six letters. If you manage to find the word consisting of all six letters before the time runs out, you may proceed to the next level.", 
+    "key_mappings": "", 
+    "languages": [], 
+    "leaderboard_enabled": false, 
+    "metascore": 53.05, 
+    "name": "Alphabits Scramble", 
+    "rating": "Everyone", 
+    "recommendation": 2, 
+    "recommended": false, 
+    "resolution": "640x480", 
+    "screen1_thumb": null, 
+    "screen1_url": null, 
+    "screen2_thumb": null, 
+    "screen2_url": null, 
+    "screen3_thumb": null, 
+    "screen3_url": null, 
+    "screen4_thumb": null, 
+    "screen4_url": null, 
+    "slug": "alphabits-scramble", 
+    "swf_file_size": 4431660, 
+    "swf_url": "http://games.mochiads.com/c/g/alphabits-scramble/alphabits.swf", 
+    "tags": [
+        "scramble", 
+        "words", 
+        "puzzle", 
+        "english", 
+        "crossword", 
+        "words game", 
+        "puzzle"
+    ], 
+    "thumbnail_large_url": null, 
+    "thumbnail_url": "http://thumbs.mochiads.com/c/g/alphabits-scramble/_thumb_100x100.jpg", 
+    "updated": "2010-12-08T14:46:08-08:00", 
+    "uuid": "9f16620d-c282-3c79-95e3-222d6e7d37eb", 
+    "video_url": null, 
+    "width": 640, 
+    "zip_url": "http://games.mochiads.com/c/g/alphabits-scramble.zip"
+}

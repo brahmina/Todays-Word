@@ -1,0 +1,66 @@
+{
+    "alternate_url": "", 
+    "author": "fuflogon", 
+    "author_link": "https://www.mochimedia.com/community/profile/fuflogon", 
+    "categories": [
+        "Education", 
+        "Other"
+    ], 
+    "category": "Education", 
+    "coins_enabled": null, 
+    "coins_revshare_enabled": null, 
+    "control_scheme": "{\"fire\": \"na\", \"jump\": \"na\", \"movement\": \"na\"}", 
+    "controls": [
+        [
+            "fire", 
+            "na"
+        ], 
+        [
+            "jump", 
+            "na"
+        ], 
+        [
+            "movement", 
+            "na"
+        ]
+    ], 
+    "created": "2010-01-15T16:17:37-08:00", 
+    "description": "Type words to save falling paratroopers", 
+    "developer": "fuflogon", 
+    "developer_url": "https://www.mochimedia.com/community/profile/fuflogon", 
+    "feed_approval_created": "2010-07-26T01:01:59-08:00", 
+    "game_tag": "fcef2e769511bc28", 
+    "game_url": "http://www.mochimedia.com/games/typotrooper", 
+    "height": 480, 
+    "instructions": "Troopers are falling. They cry something. If you type it and press Enter their parashoots open and you gain score - one hundred scores for one letter in the word.\r\n\r\nIf a trooper falls without his parashute opened you lose one life. And you have only 5 of them. So don't miss the letter.\r\n\r\nGood luck :0)", 
+    "key_mappings": "", 
+    "leaderboard_enabled": false, 
+    "metascore": 0.0, 
+    "name": "TypoTrooper", 
+    "rating": "Everyone", 
+    "recommendation": 2, 
+    "recommended": false, 
+    "resolution": "640x480", 
+    "screen1_thumb": null, 
+    "screen1_url": null, 
+    "screen2_thumb": null, 
+    "screen2_url": null, 
+    "screen3_thumb": null, 
+    "screen3_url": null, 
+    "screen4_thumb": null, 
+    "screen4_url": null, 
+    "slug": "typotrooper", 
+    "swf_file_size": 213071, 
+    "swf_url": "http://games.mochiads.com/c/g/typotrooper/paratroops.swf", 
+    "tags": [
+        "keyboard", 
+        "type"
+    ], 
+    "thumbnail_large_url": null, 
+    "thumbnail_url": "http://thumbs.mochiads.com/c/g/typotrooper/_thumb_100x100.jpg", 
+    "updated": "2010-07-26T10:51:13-08:00", 
+    "uuid": "fd8ad862-94c1-37d2-aebd-37e764c58c3d", 
+    "video_url": null, 
+    "width": 640, 
+    "zip_url": "http://games.mochiads.com/c/g/typotrooper.zip"
+}

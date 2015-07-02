@@ -1,0 +1,43 @@
+[% INCLUDE admin/header.tt
+   title = 'Today\'s Word Admin - Add Today\'s Word' %]
+
+<h1>Add Today's Word</h1>
+
+<div class="admin_todays_word_choices_left">
+    <div id="todaysword_try_again"><a href="/admin/games/todaysword/add">Get new choices</a></div>
+    <div id="admin_todays_word_choices">
+        [% FOREACH word IN words %]
+        <div class="word_choice">
+            <div class="button small_button" id="choose_todays_word_button">
+                <a onclick="chooseWord([% word.id %])" id="choose_todaysword">
+                <img src="/static/images/icons/choose.png" alt="Choose Word" />
+                <span>Choose</span>
+                </a>
+            </div>
+            <h2 id="word_id_[% word.id %]">[% word.word %]</h2>
+
+            <a href="http://dictionary.reference.com/browse/[% word.tord %]" class="dict_link" target="_new">Ditctionary.com</a><br /><br />
+            [% IF word.definitions %]<span class="word_choice_def_label">Definition: </span>[% word.definitions %]<br />[% END %]
+            [% IF word.synonyms %]<span class="word_choice_def_label">Synonyms: </span> [% word.synonyms %]<br />[% END %]
+
+            [% IF word.clues %]
+                <span class="word_choice_def_label">Clues: </span>
+                <ul class="word_choice_clues">
+                    [% FOREACH clue IN word.clues %]
+                        <li>[% clue.clue %]</li>
+                    [% END %]
+                </ul>
+                <div class="clear"></div>
+                <br />
+            [% END %]
+        </div>
+        [% END %]
+    </div>
+</div>
+<div class="admin_todays_word_choices_right">
+    <h1>Today's Word & Clues</h1><br /><br />
+    [% form.render %]
+</div>
+<div class="clear"></div>
+[% INCLUDE admin/footer.tt %]
+

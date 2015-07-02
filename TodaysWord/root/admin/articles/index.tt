@@ -1,0 +1,33 @@
+[% INCLUDE admin/header.tt
+   title = 'Today\'s Word Admin - Articles' %]
+
+<h1>Article Administation</h1>
+
+<div class="button small_button" id="admin_add_article">
+    <a href="/admin/articles/add">
+    <img src="/static/images/icons/add.png" alt="Add" />
+    <span>Add</span>
+    </a>
+</div>
+<div class="clear"></div>
+
+<br /><br />
+[% FOR article IN articles %]
+<div class="admin_article_listing">
+    <h2>[% article.title %]</h2>
+    <div class="button icon_button" id="admin_article_delete">
+        <a href="/admin/articles/delete/[% article.id %]">
+        <img src="/static/images/icons/delete.png" alt="Delete" />
+        </a>
+    </div>
+    <div class="button icon_button" id="admin_article_edit">
+        <a href="/admin/articles/edit/[% article.id %]">
+        <img src="/static/images/icons/edit.png" alt="Edit" />
+        </a>
+    </div>
+    
+</div>
+[% END %]
+<div class="clear"></div>
+
+[% INCLUDE admin/footer.tt %]

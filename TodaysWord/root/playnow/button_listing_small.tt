@@ -1,0 +1,9 @@
+<div class="[% div_class %]" id="playnow_button_container_small">
+    [% FOR game IN games %]
+    <a href="/playnow/play/[% game.seo_name %]/[% game.id %]" class="playnow_game_button" title="[% game.name %]" id="[% game.game %]_small">
+        
+    </a>
+    [% END %]
+    
+    <div class="clear"></div>
+</div>

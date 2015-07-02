@@ -1,0 +1,71 @@
+[% INCLUDE admin/header.tt
+   title = 'Today\'s Word Admin - Play Now Reorder' %]
+
+<script type="text/javascript" language="JavaScript"> 
+
+var request = new Request({
+		url: '/admin/playnow/sort/',
+		link: 'cancel',
+		method: 'post'
+	});
+
+function submit_reorder(){
+    var sort_order = [];
+    $('playnow_sortable').getElements('li').each(function(li) {
+        sort_order.push(li.id);
+    });
+    var sorting = sort_order.join(',');
+    request.send('ordering=' + sorting + '&ajax=1');
+}
+
+window.addEvent('domready', function() {
+ 
+    var sortable = new Sortables($('playnow_sortable'), {
+                             constrain: true,
+                             revert: true,
+                             preventDefault: true,
+                             onComplete: function(el,clone) {
+                                submit_reorder();
+                             }
+                         });
+
+
+
+
+
+});
+</script>
+
+<h1>Play Now Games Administation</h1>
+
+<div class="button small_button" id="admin_add_playnow">
+    <a href="/admin/playnow/add">
+    <img src="/static/images/icons/add.png" alt="Add" />
+    <span>Add</span>
+    </a>
+</div>
+<div class="button small_button" id="admin_reorder_playnow">
+    <a href="/admin/playnow/">
+    <img src="/static/images/icons/choose.png" alt="Listin" />
+    <span>Listing</span>
+    </a>
+</div>
+<div class="button small_button" id="admin_order_by_rating_playnow">
+    <a href="/admin/playnow/reset_order_by_rating">
+    <img src="/static/images/icons/star.png" alt="Listin" />
+    <span>By Rating</span>
+    </a>
+</div>
+<div class="clear"></div>
+
+<ul id="playnow_sortable" class="sortable">
+[% FOR game IN games %]    
+    <li class="playnow_admin_button" id="[% game.id %]"><div id="[% game.game %]_medium"></div></li>
+[% END %]
+</ul>
+<div class="clear"></div>
+
+
+[% INCLUDE admin/footer.tt %]
+
+
